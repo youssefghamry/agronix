@@ -1,0 +1,338 @@
+/* Normal desktop :1500px. */
+@media (min-width: 1200px) and (max-width: 2500px) {
+.header__left {
+	padding: 15px 0;
+}
+
+}
+
+/* Normal desktop :1500px. */
+@media (min-width: 1500px) and (max-width: 1800px) {
+.header__padding {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	.agronix-course-sidebars {
+		padding-left: 0;
+	}
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+	.member-info {
+		padding: 15px;
+	}
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+.about-area-2 .line-bar::before {
+	display: none;
+}
+
+
+.agronix-single-product-right td label {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+	.agronix-course-sidebar {
+		padding-left: 0;
+	}
+	.slider__nav-content h4 {
+		font-size: 19px;
+	}
+.footer-col-2 {
+	padding-left: 0px;
+}
+
+.blog__wrapper.mr-40 {
+	margin-right: 20px;
+}
+
+.blog__details-wrapper.mr-40 {
+	margin-right: 20px;
+}
+
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.tp-counter-bg-area.mt-75.mb-55 {
+	margin-top: 0;
+}
+
+
+.agronix-single-product-right td label {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.ab-services-info {
+	padding: 50px;
+}
+.blog__wrapper.mr-40 {
+	margin-right: 0;
+}
+
+.blog__details-wrapper.mr-40 {
+	margin-right: 0;
+}
+.slider__height {
+	min-height: 800px;
+}
+.blog__wrapper {
+	margin-right: 0;
+}
+.agronix-course-sidebar {
+	padding-left: 0;
+}
+.slider__nav-content span {
+	display: inline-block;
+	font-size: 12px;
+}
+.slider__nav-content h4 {
+	font-size: 14px;
+}
+.footer-col-2 {
+	padding-left: 0px;
+}
+.admin-bar header .header__area.header-default {
+	margin-top: 0;
+}
+.pro-details-content {
+	padding-left: 0px;
+}
+.pro-desc-tab .nav-link {
+	padding: 0px 0px 20px 0px;
+}
+.pro-desc-tab::after {
+	display: none;
+}
+.course__sort-inner select {
+	min-width: 130px;
+}
+.vczapi-col-8 {
+	padding-right: 10px;
+}
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+
+.company-features.company-features-2 {
+	padding-bottom: 20px;
+}
+.tp-counter-bg-area.mt-75.mb-55 {
+	margin-top: 0;
+}
+
+.tp-about-area.pt-180.pb-115 {
+	padding-top: 120px;
+}
+
+.agronix-single-product-right td label {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.blog__wrapper.mr-40 {
+	margin-right: 0;
+}
+
+.blog__details-wrapper.mr-40 {
+	margin-right: 0;
+}
+.latest-comments ul li ul.children {
+	padding-left: 0;
+}
+.blog__details-wrapper {
+	margin-right: 0;
+}
+.cta__apps a.active {
+  margin-top: 10px;
+}
+.testimonial__title br {
+	display: none;
+}
+.testimonial__title {
+	font-size: 32px;
+	color: #ffffff;
+}
+.testimonial__item-3 p {
+	font-size: 18px;
+	line-height: 30px;
+	color: #ffffff;
+}
+.blog__wrapper {
+	margin-right: 0;
+}
+.admin-bar header .header__area {
+	margin-top: 0px;
+}
+.admin-bar header .header__area.sticky {
+	margin-top: 0;
+}
+.postbox__title {
+	font-size: 24px;
+}
+.course-rat-space {
+	padding-left: 0;
+}
+.admin-bar .header__area.edu-header-style-5.sticky {
+	margin-top: 0;
+}
+.hero__shape img.hero-1-circle {
+	top: 38%;
+	left: 71% !important;
+}
+.header__padding {
+	padding: 20px 0;
+}
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+	width: 100%;
+	max-width: 100%;
+}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+	width: 100%;
+	max-width: 100%;
+}
+.woocommerce-additional-fields {
+	margin-top: 15px;
+}
+.agronix-course-sidebar {
+	padding-left: 0;
+}
+.postbox__meta span:not(:last-child) {
+	margin-right: 12px;
+}
+.cta__inner-2 .cta__content {
+	margin-bottom: 20px;
+}
+.course__item-2 .course__teacher-2 {
+	margin-bottom: 12px;
+}
+.footer-col-2 {
+	padding-left: 0px;
+}
+.admin-bar header .header__area.header-default {
+	margin-top: 0;
+}
+.pro-details-content {
+	padding-left: 0px;
+}
+.product-quantity {
+	margin-bottom: 20px;
+}
+.single_add_to_cart_button.site-btn.brand-btn.cart-button {
+	margin-bottom: 20px;
+}
+.pro-desc-tab::after {
+	display: none;
+}
+.pro-desc-tab .nav-link {
+	padding: 0px 0px 16px 0px;
+}
+#coupon_code {
+	width: 100%;
+	float: none;
+	margin-bottom: 10px;
+} 
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+	width: 100%;
+}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+	width: 100%;
+	max-width: 100%;
+}
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+	width: 100%;
+	max-width: 100%;
+}
+#yith-quick-view-modal .yith-wcqv-wrapper {
+    height: 600px !important;
+}
+.bdevs-quick-view-images {
+    width: 100%;
+    float: none;
+}
+#yith-quick-view-content div.summary {
+    width: 100%;
+    float: left;
+    padding-left: 0;
+}
+#yith-quick-view-content .product-quantity {
+    float: left;
+    margin-bottom: 20px;
+}
+#yith-quick-view-modal .yith-wcqv-wrapper {
+    min-width: inherit !important;
+}
+#yith-quick-view-modal.open .yith-wcqv-main {
+    overflow-y: scroll;
+}
+#coupon_code {
+	width: 48%;
+}
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+	width: 100%;
+}
+.blog__item.sticky::before {
+	right: 6px;
+	top: 0;
+}
+.tutor-course-filter-wrapper .tutor-course-filter-container > form > div {
+	width: 100%;
+}
+.agronix-course-order {
+	display: inline-block;
+	margin-left: 0;
+	margin-top: 15px;
+}
+.vczapi-col-8 {
+	padding-right: 10px;
+}
+
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+.latest-comments ul li ul.children {
+	padding-left: 0;
+}
+.blog__details-wrapper {
+	margin-right: 0;
+}
+.blog__wrapper {
+	margin-right: 0;
+}
+.admin-bar header .header__area.sticky {
+	margin-top: 40px;
+}
+.admin-bar .header__area.edu-header-style-5.sticky {
+	margin-top: 46px;
+}
+
+
+ 
+}
+
+
+@media (max-width: 600px) {
+	.admin-bar .sticky-header {
+		top: 0;
+	}
+}

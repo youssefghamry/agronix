@@ -1,0 +1,389 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?0e0651b40d7479ed1d64ad32790a70c0") format("truetype"), url("./flaticon.woff?0e0651b40d7479ed1d64ad32790a70c0") format("woff"), url("./flaticon.woff2?0e0651b40d7479ed1d64ad32790a70c0") format("woff2"), url("./flaticon.eot?0e0651b40d7479ed1d64ad32790a70c0#iefix") format("embedded-opentype"), url("./flaticon.svg?0e0651b40d7479ed1d64ad32790a70c0#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-grass:before {
+  content: "";
+}
+
+.flaticon-grass-1:before {
+  content: "";
+}
+
+.flaticon-grain-sack:before {
+  content: "";
+}
+
+.flaticon-rice:before {
+  content: "";
+}
+
+.flaticon-rice-1:before {
+  content: "";
+}
+
+.flaticon-wheat:before {
+  content: "";
+}
+
+.flaticon-wheat-sack:before {
+  content: "";
+}
+
+.flaticon-salad:before {
+  content: "";
+}
+
+.flaticon-fruit:before {
+  content: "";
+}
+
+.flaticon-harvest:before {
+  content: "";
+}
+
+.flaticon-cow:before {
+  content: "";
+}
+
+.flaticon-cow-1:before {
+  content: "";
+}
+
+.flaticon-cow-2:before {
+  content: "";
+}
+
+.flaticon-cow-3:before {
+  content: "";
+}
+
+.flaticon-diet:before {
+  content: "";
+}
+
+.flaticon-vegetables:before {
+  content: "";
+}
+
+.flaticon-organic-food:before {
+  content: "";
+}
+
+.flaticon-house:before {
+  content: "";
+}
+
+.flaticon-assets:before {
+  content: "";
+}
+
+.flaticon-trailer:before {
+  content: "";
+}
+
+.flaticon-tractor:before {
+  content: "";
+}
+
+.flaticon-tractor-1:before {
+  content: "";
+}
+
+.flaticon-tractor-2:before {
+  content: "";
+}
+
+.flaticon-save:before {
+  content: "";
+}
+
+.flaticon-ecologism:before {
+  content: "";
+}
+
+.flaticon-plant-tree:before {
+  content: "";
+}
+
+.flaticon-sapling:before {
+  content: "";
+}
+
+.flaticon-digging:before {
+  content: "";
+}
+
+.flaticon-shovel:before {
+  content: "";
+}
+
+.flaticon-plant:before {
+  content: "";
+}
+
+.flaticon-wheat-1:before {
+  content: "";
+}
+
+.flaticon-wheat-2:before {
+  content: "";
+}
+
+.flaticon-wheat-3:before {
+  content: "";
+}
+
+.flaticon-wheat-4:before {
+  content: "";
+}
+
+.flaticon-paper-bag:before {
+  content: "";
+}
+
+.flaticon-shipped:before {
+  content: "";
+}
+
+.flaticon-food-delivery:before {
+  content: "";
+}
+
+.flaticon-food-truck:before {
+  content: "";
+}
+
+.flaticon-food-truck-1:before {
+  content: "";
+}
+
+.flaticon-mill:before {
+  content: "";
+}
+
+.flaticon-fields:before {
+  content: "";
+}
+
+.flaticon-cow-4:before {
+  content: "";
+}
+
+.flaticon-agronomy:before {
+  content: "";
+}
+
+.flaticon-bucket:before {
+  content: "";
+}
+
+.flaticon-harvest-1:before {
+  content: "";
+}
+
+.flaticon-vegetables-1:before {
+  content: "";
+}
+
+.flaticon-gardening:before {
+  content: "";
+}
+
+.flaticon-vegetable:before {
+  content: "";
+}
+
+.flaticon-watering-can:before {
+  content: "";
+}
+
+.flaticon-watering-can-1:before {
+  content: "";
+}
+
+.flaticon-watering-can-2:before {
+  content: "";
+}
+
+.flaticon-watering-can-3:before {
+  content: "";
+}
+
+.flaticon-shopping-cart:before {
+  content: "";
+}
+
+.flaticon-add-to-cart:before {
+  content: "";
+}
+
+.flaticon-shopping-cart-1:before {
+  content: "";
+}
+
+.flaticon-shopping-cart-2:before {
+  content: "";
+}
+
+.flaticon-tractor-3:before {
+  content: "";
+}
+
+.flaticon-crawler:before {
+  content: "";
+}
+
+.flaticon-combine-harvester:before {
+  content: "";
+}
+
+.flaticon-coffee-machine:before {
+  content: "";
+}
+
+.flaticon-coffee-machine-1:before {
+  content: "";
+}
+
+.flaticon-baler:before {
+  content: "";
+}
+
+.flaticon-baler-1:before {
+  content: "";
+}
+
+.flaticon-baler-2:before {
+  content: "";
+}
+
+.flaticon-tractor-4:before {
+  content: "";
+}
+
+.flaticon-farm-vehicle:before {
+  content: "";
+}
+
+.flaticon-lawn-mower:before {
+  content: "";
+}
+
+.flaticon-watering-can-4:before {
+  content: "";
+}
+
+.flaticon-sickle:before {
+  content: "";
+}
+
+.flaticon-green-house:before {
+  content: "";
+}
+
+.flaticon-plant-1:before {
+  content: "";
+}
+
+.flaticon-gardening-1:before {
+  content: "";
+}
+
+.flaticon-pumpkin:before {
+  content: "";
+}
+
+.flaticon-pumpkin-1:before {
+  content: "";
+}
+
+.flaticon-trophy:before {
+  content: "";
+}
+
+.flaticon-award:before {
+  content: "";
+}
+
+.flaticon-trophy-1:before {
+  content: "";
+}
+
+.flaticon-medal:before {
+  content: "";
+}
+
+.flaticon-medal-1:before {
+  content: "";
+}
+
+.flaticon-shield:before {
+  content: "";
+}
+
+.flaticon-high-quality:before {
+  content: "";
+}
+
+.flaticon-price-tag:before {
+  content: "";
+}
+
+.flaticon-badge:before {
+  content: "";
+}
+
+.flaticon-best-seller:before {
+  content: "";
+}
+
+.flaticon-service:before {
+  content: "";
+}
+
+.flaticon-farmer:before {
+  content: "";
+}
+
+.flaticon-farmer-1:before {
+  content: "";
+}
+
+.flaticon-farmer-2:before {
+  content: "";
+}
+
+.flaticon-hen:before {
+  content: "";
+}
+
+.flaticon-hen-1:before {
+  content: "";
+}
+
+.flaticon-hen-2:before {
+  content: "";
+}
+
+.flaticon-hen-3:before {
+  content: "";
+}
+
+.flaticon-box:before {
+  content: "";
+}
+/*# sourceMappingURL=flaticon.css.map */

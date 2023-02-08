@@ -1,0 +1,113 @@
+@use '../abstract' as *;
+/*----------------------------------------*/
+/*  12. Faq
+/*----------------------------------------*/
+
+.accordion-button {
+    border: 0;
+    font-size: 18px;
+    line-height: 40px;
+    color: $secondary-color;
+    padding-left: 0;
+    position: relative;
+}
+.accordion-collapse{
+    border: 0;
+}
+.accordion-button:not(.collapsed) {
+    background: transparent;
+    color: inherit;
+}
+.accordion-body {
+    padding-left: 0;
+    padding-top: 0;
+    & p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+.accordion-item {
+    border-top: 1px solid $border;
+    border-left: 0;
+    border-right: 0;
+    &:last-child{
+        border-bottom: 1px solid $border;
+    }
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button::after{
+    content: "\f067";
+    background-image: none;
+    font-family: $fontawesome;
+    position: absolute;
+    left: 0;
+    right: 10px;
+    top: 20%;
+    @media #{$xs} {
+        right: 5px;
+    }  
+}
+.faq-image img{width: 100%;}
+
+.faq-image.faq-col-2 {
+    @media #{$custome1} {
+        padding-right: 40px;
+    }
+    @media #{$md} {
+        margin-bottom: 40px;
+    }
+    @media #{$sm} {
+        margin-bottom: 40px;
+    }
+    @media #{$xs} {
+        margin-bottom: 40px;
+    }  
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+    content: '\f068';
+    transform: rotate(0deg);
+}
+
+.accordion-body-title{
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    color: $h3-primary-color;
+    & span{
+        color: $h3-common-color;
+        margin-right: 20px;
+    }
+}
+
+.accordion-button-h3{
+    color: $h3-primary-color;
+    & span{
+        color: $h3-common-color;
+        margin-right: 20px;
+    }
+}
+
+.accordion-button-h3:not(.collapsed){color: $h3-primary-color;}
+
+.faq-main-info{
+    @media #{$lg,$xl,$xxl,$xxxl} {
+        margin-left: 70px;
+    }
+}
+
+.faq-content-2{
+    padding-right: 55px;
+    @media #{$md,$sm,$xs} {
+        padding-right: 0;
+    } 
+}
+
+.faq-content{
+    & .accordion-body{
+         margin-top: 20px;
+    }
+}

@@ -1,0 +1,683 @@
+
+@use '../abstract' as *;
+
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Agronix - Organic Farm WordPress Theme
+    Author: Theme_Pure
+    Support: basictheme@gmail.com
+    Description: Organic Farm WordPress Theme
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+/************ TABLE OF CONTENTS ***************
+
+    01. Common CSS
+    02. Header
+    03. Counter
+	04. About
+	05. Services
+	06. Banner
+	07. Supporter
+	08. Section Title
+	09. Project
+	10. Testimonial
+	11. Features
+	12. Faq
+	13. Video
+	14. Blog
+	15. Team
+	16. Cart
+	17. Footer
+
+**********************************************/
+/*
+
+
+*/
+
+/*----------------------------------------*/
+/*  01. Theme default CSS
+/*----------------------------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ body {
+	font-family: $roboto;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 28px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.w-img{
+	& img{
+		width: 100%;
+	}
+}
+.m-img{
+	& img{
+		max-width: 100%;
+	}
+}
+
+input{
+	outline: none;
+}
+
+a,
+.btn,
+button,
+span,
+p,
+i,
+input,
+select,
+textarea,
+li,
+img,
+svg path,
+*::after,
+*::before,
+.transition-3,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@include transition(.3s);
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+// a:focus{
+// 	color:;
+// }
+
+a:hover{
+	color: inherit;
+	text-decoration: none;
+}
+a,
+button {
+	color: inherit;
+	outline: none;
+	border: none;
+	background: transparent;
+}
+button:hover{
+	cursor: pointer;
+}
+button:focus{outline: 0; border:0}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $parta;
+	color: $secondary-color;
+	margin-top: 0px;
+	font-weight: 500;
+	line-height: 1.2;
+	@include transition(.3s);
+}
+
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 14px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+li:last-child{
+	margin: 0;
+}
+p {
+	font-family: $roboto;
+	font-size: 16px;
+	font-weight: normal;
+	color: $p;
+	margin-bottom: 15px;
+	line-height: 28px;
+}
+
+*::-moz-selection {
+	background: $r-pink;
+	color: $white;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: $r-pink;
+	color:$white;
+	text-shadow: none;
+}
+::selection {
+	background: $r-pink;
+	color: $white;
+	text-shadow: none;
+}
+.owl-carousel .owl-item img {
+    display: block;
+}
+
+
+body:not(.modal-open){
+	padding-right: 0px !important;
+  }
+/*--
+    - Input Placeholder
+-----------------------------------------*/
+*::-moz-placeholder {
+	color: $black;
+	font-size: 14px;
+	opacity: 1;
+}
+*::placeholder {
+	color: $black;
+	font-size: 14px;
+	opacity: 1;
+}
+
+
+/*--
+    - Common Classes
+-----------------------------------------*/
+.fix {
+    overflow:hidden
+}
+.clear{
+    clear: both;
+}
+
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+
+.z-index-1{
+	z-index: 1;
+}
+
+.z-index-11{
+	z-index: 11;
+}
+
+.overflow-y-visible{
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
+.p-relative{
+	position: relative;
+}
+.p-absolute{
+	position: absolute;
+}
+/*--
+    - Background color
+-----------------------------------------*/
+.grey-bg {
+	background: $grey;
+}
+
+.pink-bg {
+	background:#000;
+}
+
+.white-bg {
+	background:$white;
+}
+.black-bg {
+	background: $black;
+}
+
+/*--
+    - color
+-----------------------------------------*/
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+	color: $white;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+
+.white-color {
+	color: $white;
+}
+
+.theme-color {
+	color: $r-pink ;
+}
+.black-color {
+	color: $black;
+}
+.theme-bg{
+	background: $secondary-color;
+}
+.theme-bg-primary{
+	background: $primary-color;
+}
+.theme-bg-primary-h1{
+	background: $h1-primary-color;
+}
+.theme-bg-primary-h3{
+	background: $h3-primary-color;
+}
+.theme-bg-secondary-h1{
+	background: $white;
+}
+.theme-bg-common{
+	background: $common-color;
+}
+.bg-white{
+	background: $white;
+}
+.h3-gray-bg{
+	background: $h3-gray-bg-color;
+}
+.h2-gray-bg{
+	background: $h2-gray-bg-color;
+}
+
+.h3-deep-bg{
+	background: $h3-deep-bg-color;
+}
+
+// gray-bg
+.gray-bg{
+	background: $grey;
+}
+
+// overlay
+ .body-overlay{
+    background-color: rgba($color: #000000, $alpha: .5);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	@include transition(.3s);
+
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+.body-overlay.opened{
+	opacity: 1;
+    visibility: visible;
+}
+
+// progress wrap
+
+.progress-wrap{
+	@media #{$xs}{
+		right: 15px;
+		bottom: 15px;
+	}
+}
+
+/* link btn */
+
+.link-btn{
+	position: relative;
+	font-size: 15px;
+	font-weight: 500;
+	color: $r-pink;
+	text-transform: uppercase;
+	padding-right: 15px;
+	& i{
+		position: absolute;
+		top: 50%;
+		@include transform(translateY(-50%));
+		transition: all ease .2s;
+		-webkit-transition: all ease .2s;
+		-moz-transition: all ease .2s;
+		-ms-transition: all ease .2s;
+		-o-transition: all ease .2s;
+		&:first-child{
+			left: -100%;
+			visibility: hidden;
+			opacity: 0;
+	
+		}
+		&:last-child{
+			right: 0;
+		}
+	}
+	&:hover{
+		color: $black;
+		& i:first-child{
+			left: 0;
+			visibility: visible;
+			opacity: 1;
+		}
+		& i:last-child{
+			right: -100%;
+			visibility: hidden;
+			opacity: 0;
+		}
+	}
+}
+
+.link-btn-2{
+	position: relative;
+	font-size: 14px;
+	color: $r-pink;
+	font-weight: 500;
+	padding-right: 22px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: $roboto;
+	& i{
+		position: absolute;
+		top: 45%;
+		@include transform(translateY(-50%));
+		transition: all ease .2s;
+		-webkit-transition: all ease .2s;
+		-moz-transition: all ease .2s;
+		-ms-transition: all ease .2s;
+		-o-transition: all ease .2s;
+		font-size: 12px;
+		&:first-child{
+			right: 10%;
+			visibility: hidden;
+			opacity: 0;
+		}
+		&:last-child{
+			right: 0;
+		}
+	}
+	&:hover{
+		color: $r-pink;
+		& i{
+			&:first-child{
+				right: 0;
+				visibility: visible;
+				opacity: 1;
+			}
+			&:last-child{
+				right: -10%;
+				visibility: hidden;
+				opacity: 0;
+			}
+		}
+	}
+	&.pink{
+		color: $r-pink;
+		&:hover{
+			color: $r-pink;
+		}
+	}
+}
+
+/* pulse btn */
+.pulse-btn{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	line-height: 84px;
+	text-align: center;
+	background-color: $white;
+	@include border-radius(50%);
+	color: $r-pink;
+	animation: pulse 2s infinite;
+	&:hover{
+		background-color: $r-pink;
+		color: $white;
+	}
+	& i{
+		padding-left: 2px;
+	}
+}
+
+@-webkit-keyframes pulse {
+	0% {
+	  -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);
+	}
+	70% {
+		-webkit-box-shadow: 0 0 0 45px rgba(255,255,255, 0);
+	}
+	100% {
+		-webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+	}
+}
+@keyframes pulse {
+0% {
+	-moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);
+	box-shadow: 0 0 0 0 rgba(255,255,255, 0.4);
+}
+70% {
+	-moz-box-shadow: 0 0 0 45px rgba(255,255,255, 0);
+	box-shadow: 0 0 0 45px rgba(255,255,255, 0);
+}
+100% {
+	-moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+	box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+}
+}
+
+.tp-btn{
+	background: $secondary-color;
+    border: medium none;
+    color: $white;
+    cursor: pointer;
+    border-radius: 0;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 20px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: .3s;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 1px solid transparent;
+	&:hover{
+		background: $white;
+    	color: $black;
+    	border-color: $primary-color;
+	}
+}
+
+.btn-ab-2{
+    background: $secondary-color;
+    border: medium none;
+    color: $white;
+    cursor: pointer;
+    border-radius: 0;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 1;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: 0.3s;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    height: 60px;
+    width: 200px;
+	display: inline-block;
+	line-height: 60px;
+	transition: .3s;
+	&:hover{
+		background: $white;
+    	color: $black;
+    	border-color: $primary-color;
+	}
+}
+
+.tp-btn-ab{
+	background: $secondary-color;
+    border: medium none;
+    color: $white;
+    cursor: pointer;
+    border-radius: 0;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 20px 40px;
+    text-align: center;
+    text-transform: capitalize;
+    touch-action: manipulation;
+    transition: .3s;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 1px solid transparent;
+	& i{ margin-left: 20px;}
+	&:hover{
+		background: $white;
+    	color: $black;
+    	border-color: $primary-color;
+	}
+}
+
+.tp-btn-h1{
+	background: $primary-color;
+    border: medium none;
+    color: $white;
+	cursor: pointer;
+	border-radius: 0;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	line-height: 1;
+	margin-bottom: 0;
+	padding: 20px 40px;
+	text-align: center;
+	text-transform: capitalize;
+	touch-action: manipulation;
+	transition: 0.3s;
+	vertical-align: middle;
+	white-space: nowrap;
+	border: 1px solid transparent;
+	letter-spacing: 0;
+	&:hover{
+		background: $white;
+    	color: $primary-color;
+    	border-color: $primary-color;
+	}
+}
+
+.tp-btn-play-b{
+	border: medium none;
+	color: $white;
+	cursor: pointer;
+	border-radius: 0;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 0;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	text-align: center;
+	transition: 0.3s;
+	vertical-align: middle;
+	white-space: nowrap;
+	border: 1px solid transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	letter-spacing: 0;
+	background: $common-color;
+	color: $white;
+	border-color: $common-color;
+	&:hover{
+		background: $white;
+    	color: $primary-color;
+    	border-color: $primary-color;
+	}
+}
+
+.tp-btn-h3{
+	background: $h3-primary-color;
+	border: medium none;
+	color: $white;
+	cursor: pointer;
+	border-radius: 0;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1;
+	margin-bottom: 0;
+	padding: 20px 40px;
+	text-align: center;
+	text-transform: capitalize;
+	touch-action: manipulation;
+	transition: 0.3s;
+	vertical-align: middle;
+	white-space: nowrap;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	font-weight: 600;
+	&:hover{
+		background:  #7d501e;
+    	color: $white;
+    	border-color:#7d501e;
+	}
+}
+

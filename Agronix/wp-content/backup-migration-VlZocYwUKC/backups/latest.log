@@ -1,0 +1,183 @@
+[STEP] [2023-01-30 13:56:18] Looking for PHP CLI executable file.
+[WARN] [2023-01-30 13:56:18] Could not find proper PHP CLI executable, this process may be unstable.
+[WARN] [2023-01-30 13:56:18] PHP CLI file cannot be executed due to unknown reason.
+[STEP] [2023-01-30 13:56:18] Initializing backup...
+[INFO] [2023-01-30 13:56:18] Backup & Migration version: 1.2.7
+[INFO] [2023-01-30 13:56:18] Site which will be backed up: http://localhost/wordpress/Agronix
+[INFO] [2023-01-30 13:56:18] PHP Version: 8.0.11
+[INFO] [2023-01-30 13:56:18] WP Version: 6.1.1
+[INFO] [2023-01-30 13:56:18] MySQL Version: 5.5.5
+[INFO] [2023-01-30 13:56:18] MySQL Max Length: 1048576
+[INFO] [2023-01-30 13:56:18] Web server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.11
+[INFO] [2023-01-30 13:56:18] Max execution time (in seconds): 259200
+[INFO] [2023-01-30 13:56:18] Max rows per query (this site): 2000
+[INFO] [2023-01-30 13:56:18] Checking if backup dir is writable...
+[INFO] [2023-01-30 13:56:18] Initializing custom error handler
+[SUCCESS] [2023-01-30 13:56:18] Yup it is writable...
+[STEP] [2023-01-30 13:56:18] Scanning files...
+[STEP] [2023-01-30 13:56:22] Checking free space, reserving...
+[INFO] [2023-01-30 13:56:22] Requires at least 227850842 bytes. [217.3 MB]
+[INFO] [2023-01-30 13:56:22] Disk free space function is not disabled - using it...
+[INFO] [2023-01-30 13:56:22] Checking this path/partition: C:\xampp\htdocs\wordpress\Agronix\wp-content\backup-migration-VlZocYwUKC\backups
+[SUCCESS] [2023-01-30 13:56:22] There is 40,842.04 MB free. [39.88 GB]
+[SUCCESS] [2023-01-30 13:56:22] Great! We have enough space.
+[SUCCESS] [2023-01-30 13:56:22] Confirmed, there is more than enough space, checked: 227850842 bytes
+[INFO] [2023-01-30 13:56:22] Scanning done - found 10352 files...
+[SUCCESS] [2023-01-30 13:56:22] Backup initialized...
+[STEP] [2023-01-30 13:56:22] Initializing archiving system...
+[SUCCESS] [2023-01-30 13:56:22] Archive system initialized...
+[STEP] [2023-01-30 13:56:22] Preparing map of files...
+[SUCCESS] [2023-01-30 13:56:22] Files prepared.
+[INFO] [2023-01-30 13:56:22] Starting compression process...
+[STEP] [2023-01-30 13:56:22] Smart memory calculation...
+[INFO] [2023-01-30 13:56:22] There is 512 MBs of memory to use
+[INFO] [2023-01-30 13:56:22] WordPress memory limit: 512 MBs
+[SUCCESS] [2023-01-30 13:56:22] Setting the safe limit to 115 MB
+[INFO] [2023-01-30 13:56:22] Using PclZip module to create the backup
+[INFO] [2023-01-30 13:56:22] Legacy setting: Using default modules depending on user server
+[STEP] [2023-01-30 13:56:22] Making database backup (using v3 engine, requires at least v1.2.2 to restore)
+[INFO] [2023-01-30 13:56:22] Iterating database...
+[INFO] [2023-01-30 13:56:22] Memory usage after initialization: 101.44 MB
+[INFO] [2023-01-30 13:56:25] Scan found 53 tables (3772 rows), estimated total size: 9.95 MB.
+[INFO] [2023-01-30 13:56:25] Memory usage after getting table names: 101.47 MB 
+[INFO] [2023-01-30 13:56:25] Getting table recipes...
+[INFO] [2023-01-30 13:56:25] Table recipes have been exported.
+[INFO] [2023-01-30 13:56:25] Memory usage after loading recipes: 101.51 MB 
+[INFO] [2023-01-30 13:56:25] Saving recipes...
+[INFO] [2023-01-30 13:56:25] Recipes saved.
+[INFO] [2023-01-30 13:56:25] Memory usage after recipe off-load: 101.48 MB
+[INFO] [2023-01-30 13:56:25] Exporting table data...
+[STEP] [2023-01-30 13:56:25] Getting data of table: wp_agronixactionscheduler_actions (1/53, 0.13 MB)
+[SUCCESS] [2023-01-30 13:56:25] Table export for: wp_agronixactionscheduler_actions finished (0.16866s)
+[STEP] [2023-01-30 13:56:25] Getting data of table: wp_agronixactionscheduler_claims (2/53, 0.03 MB)
+[INFO] [2023-01-30 13:56:25] Table wp_agronixactionscheduler_claims is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:25] Getting data of table: wp_agronixactionscheduler_groups (3/53, 0.03 MB)
+[SUCCESS] [2023-01-30 13:56:25] Table export for: wp_agronixactionscheduler_groups finished (0.00118s)
+[STEP] [2023-01-30 13:56:25] Getting data of table: wp_agronixactionscheduler_logs (4/53, 0.05 MB)
+[SUCCESS] [2023-01-30 13:56:25] Table export for: wp_agronixactionscheduler_logs finished (0.01852s)
+[STEP] [2023-01-30 13:56:25] Getting data of table: wp_agronixaioseo_cache (5/53, 0.13 MB)
+[SUCCESS] [2023-01-30 13:56:25] Table export for: wp_agronixaioseo_cache finished (0.02256s)
+[STEP] [2023-01-30 13:56:25] Getting data of table: wp_agronixaioseo_notifications (6/53, 0.08 MB)
+[SUCCESS] [2023-01-30 13:56:25] Table export for: wp_agronixaioseo_notifications finished (0.00174s)
+[STEP] [2023-01-30 13:56:25] Getting data of table: wp_agronixaioseo_posts (7/53, 0.13 MB)
+[SUCCESS] [2023-01-30 13:56:25] Table export for: wp_agronixaioseo_posts finished (0.05311s)
+[STEP] [2023-01-30 13:56:25] Getting data of table: wp_agronixcommentmeta (8/53, 0.05 MB)
+[SUCCESS] [2023-01-30 13:56:25] Table export for: wp_agronixcommentmeta finished (0.09022s)
+[STEP] [2023-01-30 13:56:25] Getting data of table: wp_agronixcomments (9/53, 0.11 MB)
+[SUCCESS] [2023-01-30 13:56:25] Table export for: wp_agronixcomments finished (0.04350s)
+[STEP] [2023-01-30 13:56:25] Getting data of table: wp_agronixe_events (10/53, 0.03 MB)
+[INFO] [2023-01-30 13:56:25] Table wp_agronixe_events is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:25] Getting data of table: wp_agronixlinks (11/53, 0.03 MB)
+[INFO] [2023-01-30 13:56:25] Table wp_agronixlinks is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:25] Getting data of table: wp_agronixoptions (12/53, 4.08 MB)
+[SUCCESS] [2023-01-30 13:56:26] Table export for: wp_agronixoptions finished (0.73047s)
+[STEP] [2023-01-30 13:56:26] Getting data of table: wp_agronixpostmeta (13/53, 1.78 MB)
+[SUCCESS] [2023-01-30 13:56:26] Table export for: wp_agronixpostmeta finished (0.14798s)
+[STEP] [2023-01-30 13:56:26] Getting data of table: wp_agronixposts (14/53, 1.58 MB)
+[SUCCESS] [2023-01-30 13:56:26] Table export for: wp_agronixposts finished (0.12600s)
+[STEP] [2023-01-30 13:56:26] Getting data of table: wp_agronixterm_relationships (15/53, 0.03 MB)
+[SUCCESS] [2023-01-30 13:56:26] Table export for: wp_agronixterm_relationships finished (0.07032s)
+[STEP] [2023-01-30 13:56:26] Getting data of table: wp_agronixterm_taxonomy (16/53, 0.05 MB)
+[SUCCESS] [2023-01-30 13:56:27] Table export for: wp_agronixterm_taxonomy finished (0.02557s)
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixtermmeta (17/53, 0.05 MB)
+[SUCCESS] [2023-01-30 13:56:27] Table export for: wp_agronixtermmeta finished (0.00889s)
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixterms (18/53, 0.05 MB)
+[SUCCESS] [2023-01-30 13:56:27] Table export for: wp_agronixterms finished (0.00420s)
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixusermeta (19/53, 0.05 MB)
+[SUCCESS] [2023-01-30 13:56:27] Table export for: wp_agronixusermeta finished (0.00364s)
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixusers (20/53, 0.06 MB)
+[SUCCESS] [2023-01-30 13:56:27] Table export for: wp_agronixusers finished (0.00137s)
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_admin_note_actions (21/53, 0.03 MB)
+[SUCCESS] [2023-01-30 13:56:27] Table export for: wp_agronixwc_admin_note_actions finished (0.00817s)
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_admin_notes (22/53, 0.05 MB)
+[SUCCESS] [2023-01-30 13:56:27] Table export for: wp_agronixwc_admin_notes finished (0.01071s)
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_category_lookup (23/53, 0.02 MB)
+[SUCCESS] [2023-01-30 13:56:27] Table export for: wp_agronixwc_category_lookup finished (0.00158s)
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_customer_lookup (24/53, 0.05 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwc_customer_lookup is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_download_log (25/53, 0.05 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwc_download_log is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_order_coupon_lookup (26/53, 0.05 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwc_order_coupon_lookup is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_order_product_lookup (27/53, 0.08 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwc_order_product_lookup is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_order_stats (28/53, 0.06 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwc_order_stats is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_order_tax_lookup (29/53, 0.05 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwc_order_tax_lookup is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_product_attributes_lookup (30/53, 0.03 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwc_product_attributes_lookup is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_product_download_directories (31/53, 0.03 MB)
+[SUCCESS] [2023-01-30 13:56:27] Table export for: wp_agronixwc_product_download_directories finished (0.00094s)
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_product_meta_lookup (32/53, 0.11 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwc_product_meta_lookup is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_rate_limits (33/53, 0.03 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwc_rate_limits is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_reserved_stock (34/53, 0.02 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwc_reserved_stock is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_tax_rate_classes (35/53, 0.03 MB)
+[SUCCESS] [2023-01-30 13:56:27] Table export for: wp_agronixwc_tax_rate_classes finished (0.00087s)
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwc_webhooks (36/53, 0.03 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwc_webhooks is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_api_keys (37/53, 0.05 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_api_keys is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_attribute_taxonomies (38/53, 0.03 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_attribute_taxonomies is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_downloadable_product_permissions (39/53, 0.08 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_downloadable_product_permissions is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_log (40/53, 0.03 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_log is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_order_itemmeta (41/53, 0.05 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_order_itemmeta is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_order_items (42/53, 0.03 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_order_items is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_payment_tokenmeta (43/53, 0.05 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_payment_tokenmeta is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_payment_tokens (44/53, 0.03 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_payment_tokens is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_sessions (45/53, 0.03 MB)
+[SUCCESS] [2023-01-30 13:56:27] Table export for: wp_agronixwoocommerce_sessions finished (0.00086s)
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_shipping_zone_locations (46/53, 0.05 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_shipping_zone_locations is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_shipping_zone_methods (47/53, 0.02 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_shipping_zone_methods is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_shipping_zones (48/53, 0.02 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_shipping_zones is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_tax_rate_locations (49/53, 0.05 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_tax_rate_locations is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwoocommerce_tax_rates (50/53, 0.08 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwoocommerce_tax_rates is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixwpforms_tasks_meta (51/53, 0.02 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixwpforms_tasks_meta is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixyith_wcwl (52/53, 0.03 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixyith_wcwl is empty, saving only recipe.
+[STEP] [2023-01-30 13:56:27] Getting data of table: wp_agronixyith_wcwl_lists (53/53, 0.05 MB)
+[INFO] [2023-01-30 13:56:27] Table wp_agronixyith_wcwl_lists is empty, saving only recipe.
+[INFO] [2023-01-30 13:56:27] Table data exported.
+[INFO] [2023-01-30 13:56:27] Memory usage after data export: 101.52 MB
+[INFO] [2023-01-30 13:56:27] Entire process took: 4.6799 s
+[SUCCESS] [2023-01-30 13:56:27] Database backup finished
+[STEP] [2023-01-30 13:56:27] Making archive
+[INFO] [2023-01-30 13:56:27] Compressing...
+[WARN] [2023-01-30 13:56:27] Backup will run as single-request, may be unstable...
+[STEP] [2023-01-30 13:56:27] Adding database SQL file(s) to the backup file.
+[SUCCESS] [2023-01-30 13:56:27] Database added to the backup successfully.
+[STEP] [2023-01-30 13:56:27] Performing site files backup...
+[INFO] [2023-01-30 13:56:27] Chunks contain 1000 files.
+[INFO] [2023-01-30 13:56:42] Milestone: 1000/10352
+[INFO] [2023-01-30 13:56:57] Milestone: 2000/10352
+[INFO] [2023-01-30 13:57:06] Milestone: 3000/10352
+[INFO] [2023-01-30 13:57:24] Milestone: 4000/10352
+[INFO] [2023-01-30 13:57:32] Milestone: 5000/10352
+[INFO] [2023-01-30 13:57:40] Milestone: 6000/10352
+[INFO] [2023-01-30 13:57:50] Milestone: 7000/10352
+[INFO] [2023-01-30 13:58:02] Milestone: 8000/10352
+[INFO] [2023-01-30 13:58:17] Milestone: 9000/10352
+[INFO] [2023-01-30 13:58:43] Milestone: 10000/10352
+[INFO] [2023-01-30 13:58:52] Milestone: 10352/10352
+[SUCCESS] [2023-01-30 13:58:52] Compressed 10352 files
+[INFO] [2023-01-30 13:58:52] Archiving of 10352 files took: 150.32s
+[STEP] [2023-01-30 13:58:52] Finalizing backup
+[INFO] [2023-01-30 13:58:52] Adding manifest...
+[STEP] [2023-01-30 13:58:52] Closing files and archives
+[END-CODE] [2023-01-30 13:58:52] #001

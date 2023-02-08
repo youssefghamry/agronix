@@ -1,0 +1,123 @@
+@use '../abstract' as *;
+/*----------------------------------------*/
+/*  07. Supporter
+/*----------------------------------------*/
+
+.tp-supporter-sub-title{
+        font-size: 18px;
+        color: $primary-color;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+        letter-spacing: 2px;
+}
+
+.tp-supporter-sub-title-ab{
+    color: #999999;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    position: relative;
+    &::after{
+        position: absolute;
+        background: #e1e1e1;
+        width: 45%;
+        height: 1px;
+        content: "";
+        top: 50%;
+        right: 0px;
+    }
+    &::before{
+        position: absolute;
+        background: #e1e1e1;
+        width: 45%;
+        height: 1px;
+        content: "";
+        top: 50%;
+        left: 0px;
+    }
+}
+
+.tp-supporter__slider{
+        padding-bottom: 50px;
+        border-bottom: 1px solid #e1e1e1;
+    & .tp-supporter__thumb{
+        transition: .3s;
+        padding: 30px 0;
+        text-align: center;
+        & a {
+            display: inline-block;
+           & img{
+            width: inherit !important;
+            text-align: center;
+            filter: grayscale(1);
+            transition: .3s;
+           }
+            
+        }
+        &:hover .supporter-name{
+            visibility: visible;
+            opacity: 1;
+        }
+        &:hover a img{
+            filter:none;
+        }
+        &:hover{
+            transform: translateY(-15px);
+        }
+    }
+}
+
+.supporter-name{
+    font-size: 14px;
+    color: $secondary-color;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+    transition: .3s;
+}
+
+.supporter-name-2{
+    color: $primary-color;
+}
+
+.tp-supporter__slider-tpages{
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.tp-supporter__slider-ab{
+    padding-bottom: 20px;
+}
+
+.tp-supporter__area-2{
+    z-index: 0;
+    margin-top: -90px;
+}
+
+.tp-supporter__area-2-inner{
+    padding: 15px 65px;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
+    & .tp-section-wrap{
+        display: flex;
+        & span{
+            margin-right: 20px;
+        }
+        & .tp-section-title{
+            font-size: 26px;
+            line-height: 36px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.tp-supporter__slider-2{
+    border: none;
+    padding-bottom: 0;
+}
+
+.tp-supporter__area-3 {
+    margin-top: -100px;
+}

@@ -1,0 +1,597 @@
+@use '../abstract' as *;
+/*----------------------------------------*/
+/*  05. Services
+/*----------------------------------------*/
+
+.tp-service {
+    &__thumb{
+        position: relative;
+        overflow: hidden;
+        & a{
+            img{
+                width: 100%;
+                transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+            }
+        }
+        &-icon{
+            position: absolute;
+            top: 100%;
+            transform: translateY(-100%);
+            right: 30px;
+            & i{
+                font-size: 50px;
+                padding: 20px;
+                background: $common-color;
+                color: $secondary-color;
+                display: inline-block;
+            }
+        }
+    }
+    &__card{
+        background: $white;
+        padding: 25px 30px;
+        border-radius: 0 0 0 3px;
+        border: none;
+        box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.15);
+        & p{
+        font-size: 14px;
+        line-height: 24px;
+        color: $p;
+        margin-bottom: 0;
+        }
+    }
+}
+
+.tp-service:hover .tp-service__thumb a img {
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.tp-service-title{
+    font-size: 22px;
+    line-height: 34px;
+    color:$secondary-color;
+    transition: .3s;
+    &:hover{
+        color: $common-color;
+    }
+}
+
+
+//promo-area
+.tp-promo-area{
+    background: $secondary-color;
+    padding-top: 255px;
+    padding-bottom: 90px;
+    margin-top: -170px;
+}
+
+.tp-promo-info{
+    display: flex;
+    align-items: center;
+    & i{
+        font-size: 60px;
+        color: $common-color;
+        display: inline-block;
+        margin-right: 35px;
+    }
+    & .tp-support{
+        & p{
+            font-size: 16px;
+            color: #b9c8b5;
+        }
+        & h3{
+            font-size: 55px;
+            line-height: 1.1;
+            color: $white;
+            @media #{$xl} {
+                font-size: 50px;
+            }
+            @media #{$lg} {
+                font-size: 40px;
+            }
+            @media #{$xs} {
+                font-size: 30px;
+            }  
+        }
+    }
+    & .bar{
+        position: relative;
+        &::before{
+            position: absolute;
+            width: 100px;
+            height: 1px;
+            content: '';
+            background: $common-color;
+            left: -200px;
+            top: 50%;
+            @media #{$custome1} {
+                left: -130px;
+            }
+            @media #{$lg} {
+                width: 55px;
+                left: -78px;
+            }
+            @media #{$md,$sm,$xs} {
+                display: none;
+            }
+        }
+    }
+}
+
+//subscrive-area
+.subscrive-area{
+    border-bottom: 1px solid $border-h1;
+    & form{
+        position: relative;
+        input{
+            width: 100%;
+            border: none;
+            box-shadow: none;
+            outline: none;
+            padding: 10px;
+            font-size: 16px;
+            line-height: 40px;
+            border-bottom: 1px solid $border;
+            color: $p;
+        }
+        input::placeholder {
+            color: #999999;
+            font-size: 16px;
+            opacity: 1;
+        }
+        & button{
+            position: absolute;
+            right: 0;
+            border: 0;
+            color: $primary-color;
+            font-size: 16px;
+            line-height: 40px;
+            font-family: $parta;
+            padding: 10px 20px;
+            background: $white;
+            & i{
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+.tp-section-wrap-subscrive{
+    display: flex;
+    align-items: center;
+    & span{
+        margin-right: 20px;
+    }
+}
+
+//services-cta
+.serivces-cta{
+    margin-top: -20px;
+}
+
+.service-catagory {
+	text-transform: capitalize;
+	color: #ffffff;
+	font-family: "Covered By Your Grace", cursive;
+	letter-spacing: 0;
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.serivces-cta-info{
+    display: flex;
+    align-items: center;
+    @media #{$xxs} {
+        display: block;
+    }
+    & .client-img{
+        margin-right: 15px;
+    }
+    & p{
+        margin-bottom: 0;
+        color: #e1c9b0;
+        font-size: 18px;
+        line-height: 28px;
+        & a{
+            font-weight: 600;
+            color: $white;
+        }
+    }
+}
+
+.serivces-cta-icon i{ 
+    font-size: 250px;
+    color: #a6733a;
+}
+
+//ab-services
+
+.ab-services-item:hover .ab-services-image img{transform: scale3d(1.1, 1.1, 1.1);}
+.ab-services-info{ 
+    padding: 40px;
+    padding-bottom: 60px;
+    border: 1px solid #ededed;
+    border-bottom: none;
+}
+
+.ab-services-title{
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.ab-services-image img{width: 100%; transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);}
+
+.ab-services-image{position: relative;}
+
+.top-icon{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: $white;
+    text-align: center;
+    border: 4px solid $common-color;
+    left: 40px;
+    top: -45px;
+    & i{
+        color: $primary-color;
+        font-size: 40px;
+        line-height: 85px;
+    }
+}
+
+.ab-image{overflow: hidden;}
+
+
+//services-details
+.services-nevigation-2{border-top: 1px solid #ededed;}
+.services-sidebar { 
+    padding-left: 20px;
+    @media #{$sm,$xs} {
+        padding-left: 0;
+    } 
+}
+
+.services-details-title{ 
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.desciption{ 
+    font-size: 18px;
+    line-height: 30px; 
+}
+
+.desciption-link{
+    color: $secondary-color;
+    text-decoration: underline;
+    &:hover{
+        color: $secondary-color;
+        text-decoration: underline;
+    }
+}
+
+.sd-services-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04);
+    padding: 30px 60px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.sd-services-item figure{ 
+    font-size: 40px;
+    color: $secondary-color;
+    height: 80px;
+    width: 80px;
+    line-height: 100px;
+    background: $common-color;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: -40px;
+}
+
+.sd-services-title{ 
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.sd-services-content{margin-left: 10px;}
+
+.sd-services-content p{margin-bottom: 0;}
+
+.services-details-title-sm{ 
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.system-item{
+   & i{color: $secondary-color; margin-right: 25px; line-height: 28px; font-size: 20px;}
+   & span{font-size: 16px; line-height: 26px; font-weight: 600; color: $secondary-color;}
+    & p{ margin-bottom: 0;}
+} 
+
+blockquote{
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04);
+    padding: 50px 50px;
+    border-top: 2px solid $common-color;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    & span{ font-size: 24px; line-height: 36px; color: $secondary-color; display: block; font-family: $parta;}
+}
+
+.quote-btn a{ 
+    @media #{$sm,$xs} {
+        padding: 8px 10px;
+    }
+    @media #{$xs} {
+        font-size: 12px;
+    }
+    padding: 8px 20px;
+    background: $common-color;
+    color: $secondary-color;
+    font-size: 14px;
+    line-height: 36px;
+    font-family: $parta;
+    transition: .3s;
+    &:hover{
+        background: $secondary-color;
+        color: $common-color;
+    }
+}
+
+.description-sd{ font-size: 18px; line-height: 30px;}
+
+.sidebar-widget-title{
+    font-size: 20px;
+    line-height: 22px;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: '';
+        background: $common-color;
+        width: 40px;
+        height: 2px;
+        bottom: -10px;
+    }
+}
+
+.firm-services-lists{
+    & li{
+        transition: .3s;
+        list-style: none;
+       & a{
+            font-size: 16px;
+            line-height: 46px;
+            color: $secondary-color;
+            position: relative;
+            transition: .3s;
+            &::before{
+                position: absolute;
+                content: "";
+                right: auto;
+                left: 0;
+                bottom: 0;
+                width: 0;
+                height: 1px;
+                background: $secondary-color;
+            }
+            &:hover::before{ width: 100%;}
+            }
+        & i{
+            margin-right: 20px;
+            color: #999999;
+            font-size: 10px;
+        }
+        &:hover i{ color: $secondary-color;}
+    }
+}
+
+.custome-form form {
+    input{ 
+        width: 100%;
+        padding: 10px 30px;
+        color: #686777;
+        border: none;
+        background: #F5F5F5;
+        font-size: 14px;
+        border: 1px solid transparent;
+        transition: .3s;
+        outline: none;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    input::placeholder {
+        color: #999999;
+        font-size: 14px;
+        opacity: 1;
+    }
+    textarea{
+        width: 100%;
+        padding: 15px 30px;
+        color: #686777;
+        border: none;
+        background: #F5F5F5;
+        font-size: 14px;
+        border: 1px solid transparent;
+        transition: .3s;
+        outline: none;
+        height: 140px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    textarea::placeholder {
+        color: #999999;
+        font-size: 14px;
+        opacity: 1;
+    }
+}
+
+.custome-form-btn{ 
+    width: 100%;
+    background: $common-color;
+    color: $secondary-color;
+    font-size: 14px;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: .3s;
+    &:hover{
+        background: $secondary-color;
+        color: $common-color;
+    }
+}
+
+.widget-image img{width: 100%;}
+
+.nevigation-info{
+    & img{width: 100px; height: 100px;}
+    display: flex;
+    align-items: center;
+} 
+
+.nevigation-content p{ 
+    font-size: 14px; 
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.nevigation-title{ 
+    font-size: 20px;
+    line-height: 30px;
+    color: $primary-color;
+}
+
+.navigation-icon a{ 
+    font-size: 50px; 
+    color: #d9d9d9; 
+    line-height: 110px;
+    &:hover{
+        color: $primary-color;
+    }
+}
+
+//gallery
+.gallery-item{ 
+    position: relative;
+    &:hover .galleryimg-overlay {
+        transform: translateY(0px);
+        visibility: visible;
+        opacity: 1;
+    }
+    & img{width: 100%;}
+}
+
+.galleryimg-overlay{
+    align-items: center;
+    background: rgba(34, 34, 34, 0.5);
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    visibility: hidden;
+    transform: scale(0.2);
+    transition: 0.3s ease;
+    & a{
+        color: #fff;
+        font-size: 34px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+//contact
+.tp-contact-info {
+    display: flex;
+}
+
+.tp-contact-info-icon i {
+    font-size: 42px;
+    color: $primary-color;
+    line-height: 1;
+    transform: translateY(4px);
+}
+
+.tp-contact-info-icon {
+    min-width: 80px;
+}
+
+.tp-contact-info-title {
+    font-size: 24px;
+}
+
+.tp-contact-form-field input, .tp-contact-form-field select, .tp-contact-form-field textarea {
+    color: #7f8080;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+    font-weight: 400;
+    border: 1px solid #dfe0e5;
+    outline: none;
+    padding: 0px 20px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.tp-contact-form-field input::placeholder {
+	color:#7f8080;
+	font-size: 14px;
+}
+
+.tp-contact-form-field textarea {
+    height: 200px;
+    padding: 20px;
+}
+
+.tp-contact-form-field textarea::placeholder {
+	color:#7f8080;
+	font-size: 14px;
+}
+
+.tp-contact-form-field .nice-select {
+    width: 100%;
+    padding: 12px 20px;
+    height: 70px;
+    color: #7f8080;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #dfe0e5;
+    margin-bottom: 20px;
+    &:focus{
+        border: 1px solid #dfe0e5;
+    }
+}
+
+.tp-contact-form-field .nice-select::after{
+    width: 7px;
+    height: 7px;
+}
+
+.tp-contact-map iframe {
+    width: 100%;
+    min-height: 600px;
+}
+
+.promo-area-1{
+    padding-top: 120px;
+    padding-bottom: 90px;
+    margin-top: 0;
+}

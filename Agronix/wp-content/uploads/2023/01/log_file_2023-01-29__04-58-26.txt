@@ -1,0 +1,196 @@
+
+---Downloaded files---
+The import files for: Home 01 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/wordpress/Agronix
+Data file = C:\xampp\htdocs\wordpress\Agronix/wp-content/themes/agronix/sample-data//contents-demo.xml
+Widget file = C:\xampp\htdocs\wordpress\Agronix/wp-content/themes/agronix/sample-data//widget-settings.json
+Customizer file = C:\xampp\htdocs\wordpress\Agronix/wp-content/themes/agronix/sample-data//customizer-data.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+بحث - Search Here - Imported
+Agronix Sidebar Posts Image - Popular Feeds  - Imported
+تصنيفات - Categories - Imported
+معرض الوسوم - Popular Tags - Imported
+صورة - Sponsor Adds - Imported
+
+Product Sidebar : 
+
+البحث عن المنتج - Search Product - Imported
+تصنيفات المنتجات - Product categories - Imported
+سحابة وسم المنتج - Product tags - Imported
+
+Footer 1 : 
+
+HTML مخصص - No Title - Imported
+
+Footer 2 : 
+
+القوائم - Services - Imported
+
+Footer 3 : 
+
+القوائم - Essential Pages - Imported
+
+Footer 4 : 
+
+HTML مخصص - No Title - Imported
+
+Footer Style 2 : 1 : 
+
+HTML مخصص - No Title - Imported
+
+Footer Style 2 : 2 : 
+
+القوائم - Services - Imported
+
+Footer Style 2 : 3 : 
+
+القوائم - Essential Pages - Imported
+
+Footer Style 3 : 1 : 
+
+HTML مخصص - No Title - Imported
+
+Footer Style 3 : 2 : 
+
+القوائم - Services - Imported
+
+Footer Style 3 : 3 : 
+
+القوائم - Essential Pages - Imported
+
+Service Sidebar : 
+
+Agronix Services List - Services List  - Imported
+Agronix Services Form - Custom Request - Imported
+صورة - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

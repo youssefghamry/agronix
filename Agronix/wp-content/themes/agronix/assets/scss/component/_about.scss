@@ -1,0 +1,216 @@
+@use '../abstract' as *;
+/*----------------------------------------*/
+/*  04. About
+/*----------------------------------------*/
+
+.tp-about-image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    & .tp-upper-img{
+        @media (min-width: 1601px) and (max-width: 1920px) {
+            left: -138px;
+        }
+        @media #{$custome1} {
+            left: -175px;
+        }
+        @media #{$xs,$sm}{
+            display: none;
+        }
+        position: absolute;
+        top: -85px;
+        left: -85px;
+        right: 0;
+    }
+    & .tp-circle-shape{
+        position: absolute;
+        bottom: 140px;
+        right: -10px;
+        @media (min-width: 1601px) and (max-width: 1920px) {
+            right: -90px;
+        }
+        @media #{$xxl}{
+            right: -88px;
+        }
+        @media #{$custome1}{
+            right: -60px;
+        }
+        @media #{$xs}{
+           display: none;
+        }
+    }
+}
+.tp-about-image .left-side-image{width:100%;}
+
+.about-info p{font-size: 16px;}
+
+.tp-about-content{
+    @media (min-width: 1601px) and (max-width: 1920px) {
+        padding-left: 130px;
+      }
+    @media #{$xxl} {
+        padding-left: 110px;
+    }
+    @media #{$xl} {
+        padding-left: 50px;
+    }
+    @media #{$md} {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    @media #{$sm} {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    @media #{$xs} {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    & .tp-section-wrap{
+        & p{
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+}
+
+.tp-about-list{
+    display: flex;
+    padding-right: 10px;
+    & i{
+        font-size: 60px;
+        color: $primary-color;
+        margin-right: 25px;
+    }
+    &-text{
+        & p{
+            padding-right: 5px;
+        }
+    }
+}
+
+.tp-about-list-title{ font-size: 18px; line-height: 26px;}
+
+.ab-list-title{
+    font-size: 18px;
+    color: $secondary-color;
+    font-family: $parta;
+}
+
+.about-area-2{
+    & p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    & .author-info{
+        display: flex;
+        align-items: center;
+        img{
+            margin-right: 20px;
+        }
+    }
+    & .line-bar{
+        position: relative;
+        &::before{
+            position: absolute;
+            content: '';
+            display: block;
+            width: 135px;
+            height: 1px;
+            left: -70px;
+            top: 0px;
+            right: 0;
+            background:$primary-color;
+        }
+    }
+}
+
+.author-content{
+    & h5{
+        font-size: 20px;
+        line-height: 24px;
+        color: $secondary-color;
+        margin-bottom: 0;
+    }
+    & span{
+        font-size: 14px;
+        line-height: 24px;
+        color: $p;
+        display: block;
+    }
+}
+
+.tp-about-content-h3{
+    @media #{$md,$sm,$xs} {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    padding-left: 70px;
+    padding-right: 55px;
+}
+.description{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.tp-about-list-2{
+    & p{
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 20px;
+    }
+}
+
+.ab-list-title-2{
+    font-size: 24px;
+    line-height: 26px;
+    color: $h3-primary-color;
+}
+
+.tp-about-list-border{
+    position: relative;
+    &::before{
+        position: absolute;
+        content: '';
+        height: 180px;
+        width: 1px;
+        background: #ebebeb;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -8px;
+        @media #{$xs,} {
+            display: none;
+        } 
+    }
+}
+
+.cp-title{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.cp-info-right{padding-right: 25px;
+    @media #{$lg,$md,$sm,$xs} {
+        padding-right: 0;
+    }
+}
+.cp-info-left{ padding-left: 25px;
+    @media #{$lg,$md,$sm,$xs} {
+        padding-left: 0;
+    } 
+}
+.collaborative-area p{font-size: 16px;}
+
+.award-item{
+    padding: 50px 20px;
+    padding-bottom: 45px;
+    border: 2px solid #ededed;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
+    transition: .3s;
+    &:hover{box-shadow: none;}
+}
+
+.award-item i{ font-size: 70px; color: $secondary-color;}
+.award-title{ font-size: 18px; line-height: 28px; margin-bottom: 0;}
+
+.latest-news-area-ab {border-top: 1px solid #e6e6e6;}

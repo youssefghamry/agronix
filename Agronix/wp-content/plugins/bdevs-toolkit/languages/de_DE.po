@@ -1,0 +1,1491 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Project-Id-Version: Educal\n"
+"POT-Creation-Date: 2021-11-09 11:37+0600\n"
+"PO-Revision-Date: 2022-01-22 12:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: de_DE\n"
+"X-Loco-Version: 2.5.7; wp-5.8.3"
+
+#: 404.php:18 inc/kirki-customizer.php:734
+msgid "404"
+msgstr ""
+
+#: 404.php:19 inc/kirki-customizer.php:742
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:20 inc/kirki-customizer.php:758
+msgid "Back To Home"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"Oops! The page you are looking for does not exist. It might have been moved "
+"or deleted."
+msgstr ""
+
+#: 404.php:25
+msgid "Error 404"
+msgstr ""
+
+#: comments.php:29
+msgid " Comments"
+msgstr ""
+
+#: comments.php:29
+msgid " Comment "
+msgstr ""
+
+#: comments.php:53
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:56
+msgid "&larr; Older "
+msgstr ""
+
+#: comments.php:59
+msgid "Newer &rarr;"
+msgstr ""
+
+#: functions.php:48
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:49
+msgid "Category Menu"
+msgstr ""
+
+#: functions.php:50
+msgid "Search Menu"
+msgstr ""
+
+#: functions.php:155
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:169 functions.php:171
+#, php-format
+msgid "Footer %1$s"
+msgstr ""
+
+#: functions.php:184 functions.php:186
+#, php-format
+msgid "Footer Style 2 : %1$s"
+msgstr ""
+
+#: functions.php:199 functions.php:201
+#, php-format
+msgid "Footer Style 3 : %1$s"
+msgstr ""
+
+#: functions.php:215
+msgid "Service Sidebar"
+msgstr ""
+
+#: functions.php:217
+msgid "Widgets in this area will be shown on Service Details Sidebar."
+msgstr ""
+
+#: functions.php:230
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: functions.php:232
+msgid "Widgets in this area will be shown on Portfolio Details Sidebar."
+msgstr ""
+
+#: functions.php:326
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:408
+msgid "Your Name"
+msgstr ""
+
+#: functions.php:413
+msgid "Your Email"
+msgstr ""
+
+#: functions.php:421
+msgid "Website"
+msgstr ""
+
+#: functions.php:430
+msgid "Write your comment here..."
+msgstr ""
+
+#: functions.php:441
+msgid "Comment *"
+msgstr ""
+
+#: functions.php:445
+msgid "Post Comment"
+msgstr ""
+
+#: functions.php:516
+msgid "Search"
+msgstr ""
+
+#: header.php:37 inc/template-helper.php:919 inc/template-helper.php:925
+#: inc/template-helper.php:941 inc/template-helper.php:957
+msgid "logo"
+msgstr ""
+
+#: header.php:39
+msgid "logo icon"
+msgstr ""
+
+#: inc/add_plugin.php:27
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: inc/add_plugin.php:32
+msgid "Tutor LMS"
+msgstr ""
+
+#: inc/add_plugin.php:37
+msgid "Bdevs Toolkit "
+msgstr ""
+
+#: inc/add_plugin.php:44
+msgid "Bdevs Element "
+msgstr ""
+
+#: inc/add_plugin.php:51
+msgid "WP Classic Editor"
+msgstr ""
+
+#: inc/add_plugin.php:56
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/add_plugin.php:61
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: inc/add_plugin.php:66
+msgid "ACF Photo Gallery Field"
+msgstr ""
+
+#: inc/add_plugin.php:71
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/add_plugin.php:76
+msgid "Mailchimp For WP"
+msgstr ""
+
+#: inc/add_plugin.php:81
+msgid "Kirki Customizer Framework"
+msgstr ""
+
+#: inc/add_plugin.php:86
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/add_plugin.php:102 inc/class-tgm-plugin-activation.php:289
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/add_plugin.php:103 inc/class-tgm-plugin-activation.php:290
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/add_plugin.php:104 inc/class-tgm-plugin-activation.php:292
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/add_plugin.php:105 inc/class-tgm-plugin-activation.php:294
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/add_plugin.php:106 inc/class-tgm-plugin-activation.php:295
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/add_plugin.php:108 inc/class-tgm-plugin-activation.php:298
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/add_plugin.php:113 inc/class-tgm-plugin-activation.php:304
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/add_plugin.php:118 inc/class-tgm-plugin-activation.php:310
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/add_plugin.php:123 inc/class-tgm-plugin-activation.php:316
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/add_plugin.php:128 inc/class-tgm-plugin-activation.php:322
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/add_plugin.php:133 inc/class-tgm-plugin-activation.php:328
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/add_plugin.php:138 inc/class-tgm-plugin-activation.php:333
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/add_plugin.php:143 inc/class-tgm-plugin-activation.php:338
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/add_plugin.php:148 inc/class-tgm-plugin-activation.php:343
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/add_plugin.php:152 inc/class-tgm-plugin-activation.php:347
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/add_plugin.php:153 inc/class-tgm-plugin-activation.php:349
+#: inc/class-tgm-plugin-activation.php:3202
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/add_plugin.php:154 inc/class-tgm-plugin-activation.php:350
+#: inc/class-tgm-plugin-activation.php:2996
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/add_plugin.php:155 inc/class-tgm-plugin-activation.php:352
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/add_plugin.php:156 inc/class-tgm-plugin-activation.php:354
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/add_plugin.php:157 inc/class-tgm-plugin-activation.php:356
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/add_plugin.php:158 inc/class-tgm-plugin-activation.php:357
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/add_plugin.php:159 inc/class-tgm-plugin-activation.php:358
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/add_plugin.php:160 inc/class-tgm-plugin-activation.php:359
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-breadcrumb.php:249
+msgid "Browse:"
+msgstr ""
+
+#: inc/class-breadcrumb.php:250
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/class-breadcrumb.php:252
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/class-breadcrumb.php:253
+msgid "Archives"
+msgstr ""
+
+#: inc/class-breadcrumb.php:255
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/class-breadcrumb.php:257
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/class-breadcrumb.php:259
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: inc/class-breadcrumb.php:261
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/class-breadcrumb.php:263
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/class-breadcrumb.php:744
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/class-breadcrumb.php:763
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/class-breadcrumb.php:782
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/class-breadcrumb.php:800 inc/class-breadcrumb.php:830
+#: inc/class-breadcrumb.php:858 inc/class-breadcrumb.php:886
+#: inc/class-breadcrumb.php:1250
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/class-breadcrumb.php:801 inc/class-breadcrumb.php:859
+#: inc/class-breadcrumb.php:1255
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/class-breadcrumb.php:802 inc/class-breadcrumb.php:1260
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/class-breadcrumb.php:831
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/class-navwalker.php:366
+msgid "Home"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:348
+#: inc/class-tgm-plugin-activation.php:867
+#: inc/class-tgm-plugin-activation.php:2577
+#: inc/class-tgm-plugin-activation.php:3623
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:562
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:563
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:974
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:974
+#: inc/class-tgm-plugin-activation.php:977
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:977
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1163
+#: inc/class-tgm-plugin-activation.php:2992
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:2026
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2317
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2320
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2336
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2339
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2342
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2359
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2363
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2365
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2371
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2374
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2377
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2386
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2432
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2436
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2440
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2444
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2526
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2534
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2542
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2577
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2591
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2592
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2593
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2597
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2598
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2647
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2652
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2658
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2728
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2761
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2767
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2770
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2801
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2803
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2844
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2846
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2952
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2978
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3201
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3541
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3544
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3546
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3550
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3552
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3552
+#: inc/class-tgm-plugin-activation.php:3560
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3552
+#: inc/class-tgm-plugin-activation.php:3560
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3553
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3555
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3558
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3560
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3561
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3563
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/educal-tutor.php:15
+msgid "lessons"
+msgstr ""
+
+#: inc/educal-tutor.php:64 tutor/loop/course-price-woocommerce.php:20
+#: tutor/loop/course-price-woocommerce.php:35 tutor/loop/course-price.php:19
+#: tutor/single/course/wc-price-html.php:30
+msgid "Free"
+msgstr ""
+
+#: inc/educal-tutor.php:79
+msgid "Know Details"
+msgstr ""
+
+#: inc/educal-tutor.php:115
+msgid "Instructor :"
+msgstr ""
+
+#: inc/educal-tutor.php:127
+msgid "Lectures :"
+msgstr ""
+
+#: inc/educal-tutor.php:139
+msgid "Duration :"
+msgstr ""
+
+#: inc/educal-tutor.php:152
+msgid "Enrolled :"
+msgstr ""
+
+#: inc/educal-tutor.php:152
+msgid "students"
+msgstr ""
+
+#: inc/educal-tutor.php:162
+msgid "Course level :"
+msgstr ""
+
+#: inc/educal-tutor.php:176
+msgid "Language :"
+msgstr ""
+
+#: inc/educal-tutor.php:194
+msgid "Payment :"
+msgstr ""
+
+#: inc/educal-tutor.php:213
+msgid "Discription"
+msgstr ""
+
+#: inc/educal-tutor.php:216
+msgid "Curriculum"
+msgstr ""
+
+#: inc/educal-tutor.php:219
+msgid "Reviews"
+msgstr ""
+
+#: inc/educal-tutor.php:222
+msgid "Instructor"
+msgstr ""
+
+#: inc/educal-tutor.php:248
+msgid "Share :"
+msgstr ""
+
+#: inc/kirki-customizer.php:21
+msgid "Educal Customizer"
+msgstr ""
+
+#: inc/kirki-customizer.php:28
+msgid "Header Topbar Setting"
+msgstr ""
+
+#: inc/kirki-customizer.php:36
+msgid "Header Social"
+msgstr ""
+
+#: inc/kirki-customizer.php:44
+msgid "Header Setting"
+msgstr ""
+
+#: inc/kirki-customizer.php:52 inc/kirki-customizer.php:76
+msgid "Blog Setting"
+msgstr ""
+
+#: inc/kirki-customizer.php:60
+msgid "Side Info"
+msgstr ""
+
+#: inc/kirki-customizer.php:68
+msgid "Breadcrumb Setting"
+msgstr ""
+
+#: inc/kirki-customizer.php:84
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/kirki-customizer.php:92
+msgid "Color Setting"
+msgstr ""
+
+#: inc/kirki-customizer.php:100
+msgid "404 Page"
+msgstr ""
+
+#: inc/kirki-customizer.php:108
+msgid "RTL Setting"
+msgstr ""
+
+#: inc/kirki-customizer.php:123
+msgid "Topbar Swicher"
+msgstr ""
+
+#: inc/kirki-customizer.php:128 inc/kirki-customizer.php:141
+#: inc/kirki-customizer.php:154 inc/kirki-customizer.php:167
+#: inc/kirki-customizer.php:180 inc/kirki-customizer.php:193
+#: inc/kirki-customizer.php:405 inc/kirki-customizer.php:501
+#: inc/kirki-customizer.php:541 inc/kirki-customizer.php:646
+#: inc/kirki-customizer.php:659 inc/kirki-customizer.php:779
+msgid "Enable"
+msgstr ""
+
+#: inc/kirki-customizer.php:129 inc/kirki-customizer.php:142
+#: inc/kirki-customizer.php:155 inc/kirki-customizer.php:168
+#: inc/kirki-customizer.php:181 inc/kirki-customizer.php:194
+#: inc/kirki-customizer.php:406 inc/kirki-customizer.php:502
+#: inc/kirki-customizer.php:542 inc/kirki-customizer.php:647
+#: inc/kirki-customizer.php:660 inc/kirki-customizer.php:780
+msgid "Disable"
+msgstr ""
+
+#: inc/kirki-customizer.php:136
+msgid "Show Language"
+msgstr ""
+
+#: inc/kirki-customizer.php:149
+msgid "Preloader On/Off"
+msgstr ""
+
+#: inc/kirki-customizer.php:162
+msgid "Back To Top On/Off"
+msgstr ""
+
+#: inc/kirki-customizer.php:175
+msgid "Header Right On/Off"
+msgstr ""
+
+#: inc/kirki-customizer.php:188
+msgid "Side Info On/Off"
+msgstr ""
+
+#: inc/kirki-customizer.php:201
+msgid "Course Cat Label"
+msgstr ""
+
+#: inc/kirki-customizer.php:203 inc/template-helper.php:71
+#: inc/template-helper.php:199 inc/template-helper.php:421
+#: inc/template-helper.php:552 inc/template-helper.php:655
+msgid "Category"
+msgstr ""
+
+#: inc/kirki-customizer.php:210
+msgid "Course Cat Link"
+msgstr ""
+
+#: inc/kirki-customizer.php:212 inc/kirki-customizer.php:238
+#: inc/kirki-customizer.php:270 inc/kirki-customizer.php:296
+#: inc/kirki-customizer.php:305 inc/kirki-customizer.php:314
+#: inc/kirki-customizer.php:323 inc/kirki-customizer.php:332
+#: inc/kirki-customizer.php:446 inc/template-helper.php:69
+#: inc/template-helper.php:72 inc/template-helper.php:84
+#: inc/template-helper.php:197 inc/template-helper.php:200
+#: inc/template-helper.php:212 inc/template-helper.php:303
+#: inc/template-helper.php:315 inc/template-helper.php:419
+#: inc/template-helper.php:422 inc/template-helper.php:434
+#: inc/template-helper.php:547 inc/template-helper.php:550
+#: inc/template-helper.php:553 inc/template-helper.php:565
+#: inc/template-helper.php:653 inc/template-helper.php:668
+#: inc/template-helper.php:785 inc/template-helper.php:787
+#: inc/template-helper.php:971 inc/template-helper.php:972
+#: inc/template-helper.php:973 inc/template-helper.php:974
+#: inc/template-helper.php:975 inc/template-helper.php:1003
+#: inc/template-helper.php:1004 inc/template-helper.php:1005
+#: inc/template-helper.php:1006 inc/template-helper.php:1007
+msgid "#"
+msgstr ""
+
+#: inc/kirki-customizer.php:220 inc/kirki-customizer.php:252
+#: inc/kirki-customizer.php:436
+msgid "Button Text"
+msgstr ""
+
+#: inc/kirki-customizer.php:222 inc/template-helper.php:79
+#: inc/template-helper.php:81 inc/template-helper.php:310
+#: inc/template-helper.php:312 inc/template-helper.php:429
+#: inc/template-helper.php:431 inc/template-helper.php:560
+#: inc/template-helper.php:562 inc/template-helper.php:663
+#: inc/template-helper.php:665
+msgid "Get A Quote"
+msgstr ""
+
+#: inc/kirki-customizer.php:236 inc/kirki-customizer.php:268
+#: inc/kirki-customizer.php:444
+msgid "Button URL"
+msgstr ""
+
+#: inc/kirki-customizer.php:254 inc/template-helper.php:196
+#: inc/template-helper.php:207 inc/template-helper.php:209
+#: inc/template-helper.php:302 inc/template-helper.php:546
+#: inc/template-helper.php:549
+msgid "Sign Up"
+msgstr ""
+
+#: inc/kirki-customizer.php:294
+msgid "Facebook Url"
+msgstr ""
+
+#: inc/kirki-customizer.php:303
+msgid "Twitter Url"
+msgstr ""
+
+#: inc/kirki-customizer.php:312
+msgid "Linkedin Url"
+msgstr ""
+
+#: inc/kirki-customizer.php:321
+msgid "Instagram Url"
+msgstr ""
+
+#: inc/kirki-customizer.php:330
+msgid "Youtube Url"
+msgstr ""
+
+#: inc/kirki-customizer.php:349
+msgid "Choose Header Style"
+msgstr ""
+
+#: inc/kirki-customizer.php:352 inc/kirki-customizer.php:594
+#: inc/kirki-customizer.php:609
+msgid "Select an option..."
+msgstr ""
+
+#: inc/kirki-customizer.php:355
+msgid "Header Style 1"
+msgstr ""
+
+#: inc/kirki-customizer.php:356
+msgid "Header Style 2"
+msgstr ""
+
+#: inc/kirki-customizer.php:357
+msgid "Header Style 3"
+msgstr ""
+
+#: inc/kirki-customizer.php:364 inc/kirki-customizer.php:373
+msgid "Header Logo"
+msgstr ""
+
+#: inc/kirki-customizer.php:365
+msgid "Upload Your Logo."
+msgstr ""
+
+#: inc/kirki-customizer.php:374
+msgid "Header White Logo"
+msgstr ""
+
+#: inc/kirki-customizer.php:382
+msgid "Favicon"
+msgstr ""
+
+#: inc/kirki-customizer.php:383
+msgid "Favicon Icon"
+msgstr ""
+
+#: inc/kirki-customizer.php:400
+msgid "Show Hamburger On/Off"
+msgstr ""
+
+#: inc/kirki-customizer.php:412 inc/kirki-customizer.php:413
+msgid "Logo Side"
+msgstr ""
+
+#: inc/kirki-customizer.php:420 inc/kirki-customizer.php:422
+msgid "About Us Title"
+msgstr ""
+
+#: inc/kirki-customizer.php:428
+msgid "About Us Desc.."
+msgstr ""
+
+#: inc/kirki-customizer.php:430
+msgid "About Us Desc..."
+msgstr ""
+
+#: inc/kirki-customizer.php:438
+msgid "Contact Us"
+msgstr ""
+
+#: inc/kirki-customizer.php:453 inc/kirki-customizer.php:455
+msgid "Contact Title"
+msgstr ""
+
+#: inc/kirki-customizer.php:461
+msgid "Office Address"
+msgstr ""
+
+#: inc/kirki-customizer.php:463
+msgid "123/A, Miranda City Likaoli Prikano, Dope United States"
+msgstr ""
+
+#: inc/kirki-customizer.php:469
+msgid "Phone Number"
+msgstr ""
+
+#: inc/kirki-customizer.php:471
+msgid "+0989 7876 9865 9"
+msgstr ""
+
+#: inc/kirki-customizer.php:478
+msgid "Email ID"
+msgstr ""
+
+#: inc/kirki-customizer.php:480
+msgid "info@basictheme.net"
+msgstr ""
+
+#: inc/kirki-customizer.php:496
+msgid "Shape Show/Hide"
+msgstr ""
+
+#: inc/kirki-customizer.php:509 inc/kirki-customizer.php:510
+msgid "Breadcrumb Background Image"
+msgstr ""
+
+#: inc/kirki-customizer.php:517
+msgid "Breadcrumb BG Color"
+msgstr ""
+
+#: inc/kirki-customizer.php:518
+msgid "This is a Breadcrumb bg color control."
+msgstr ""
+
+#: inc/kirki-customizer.php:536
+msgid "Blog BTN On/Off"
+msgstr ""
+
+#: inc/kirki-customizer.php:548
+msgid "Blog Button text"
+msgstr ""
+
+#: inc/kirki-customizer.php:550 inc/kirki-customizer.php:558
+msgid "Read More"
+msgstr ""
+
+#: inc/kirki-customizer.php:556
+msgid "Blog Button text rtl"
+msgstr ""
+
+#: inc/kirki-customizer.php:565
+msgid "Blog Title"
+msgstr ""
+
+#: inc/kirki-customizer.php:567 inc/template-helper.php:1561
+#: inc/template-helper.php:1566
+msgid "Blog"
+msgstr ""
+
+#: inc/kirki-customizer.php:574
+msgid "Blog Details Title"
+msgstr ""
+
+#: inc/kirki-customizer.php:576
+msgid "Blog Details"
+msgstr ""
+
+#: inc/kirki-customizer.php:591
+msgid "Choose Footer Style"
+msgstr ""
+
+#: inc/kirki-customizer.php:598
+msgid "Footer Style 1"
+msgstr ""
+
+#: inc/kirki-customizer.php:599
+msgid "Footer Style 2"
+msgstr ""
+
+#: inc/kirki-customizer.php:606
+msgid "Widget Number"
+msgstr ""
+
+#: inc/kirki-customizer.php:613
+msgid "Widget Number 5"
+msgstr ""
+
+#: inc/kirki-customizer.php:614
+msgid "Widget Number 4"
+msgstr ""
+
+#: inc/kirki-customizer.php:615
+msgid "Widget Number 3"
+msgstr ""
+
+#: inc/kirki-customizer.php:616
+msgid "Widget Number 2"
+msgstr ""
+
+#: inc/kirki-customizer.php:623 inc/kirki-customizer.php:624
+msgid "Footer Background Image."
+msgstr ""
+
+#: inc/kirki-customizer.php:631
+msgid "Footer BG Color"
+msgstr ""
+
+#: inc/kirki-customizer.php:632
+msgid "This is a Footer bg color control."
+msgstr ""
+
+#: inc/kirki-customizer.php:641
+msgid "Footer Style 2 On/Off"
+msgstr ""
+
+#: inc/kirki-customizer.php:654
+msgid "Footer Copyright On/Off"
+msgstr ""
+
+#: inc/kirki-customizer.php:667
+msgid "Copy Right"
+msgstr ""
+
+#: inc/kirki-customizer.php:669
+msgid "Copyright &copy; 2021 Theme_Pure. All Rights Reserved"
+msgstr ""
+
+#: inc/kirki-customizer.php:689
+msgid "Theme Color"
+msgstr ""
+
+#: inc/kirki-customizer.php:690
+msgid "This is a Theme color control."
+msgstr ""
+
+#: inc/kirki-customizer.php:698
+msgid "educal Secondary Color"
+msgstr ""
+
+#: inc/kirki-customizer.php:699
+msgid "This is educal secondary color control."
+msgstr ""
+
+#: inc/kirki-customizer.php:707
+msgid "educal Home 4 Theme Color"
+msgstr ""
+
+#: inc/kirki-customizer.php:708
+msgid "This is Home 04 Theme color control."
+msgstr ""
+
+#: inc/kirki-customizer.php:716
+msgid "educal Home 5 Primary Color"
+msgstr ""
+
+#: inc/kirki-customizer.php:717
+msgid "This is Home 05 Primary color control."
+msgstr ""
+
+#: inc/kirki-customizer.php:732
+msgid "400 Text"
+msgstr ""
+
+#: inc/kirki-customizer.php:740
+msgid "Not Found Title"
+msgstr ""
+
+#: inc/kirki-customizer.php:748
+msgid "404 Description Text"
+msgstr ""
+
+#: inc/kirki-customizer.php:750
+msgid ""
+"Oops! The page you are looking for does not exist. It might have been moved "
+"or deleted"
+msgstr ""
+
+#: inc/kirki-customizer.php:756
+msgid "404 Link Text"
+msgstr ""
+
+#: inc/kirki-customizer.php:774
+msgid "RTL On/Off"
+msgstr ""
+
+#: inc/template-functions.php:42
+msgid "Post Tags : "
+msgstr ""
+
+#: inc/template-functions.php:80
+msgid "Image Alt Text"
+msgstr ""
+
+#: inc/template-helper.php:68 inc/template-helper.php:418
+#: inc/template-helper.php:652
+msgid "Try For Free"
+msgstr ""
+
+#: inc/template-helper.php:141 inc/template-helper.php:392
+#: inc/template-helper.php:491
+msgid "Search for products..."
+msgstr ""
+
+#: inc/template-helper.php:729 inc/template-helper.php:812
+msgid "Search..."
+msgstr ""
+
+#: inc/template-helper.php:784
+msgid "Login"
+msgstr ""
+
+#: inc/template-helper.php:786
+msgid "Get Started"
+msgstr ""
+
+#: inc/template-helper.php:803
+msgid "Side Logo"
+msgstr ""
+
+#: inc/template-helper.php:848
+msgid "EN"
+msgstr ""
+
+#: inc/template-helper.php:878
+msgid "USA"
+msgstr ""
+
+#: inc/template-helper.php:879
+msgid "UK"
+msgstr ""
+
+#: inc/template-helper.php:880
+msgid "CA"
+msgstr ""
+
+#: inc/template-helper.php:881
+msgid "AU"
+msgstr ""
+
+#: inc/template-helper.php:1477 inc/template-helper.php:1478
+msgid "image"
+msgstr ""
+
+#: inc/template-helper.php:1542 inc/template-helper.php:1544
+msgid "© 2021 Educal, All Rights Reserved. Design By Theme Pure"
+msgstr ""
+
+#: inc/template-helper.php:1597 inc/template-helper.php:1624
+msgid "Shop"
+msgstr ""
+
+#: inc/template-helper.php:1604
+msgid "Course Details"
+msgstr ""
+
+#: inc/template-helper.php:1607
+msgid "Event Details"
+msgstr ""
+
+#: inc/template-helper.php:1618
+msgid "Search Results for : "
+msgstr ""
+
+#: inc/template-helper.php:1621
+msgid "Page not Found"
+msgstr ""
+
+#: inc/template-helper.php:1687
+msgid "Enter Your Keyword"
+msgstr ""
+
+#: search.php:25
+msgid "Search Results For:"
+msgstr ""
+
+#: single.php:38
+msgid "Prev Post"
+msgstr ""
+
+#: single.php:49
+msgid "Next Post"
+msgstr ""
+
+#: template-parts/content-audio.php:36 template-parts/content-gallery.php:38
+#: template-parts/content-image.php:36 template-parts/content-page.php:5
+#: template-parts/content-search.php:38 template-parts/content-video.php:41
+#: template-parts/content.php:38
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-gallery.php:18 template-parts/content-gallery.php:54
+msgid "gallery image"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:9
+msgid "Page"
+msgstr ""
+
+#: tutor/loop/course-price-woocommerce.php:19 tutor/loop/course-price.php:18
+msgid "Get Enrolled"
+msgstr ""
+
+#: tutor/loop/course-price-woocommerce.php:37
+msgid "Start Learning "
+msgstr ""
+
+#: tutor/public-profile-setting.php:8
+msgid "Public Profile Layout"
+msgstr ""
+
+#: tutor/public-profile-setting.php:28
+msgid "Selected one will be used as public profile layout."
+msgstr ""
+
+#: tutor/single/course/course-enrolled-box.php:49
+msgid "Retake This Course"
+msgstr ""
+
+#: tutor/single/course/course-enrolled-box.php:51
+msgid "Start Course"
+msgstr ""
+
+#: tutor/single/course/course-enrolled-box.php:53
+msgid "Continue Course"
+msgstr ""
+
+#: tutor/single/course/course-enrolled-box.php:77
+#, php-format
+msgid "You have been enrolled on %s."
+msgstr ""
+
+#: tutor/single/course/enrolled/lead-info.php:98
+#: tutor/single/course/lead-info.php:94
+msgid "About Course"
+msgstr ""
+
+#: tutor/single/course/instructors.php:23
+msgid "About the instructors"
+msgstr ""
+
+#: tutor/single/course/instructors.php:23
+msgid "About the instructor"
+msgstr ""
+
+#: tutor/single/course/instructors.php:60 tutor/student-public-profile.php:104
+msgid "Courses"
+msgstr ""
+
+#: tutor/student-public-profile.php:76 tutor/student-public-profile.php:77
+#: tutor/student-public-profile.php:78 tutor/student-public-profile.php:79
+#: tutor/student-public-profile.php:87 tutor/student-public-profile.php:88
+msgid "img"
+msgstr ""
+
+#: tutor/student-public-profile.php:104
+msgid "Course"
+msgstr ""
+
+#: tutor/student-public-profile.php:109
+msgid "Students"
+msgstr ""
+
+#: tutor/student-public-profile.php:109
+msgid "Student"
+msgstr ""
+
+#: tutor/student-public-profile.php:122
+msgid "Courses Enrolled"
+msgstr ""
+
+#: tutor/student-public-profile.php:122
+msgid "Course Enrolled"
+msgstr ""
+
+#: tutor/student-public-profile.php:127
+msgid "Courses Completed"
+msgstr ""
+
+#: tutor/student-public-profile.php:127
+msgid "Course Completed"
+msgstr ""
+
+#: tutor/student-public-profile.php:134
+msgid "Review:"
+msgstr ""
+
+#: tutor/student-public-profile.php:140
+msgid "Follow Us:"
+msgstr ""
+
+#: tutor/student-public-profile.php:149
+msgid "Biography"
+msgstr ""
+
+#: tutor/student-public-profile.php:155
+msgid "Teacher"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Educal"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.devsnews.com/wp/educal/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Educal – Education WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Theme_Pure"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/theme_pure/portfolio"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page Sidebar"
+msgstr ""

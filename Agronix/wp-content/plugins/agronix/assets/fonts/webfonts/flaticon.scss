@@ -1,0 +1,397 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?0e0651b40d7479ed1d64ad32790a70c0") format("truetype"),
+url("./flaticon.woff?0e0651b40d7479ed1d64ad32790a70c0") format("woff"),
+url("./flaticon.woff2?0e0651b40d7479ed1d64ad32790a70c0") format("woff2"),
+url("./flaticon.eot?0e0651b40d7479ed1d64ad32790a70c0#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0e0651b40d7479ed1d64ad32790a70c0#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "grass": "\f101",
+    "grass-1": "\f102",
+    "grain-sack": "\f103",
+    "rice": "\f104",
+    "rice-1": "\f105",
+    "wheat": "\f106",
+    "wheat-sack": "\f107",
+    "salad": "\f108",
+    "fruit": "\f109",
+    "harvest": "\f10a",
+    "cow": "\f10b",
+    "cow-1": "\f10c",
+    "cow-2": "\f10d",
+    "cow-3": "\f10e",
+    "diet": "\f10f",
+    "vegetables": "\f110",
+    "organic-food": "\f111",
+    "house": "\f112",
+    "assets": "\f113",
+    "trailer": "\f114",
+    "tractor": "\f115",
+    "tractor-1": "\f116",
+    "tractor-2": "\f117",
+    "save": "\f118",
+    "ecologism": "\f119",
+    "plant-tree": "\f11a",
+    "sapling": "\f11b",
+    "digging": "\f11c",
+    "shovel": "\f11d",
+    "plant": "\f11e",
+    "wheat-1": "\f11f",
+    "wheat-2": "\f120",
+    "wheat-3": "\f121",
+    "wheat-4": "\f122",
+    "paper-bag": "\f123",
+    "shipped": "\f124",
+    "food-delivery": "\f125",
+    "food-truck": "\f126",
+    "food-truck-1": "\f127",
+    "mill": "\f128",
+    "fields": "\f129",
+    "cow-4": "\f12a",
+    "agronomy": "\f12b",
+    "bucket": "\f12c",
+    "harvest-1": "\f12d",
+    "vegetables-1": "\f12e",
+    "gardening": "\f12f",
+    "vegetable": "\f130",
+    "watering-can": "\f131",
+    "watering-can-1": "\f132",
+    "watering-can-2": "\f133",
+    "watering-can-3": "\f134",
+    "shopping-cart": "\f135",
+    "add-to-cart": "\f136",
+    "shopping-cart-1": "\f137",
+    "shopping-cart-2": "\f138",
+    "tractor-3": "\f139",
+    "crawler": "\f13a",
+    "combine-harvester": "\f13b",
+    "coffee-machine": "\f13c",
+    "coffee-machine-1": "\f13d",
+    "baler": "\f13e",
+    "baler-1": "\f13f",
+    "baler-2": "\f140",
+    "tractor-4": "\f141",
+    "farm-vehicle": "\f142",
+    "lawn-mower": "\f143",
+    "watering-can-4": "\f144",
+    "sickle": "\f145",
+    "green-house": "\f146",
+    "plant-1": "\f147",
+    "gardening-1": "\f148",
+    "pumpkin": "\f149",
+    "pumpkin-1": "\f14a",
+    "trophy": "\f14b",
+    "award": "\f14c",
+    "trophy-1": "\f14d",
+    "medal": "\f14e",
+    "medal-1": "\f14f",
+    "shield": "\f150",
+    "high-quality": "\f151",
+    "price-tag": "\f152",
+    "badge": "\f153",
+    "best-seller": "\f154",
+    "service": "\f155",
+    "farmer": "\f156",
+    "farmer-1": "\f157",
+    "farmer-2": "\f158",
+    "hen": "\f159",
+    "hen-1": "\f15a",
+    "hen-2": "\f15b",
+    "hen-3": "\f15c",
+    "box": "\f15d",
+);
+
+.flaticon-grass:before {
+    content: map-get($flaticon-map, "grass");
+}
+.flaticon-grass-1:before {
+    content: map-get($flaticon-map, "grass-1");
+}
+.flaticon-grain-sack:before {
+    content: map-get($flaticon-map, "grain-sack");
+}
+.flaticon-rice:before {
+    content: map-get($flaticon-map, "rice");
+}
+.flaticon-rice-1:before {
+    content: map-get($flaticon-map, "rice-1");
+}
+.flaticon-wheat:before {
+    content: map-get($flaticon-map, "wheat");
+}
+.flaticon-wheat-sack:before {
+    content: map-get($flaticon-map, "wheat-sack");
+}
+.flaticon-salad:before {
+    content: map-get($flaticon-map, "salad");
+}
+.flaticon-fruit:before {
+    content: map-get($flaticon-map, "fruit");
+}
+.flaticon-harvest:before {
+    content: map-get($flaticon-map, "harvest");
+}
+.flaticon-cow:before {
+    content: map-get($flaticon-map, "cow");
+}
+.flaticon-cow-1:before {
+    content: map-get($flaticon-map, "cow-1");
+}
+.flaticon-cow-2:before {
+    content: map-get($flaticon-map, "cow-2");
+}
+.flaticon-cow-3:before {
+    content: map-get($flaticon-map, "cow-3");
+}
+.flaticon-diet:before {
+    content: map-get($flaticon-map, "diet");
+}
+.flaticon-vegetables:before {
+    content: map-get($flaticon-map, "vegetables");
+}
+.flaticon-organic-food:before {
+    content: map-get($flaticon-map, "organic-food");
+}
+.flaticon-house:before {
+    content: map-get($flaticon-map, "house");
+}
+.flaticon-assets:before {
+    content: map-get($flaticon-map, "assets");
+}
+.flaticon-trailer:before {
+    content: map-get($flaticon-map, "trailer");
+}
+.flaticon-tractor:before {
+    content: map-get($flaticon-map, "tractor");
+}
+.flaticon-tractor-1:before {
+    content: map-get($flaticon-map, "tractor-1");
+}
+.flaticon-tractor-2:before {
+    content: map-get($flaticon-map, "tractor-2");
+}
+.flaticon-save:before {
+    content: map-get($flaticon-map, "save");
+}
+.flaticon-ecologism:before {
+    content: map-get($flaticon-map, "ecologism");
+}
+.flaticon-plant-tree:before {
+    content: map-get($flaticon-map, "plant-tree");
+}
+.flaticon-sapling:before {
+    content: map-get($flaticon-map, "sapling");
+}
+.flaticon-digging:before {
+    content: map-get($flaticon-map, "digging");
+}
+.flaticon-shovel:before {
+    content: map-get($flaticon-map, "shovel");
+}
+.flaticon-plant:before {
+    content: map-get($flaticon-map, "plant");
+}
+.flaticon-wheat-1:before {
+    content: map-get($flaticon-map, "wheat-1");
+}
+.flaticon-wheat-2:before {
+    content: map-get($flaticon-map, "wheat-2");
+}
+.flaticon-wheat-3:before {
+    content: map-get($flaticon-map, "wheat-3");
+}
+.flaticon-wheat-4:before {
+    content: map-get($flaticon-map, "wheat-4");
+}
+.flaticon-paper-bag:before {
+    content: map-get($flaticon-map, "paper-bag");
+}
+.flaticon-shipped:before {
+    content: map-get($flaticon-map, "shipped");
+}
+.flaticon-food-delivery:before {
+    content: map-get($flaticon-map, "food-delivery");
+}
+.flaticon-food-truck:before {
+    content: map-get($flaticon-map, "food-truck");
+}
+.flaticon-food-truck-1:before {
+    content: map-get($flaticon-map, "food-truck-1");
+}
+.flaticon-mill:before {
+    content: map-get($flaticon-map, "mill");
+}
+.flaticon-fields:before {
+    content: map-get($flaticon-map, "fields");
+}
+.flaticon-cow-4:before {
+    content: map-get($flaticon-map, "cow-4");
+}
+.flaticon-agronomy:before {
+    content: map-get($flaticon-map, "agronomy");
+}
+.flaticon-bucket:before {
+    content: map-get($flaticon-map, "bucket");
+}
+.flaticon-harvest-1:before {
+    content: map-get($flaticon-map, "harvest-1");
+}
+.flaticon-vegetables-1:before {
+    content: map-get($flaticon-map, "vegetables-1");
+}
+.flaticon-gardening:before {
+    content: map-get($flaticon-map, "gardening");
+}
+.flaticon-vegetable:before {
+    content: map-get($flaticon-map, "vegetable");
+}
+.flaticon-watering-can:before {
+    content: map-get($flaticon-map, "watering-can");
+}
+.flaticon-watering-can-1:before {
+    content: map-get($flaticon-map, "watering-can-1");
+}
+.flaticon-watering-can-2:before {
+    content: map-get($flaticon-map, "watering-can-2");
+}
+.flaticon-watering-can-3:before {
+    content: map-get($flaticon-map, "watering-can-3");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon-map, "shopping-cart");
+}
+.flaticon-add-to-cart:before {
+    content: map-get($flaticon-map, "add-to-cart");
+}
+.flaticon-shopping-cart-1:before {
+    content: map-get($flaticon-map, "shopping-cart-1");
+}
+.flaticon-shopping-cart-2:before {
+    content: map-get($flaticon-map, "shopping-cart-2");
+}
+.flaticon-tractor-3:before {
+    content: map-get($flaticon-map, "tractor-3");
+}
+.flaticon-crawler:before {
+    content: map-get($flaticon-map, "crawler");
+}
+.flaticon-combine-harvester:before {
+    content: map-get($flaticon-map, "combine-harvester");
+}
+.flaticon-coffee-machine:before {
+    content: map-get($flaticon-map, "coffee-machine");
+}
+.flaticon-coffee-machine-1:before {
+    content: map-get($flaticon-map, "coffee-machine-1");
+}
+.flaticon-baler:before {
+    content: map-get($flaticon-map, "baler");
+}
+.flaticon-baler-1:before {
+    content: map-get($flaticon-map, "baler-1");
+}
+.flaticon-baler-2:before {
+    content: map-get($flaticon-map, "baler-2");
+}
+.flaticon-tractor-4:before {
+    content: map-get($flaticon-map, "tractor-4");
+}
+.flaticon-farm-vehicle:before {
+    content: map-get($flaticon-map, "farm-vehicle");
+}
+.flaticon-lawn-mower:before {
+    content: map-get($flaticon-map, "lawn-mower");
+}
+.flaticon-watering-can-4:before {
+    content: map-get($flaticon-map, "watering-can-4");
+}
+.flaticon-sickle:before {
+    content: map-get($flaticon-map, "sickle");
+}
+.flaticon-green-house:before {
+    content: map-get($flaticon-map, "green-house");
+}
+.flaticon-plant-1:before {
+    content: map-get($flaticon-map, "plant-1");
+}
+.flaticon-gardening-1:before {
+    content: map-get($flaticon-map, "gardening-1");
+}
+.flaticon-pumpkin:before {
+    content: map-get($flaticon-map, "pumpkin");
+}
+.flaticon-pumpkin-1:before {
+    content: map-get($flaticon-map, "pumpkin-1");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon-map, "trophy");
+}
+.flaticon-award:before {
+    content: map-get($flaticon-map, "award");
+}
+.flaticon-trophy-1:before {
+    content: map-get($flaticon-map, "trophy-1");
+}
+.flaticon-medal:before {
+    content: map-get($flaticon-map, "medal");
+}
+.flaticon-medal-1:before {
+    content: map-get($flaticon-map, "medal-1");
+}
+.flaticon-shield:before {
+    content: map-get($flaticon-map, "shield");
+}
+.flaticon-high-quality:before {
+    content: map-get($flaticon-map, "high-quality");
+}
+.flaticon-price-tag:before {
+    content: map-get($flaticon-map, "price-tag");
+}
+.flaticon-badge:before {
+    content: map-get($flaticon-map, "badge");
+}
+.flaticon-best-seller:before {
+    content: map-get($flaticon-map, "best-seller");
+}
+.flaticon-service:before {
+    content: map-get($flaticon-map, "service");
+}
+.flaticon-farmer:before {
+    content: map-get($flaticon-map, "farmer");
+}
+.flaticon-farmer-1:before {
+    content: map-get($flaticon-map, "farmer-1");
+}
+.flaticon-farmer-2:before {
+    content: map-get($flaticon-map, "farmer-2");
+}
+.flaticon-hen:before {
+    content: map-get($flaticon-map, "hen");
+}
+.flaticon-hen-1:before {
+    content: map-get($flaticon-map, "hen-1");
+}
+.flaticon-hen-2:before {
+    content: map-get($flaticon-map, "hen-2");
+}
+.flaticon-hen-3:before {
+    content: map-get($flaticon-map, "hen-3");
+}
+.flaticon-box:before {
+    content: map-get($flaticon-map, "box");
+}

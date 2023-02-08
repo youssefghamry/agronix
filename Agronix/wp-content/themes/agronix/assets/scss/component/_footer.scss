@@ -1,0 +1,322 @@
+@use '../abstract' as *;
+/*----------------------------------------*/
+/*  17. Footer
+/*----------------------------------------*/
+
+.footer-title{
+    font-size: 20px;
+    line-height: 40px;
+    color: $white;
+}
+
+.footer-title-white{
+    color: $white;
+}
+.footer-title-h1{ color: $secondary-color;}
+
+.footer-title-h3 { color: $h3-primary-color;}
+
+.footer-sm-title{
+    @media #{$sm,$xs,} {
+        color: $white;
+    } 
+}
+
+.footer-social-icon{
+    & a{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: $border;
+        border: 1px solid #abb7a7;
+        border-radius: 30px;
+        transition: .3s;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        &:hover{
+            color: $primary-color;
+            background: $white;
+            border-color: $white;
+        }
+    }
+}
+.social-icon-title{
+    font-size: 14px;
+    line-height: 30px;
+    color: $white;
+    text-transform: uppercase;
+    font-family: $roboto;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.footer-widget{
+    & p{
+        font-size: 18px;
+        line-height: 30px;
+        color: $footer-text;
+    }
+}
+
+div.footer-widget ul li a{
+    font-size: 16px;
+    line-height: 40px;
+    color: $footer-text;
+    transition: .3s;
+    &:hover{
+        color: $white;
+    }
+}
+
+.footer-style-1.footer-widget ul li a{ 
+    color: #777777;
+    @media #{$sm,$xs} {
+        color: #abb7a7;
+    }
+    &:hover{
+        color: $secondary-color;
+        @media #{$sm,$xs} {
+            color: $white;
+        }
+    }
+}
+
+.footer-widget.footer-widget-3 ul li a{ 
+    color: #777777;
+    transition: .3s;
+    @media #{$sm,$xs} {
+        color: #dfcdb9;
+    }
+    &:hover{
+        color: $h3-primary-color;
+        @media #{$sm,$xs} {
+            color: $common-color;
+        }
+    }
+}
+
+.footer-menu-c li{  
+    width: 50%;
+    float: left;
+
+    @media #{$xs}{
+        width: 100%;
+        float: none;
+    }
+}
+
+.footer-subsccribe{
+    & form{
+       & button{
+            background: $common-color;
+            color: $secondary-color;
+            cursor: pointer;
+            border-radius: 0;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            line-height: 60px;
+            text-align: center;
+            text-transform: uppercase;
+            touch-action: manipulation;
+            transition: .3s;
+            vertical-align: middle;
+            white-space: nowrap;
+            border: 1px solid transparent;
+            transition: .3s;
+            width: 100%;
+            &:hover{
+                color: $common-color;
+                background: $white;
+                border: 1px solid $white;
+            }
+        }
+    }
+}
+
+.footer-subsccribe input{
+    padding: 10px 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 40px;
+    width: 100%;
+    color: #000;
+    border: none;
+    outline: none;
+    background: $white;
+}
+.footer-subsccribe input::placeholder {
+    color: #999999;
+    font-size: 16px;
+    opacity: 1;
+}
+
+.copy-right-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: $secondary-color;
+    & a{
+        font-weight: 600;
+    }
+    @media #{$sm, $xs}{
+        text-align: center;
+    }
+}
+
+.useful_link{
+    text-align: right;
+
+    @media #{$sm, $xs}{
+        text-align: center;
+    }
+    & ul{
+        & li{
+            display: inline-block;
+            margin-right: 20px;
+            &:last-child{
+                margin-right: 0;
+            }
+            & a{
+                color: $secondary-color;
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+//footer-features
+.footer-features{
+    padding: 20px 30px;
+    padding-bottom: 0;
+}
+
+.footer-features-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media #{$md,$sm,$xs} {
+        justify-content: flex-start;
+    }  
+    & i{
+        font-size: 50px;
+        color: $primary-color;
+        margin-right: 15px;
+    }
+}
+
+.footer-features-title{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.footer-top-2{
+    position: relative;
+    &::before{
+        position: absolute;
+        height: 100%;
+        width: 40%;
+        background: $secondary-color;
+        content: '';
+        top: 0;
+        left: 0;
+        z-index: -1;
+        @media #{$sm,$xs} {
+            width: 100%;
+        } 
+    }
+    &::after{
+        position: absolute;
+        height: 100%;
+        width: 60%;
+        background: $h1-primary-color;
+        content: '';
+        top: 0;
+        right: 0;
+        z-index: -1;
+        @media #{$sm,$xs} {
+            width: 0;
+        }
+    }
+}
+
+
+
+.md-widget{
+    @media #{$md} {
+        margin-top: 0px;
+    }
+}
+
+.copy-right-text-1{
+    font-size: 14px;
+    line-height: 30px;
+    color: $secondary-color;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+.payment-img img {
+    width: 100%;
+}
+
+//fotter-3
+.footer-top-3{
+    position: relative;
+    &::before{
+        position: absolute;
+        height: 100%;
+        width: 40%;
+        background: $h3-primary-color;
+        content: '';
+        top: 0;
+        left: 0;
+        z-index: -1;
+        @media #{$sm,$xs} {
+            width: 100%;
+        } 
+    }
+    &::after{
+        position: absolute;
+        height: 100%;
+        width: 60%;
+        background: $white;
+        content: '';
+        top: 0;
+        right: 0;
+        z-index: -1;
+        @media #{$sm,$xs} {
+            width: 0;
+        } 
+    }
+}
+
+.footer-social-icon-3 a{
+    border: 1px solid #b0885c;
+    &:hover{
+        color: $h3-primary-color;
+        border-color: $white;
+    }
+}
+
+.footer-widget.footer-col-3-1 p{
+    color: #dfcdb9;
+}
+
+.copy-right-text-2{
+    color: $white;
+}
+
+
+.footer-features-item-h3 i{ color: $h3-primary-color;}
+
+.footer-features-title-h3{ color: $h3-primary-color;}
+
+
+

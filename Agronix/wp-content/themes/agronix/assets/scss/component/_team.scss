@@ -1,0 +1,193 @@
+@use '../abstract' as *;
+/*----------------------------------------*/
+/*  15. Team
+/*----------------------------------------*/
+
+.team_thumb{
+    overflow: hidden;
+    & img{ width: 100%; transition: .3s;}
+}
+.single_team:hover .team_thumb img{ transform: scale(1.1);}
+
+.member-info{
+    padding: 15px 30px;
+    padding-bottom: 20px;
+}
+.member-info-2{
+    background: $h1-primary-color;
+}
+
+.member-designation{
+    font-size: 16px;
+    line-height: 45px;
+    font-family: $grace;
+    color: $h3-common-color;
+}
+.member-designation-tp{ 
+    color: #999999;
+}
+
+.member_name{
+    font-size: 24px;
+    line-height: 30px;
+    color:$h3-primary-color;
+    font-family: $parta;
+    transition: .3s;
+    &:hover{
+        color: $h3-common-color;
+    }
+}
+
+.member_name-tp{ color: $secondary-color;}
+
+.member_social{
+    & a{
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        background: $white;
+        line-height: 40px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        color: $h3-primary-color;
+        text-align: center;
+        transition: .3s;
+        &:last-child{
+            margin-right: 0;
+        }
+        &:hover{
+            background: $h3-primary-color;
+            color: $white;
+        }
+    }
+}
+
+.member_social-tp{
+    & a{
+        color: $secondary-color;
+        &:hover{
+            background: $primary-color;
+            color: $white;
+        }
+    }
+}
+
+//member-details
+
+.member-d-image{
+    margin-right: 10px;
+    & img { width: 100%;}
+} 
+.member-bio-degination{ font-size: 16px; line-height: 24px; color: $h1-text-color;}
+
+.member-bio-name{font-size: 60px; line-height: 85px;}
+
+.contact-item{ 
+    display: flex;
+    align-items: center;
+    & i{
+        font-size: 20px;
+        color: $primary-color;
+        height: 50px;
+        width: 50px;
+        border: 2px solid #e7e7e7;
+        line-height: 45px;
+        text-align: center;
+        margin-right: 30px;
+        box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
+    }
+}
+
+.member-btn{
+    display: flex;
+    align-items: center;
+   & i{        
+        font-size: 20px;
+        color: $primary-color;
+        height: 60px;
+        width: 60px;
+        border: 2px solid #e7e7e7;
+        line-height: 55px;
+        text-align: center;
+        box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
+        margin-left: 20px;
+    }
+}
+
+.member-c-btn{
+    padding: 20px 40px;
+}
+
+.address span{ font-size: 14px; line-height: 28px; color: #777777;}
+
+.address-info{font-size: 20px; line-height: 28px;}
+
+.member-bio{ 
+    margin-left: 50px;
+    @media #{$md,$sm,$xs} {
+        margin-left: 0;
+    } 
+}
+
+
+//skill area
+.member-skill{
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.skill-title{ font-size: 26px; line-height: 30px;}
+
+.skill-sub-title{ 
+    display: flex;
+    justify-content: space-between;
+    & h5{
+        font-size: 18px;
+        line-height: 35px;
+        color: $primary-color;
+    }
+    & .skill-sub-title-left{  color: $secondary-color;}
+}
+
+.progress-line{ 
+    height: 15px;
+    border-radius: 0;
+    background-color: transparent;
+    position: relative;
+    padding-bottom: 8px;
+    &::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: #ececec;
+        bottom: 0;
+    }
+}
+
+.progress-bar-td{ background: $primary-color; transition: all 2s ease-out 0s;}
+
+//guideline 
+.guideline-title{
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.guideline-content{ 
+    margin-right: 60px;
+    @media #{$md,$sm,$xs} {
+        margin-right: 0;
+    } 
+    & p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+.guideline-image img{ 
+    width: 100%; 
+    margin-left: 30px;
+    @media #{$custome2,$lg,$md,$sm,$xs} {
+        margin-left: 0;
+    } 
+}

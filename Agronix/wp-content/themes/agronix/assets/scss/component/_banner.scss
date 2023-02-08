@@ -1,0 +1,205 @@
+@use '../abstract' as *;
+/*----------------------------------------*/
+/*  06. Banner
+/*----------------------------------------*/
+
+.banner-area{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+}
+
+.banner-content-inner {
+	position: relative;
+	z-index: 3;
+}
+
+.banner-content {
+	position: relative;
+	background: $primary-color;
+	border: 4px solid #FFF;
+	color: $primary-color;
+}
+
+.banner-content::before {
+	position: absolute;
+	content: "";
+	width: calc(100% + 32px);
+	height: calc(100% + 0px);
+	background: $primary-color;
+	left: -16px;
+	bottom: -16px;
+	z-index: -1;
+}
+
+.banner-bg-shape{
+    position: absolute;
+    top: 65px;
+    right: 15px;
+    z-index: -1;
+    & i{
+        font-size: 280px;
+        color: #e4e4e421;
+    }
+}
+
+.banner-info{
+    padding-bottom: 50px;
+    position: relative;
+    & p{
+        font-size: 14px;
+        color: $white;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+}
+
+.banner-title-2{
+    font-size: 80px;
+    line-height: 1.1;
+    color: $white;
+}
+
+span.banner-logo {
+    margin-bottom: 0;
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    width: 150px;
+}
+
+span.banner-logo:before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 150px;
+    background: #5b8c51;
+    z-index: -1;
+    top: 40px;
+    left: 0;
+    transform: translateY(-50%);
+    border: 4px solid #fff;
+    border-radius: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+}
+
+.banner-content-2{
+    @media #{$md,$sm,$xs}{
+        padding-left: 0;
+    }
+    background: none;
+    border: none;
+    padding-left: 60px;
+    margin: 0;
+    &::before{
+        display: none;
+    }
+    & .banner-shape-bg{
+        @media #{$md} {
+            right: -30px;
+        }
+        @media #{$xs}{
+            left: 0;
+            right: 0;
+            top: -20%;
+            text-align: center;
+        }
+        position: absolute;
+        top: -125px;
+        right: -55px;
+        z-index: -1;
+        & img{
+            @media #{$xs} {
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+    & .banner-play-icon{
+        margin-left: 20px;
+    }
+    & .baner-icon{
+        & i{
+            font-size: 30px;
+            color: $primary-color;
+        }
+    }
+    & .banner-info{
+        & img{
+            margin-bottom: 20px;
+        }
+        & p{
+            color: $p;
+            @media #{$xs} {
+                color: $common-color;
+            }
+        }
+
+    }
+}
+
+.banner-button{
+    @media #{$xs}{
+        margin-top: 110px;
+    }
+}
+
+.banner-title{
+    font-size: 58px;
+    line-height: 70px;
+    color: $secondary-color;
+    @media #{$xs} {
+        font-size: 35px;
+        line-height: 55px;
+        color: $white;
+    } 
+}
+
+.banner-title-h1{
+    @media #{$md} {
+        font-size: 45px;
+    }
+    @media #{$xs}{
+        font-size: 24px;
+        line-height: 35px;
+        color: #5b8c51;
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    @media #{$xxs}{
+        font-size: 25px;
+    } 
+}
+
+.col-xm{
+    @media #{$sm} {
+        width: 95.333%;
+    } 
+}
+
+.banner-content-h3{
+    background: none;
+    border: none;
+    &::before{
+        background: none;
+    }
+    & p{
+        font-size: 20px;
+        line-height: 14px;
+        font-family: $grace;
+        color: $white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-bottom: 25px;
+    }
+}
+
+.banner-title-h3{
+    font-size: 120px;
+    line-height: 120px;
+    text-transform: uppercase;
+}
+
+

@@ -1,0 +1,74 @@
+@use '../abstract' as *;
+/*----------------------------------------*/
+/*  03. Counter
+/*----------------------------------------*/
+
+.tp-counter-overlay{
+    padding-top:40px;
+    z-index: 1;
+}
+.tp-counter-bg-image img {
+	width: 100%;
+}
+
+.tp-counter-bg-text{
+    overflow: hidden;
+    padding-bottom: 115px;
+    & h2{
+        font-size: 300px;
+        line-height: 90px;
+        font-family: $parta;
+        text-align: center;
+        color: #f0f0f0;
+        margin-top: 55px;
+    }
+}
+
+.tp-counter-itemes {
+    margin-top: -580px;
+    @media #{$custome1} {
+        margin-top: -620px;
+    } 
+}
+
+.tp-counter__item{
+    text-align: center;
+    padding: 50px 10px;
+    background: $white;
+    box-shadow: 0px 40px 80px 0px rgba(0, 0, 0, 0.06);
+    & i{
+        font-size: 70px;
+        color: $primary-color;
+    }
+    & .tp-counter__text{
+        & h4{
+            & span{
+                font-size: 60px;
+                line-height: 40px;
+                font-family: $parta;
+                color: $secondary-color;
+                display: block;
+                @media #{$custome1,$lg,$md,$sm,$xs} {
+                    font-size: 50px;
+                } 
+            }
+            position: relative;
+            &::before{
+                position: absolute;
+                content: '';
+                width: 1px;
+                height: 50px;
+                background: $common-color;
+                top: -200%;
+                right: 0;
+                left: 0;
+                margin: 0 auto;
+            }
+        }
+        & span{
+            font-size: 16px;
+            color: $p;
+            text-transform: capitalize;
+        }
+    }
+}

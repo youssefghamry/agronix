@@ -1,0 +1,3050 @@
+# Translation of Plugins - Backup Migration - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - Backup Migration - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-21 13:51:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ar\n"
+"Project-Id-Version: Plugins - Backup Migration - Stable (latest release)\n"
+
+#: includes/zipper/src/zip.php:818
+msgid "Extracting files into temporary directory (this process can take some time)..."
+msgstr "استخراج الملفات إلى دليل مؤقت (قد تستغرق هذه العملية بعض الوقت) ..."
+
+#: includes/extracter/extract.php:1466
+msgid "Ommiting database convert step as there is no database backup included."
+msgstr "حذف خطوة تحويل قاعدة البيانات حيث لا توجد نسخة احتياطية لقاعدة البيانات."
+
+#: includes/extracter/extract.php:1461
+msgid "The process may be less stable if the database is larger than usual."
+msgstr "قد تكون العملية أقل استقرارًا إذا كانت قاعدة البيانات أكبر من المعتاد."
+
+#: includes/extracter/extract.php:1460
+msgid "Ommiting database convert step as the database backup included was not made with V2 engine."
+msgstr "حذف خطوة تحويل قاعدة البيانات حيث أن النسخة الاحتياطية لقاعدة البيانات لم يتم إجراؤها باستخدام محرك V2."
+
+#: includes/extracter/extract.php:1447
+msgid "Table count to be imported: "
+msgstr "عدد الجدول المراد استيراده:"
+
+#: includes/extracter/extract.php:1446
+msgid "Total size of the database: "
+msgstr "الحجم الإجمالي لقاعدة البيانات:"
+
+#: includes/extracter/extract.php:1445
+msgid "Partial files count after conversion: "
+msgstr "عدد الملفات الجزئية بعد التحويل:"
+
+#: includes/extracter/extract.php:1444
+msgid "Total queries to insert after conversion: "
+msgstr "إجمالي الاستعلامات المطلوب إدراجها بعد التحويل:"
+
+#: includes/extracter/extract.php:1442
+msgid "Calculaion completed, printing details."
+msgstr "اكتمل الحساب ، تفاصيل الطباعة."
+
+#: includes/extracter/extract.php:1440
+msgid "Calculating new query size and counts."
+msgstr "حساب حجم وأعداد الاستعلام الجديدة."
+
+#: includes/extracter/extract.php:1438
+msgid "Database convertion finished successfully."
+msgstr "انتهى تحويل قاعدة البيانات بنجاح."
+
+#: includes/extracter/extract.php:1404
+msgid "Converting database files into partial files."
+msgstr "تحويل ملفات قاعدة البيانات إلى ملفات جزئية."
+
+#: includes/extracter/extract.php:1394
+msgid "Splitting process is disabled in the settings, omitting."
+msgstr "تم تعطيل عملية التقسيم في الإعدادات ، مع الحذف."
+
+#: includes/extracter/extract.php:794
+msgid "Checking the database structure..."
+msgstr "جاري التحقق من بنية قاعدة البيانات ..."
+
+#: includes/extracter/extract.php:618
+msgid "All files restored successfully."
+msgstr "تمت استعادة جميع الملفات بنجاح."
+
+#: includes/dashboard/chapter/other_config.php:412
+msgid "Enable SQL-Splitting for migration process."
+msgstr "تمكين تقسيم SQL لعملية الترحيل."
+
+#: includes/dashboard/chapter/other_config.php:387
+msgid "Queries per batch for import/export: "
+msgstr "استعلامات لكل دفعة للاستيراد/التصدير:"
+
+#: includes/dashboard/chapter/other_config.php:380
+msgid "database"
+msgstr "قاعدة البيانات"
+
+#: includes/dashboard/chapter/other_config.php:380
+msgid "Adjust queries amount per batch for your "
+msgstr "ضبط مقدار الاستعلامات لكل دفعة لملف"
+
+#: includes/dashboard/chapter/other_config.php:18
+msgid "This will split the SQL files (before migration or restore) into parts, which should make the process more stable and also allows to track the progress more precisely."
+msgstr "سيؤدي هذا إلى تقسيم ملفات SQL (قبل الترحيل أو الاستعادة) إلى أجزاء ، مما يجعل العملية أكثر استقرارًا ويسمح أيضًا بتتبع التقدم بشكل أكثر دقة."
+
+#: includes/ajax.php:1517
+msgid "The value for query amount cannot be larger than 15000."
+msgstr "لا يمكن أن تكون قيمة مبلغ الاستعلام أكبر من 15000."
+
+#: includes/ajax.php:1516
+msgid "The value for query amount cannot be smaller than 15."
+msgstr "لا يمكن أن تكون قيمة مبلغ الاستعلام أقل من 15."
+
+#: includes/ajax.php:1074
+msgid "Restore process initialized successfully."
+msgstr "تمت تهيئة عملية الاستعادة بنجاح."
+
+#: includes/ajax.php:572 includes/extracter/extract.php:1406
+msgid "Max rows per query (this site): "
+msgstr "أقصى عدد للصفوف لكل استعلام (هذا الموقع):"
+
+#: includes/extracter/extract.php:602
+msgid "Restoring files (this process may take a while)..."
+msgstr "استعادة الملفات (قد تستغرق هذه العملية بعض الوقت) ..."
+
+#: includes/database/smart-sort.php:542
+msgid "Finished part %part% of %table% table."
+msgstr "تم الانتهاء من الجزء %part% of %table% table."
+
+#: includes/database/smart-sort.php:405
+msgid "Starting conversion of: %s table."
+msgstr "بدء تحويل: %s table."
+
+#: includes/database/smart-sort.php:358
+msgid "Finished %progress%: %filename% table, total of %parts% parts."
+msgstr "تم الانتهاء من %progress%: %filename% table, total of %parts% parts."
+
+#: includes/database/better-restore.php:374
+msgid "Tables replaced successfully."
+msgstr "تم استبدال الجداول بنجاح."
+
+#: includes/database/better-restore.php:362
+msgid "Switching tables to new ones and removing old ones."
+msgstr "تبديل الجداول بأخرى جديدة وإزالة القديمة."
+
+#: includes/dashboard/translations.php:162
+msgid "The process should be stopped now."
+msgstr "يجب أن تتوقف العملية الآن."
+
+#: includes/dashboard/translations.php:159
+msgid "Stopping the process, it will be confirmed..."
+msgstr "وقف العملية سيتم تأكيدها ..."
+
+#: includes/dashboard/translations.php:156
+msgid "We could not stop the process due to some issues on your server (maybe file permissions)."
+msgstr "لم نتمكن من إيقاف العملية بسبب بعض المشكلات على خادمك (ربما أذونات الملف)."
+
+#: includes/dashboard/chapter/troubleshooting.php:224
+msgid "* If the process is still running after killing, that means it probably still running (for real), wait a bit for it to fail then."
+msgstr "* إذا كانت العملية لا تزال جارية بعد القتل ، فهذا يعني أنها ربما لا تزال جارية (حقيقية) ، انتظر قليلاً حتى تفشل بعد ذلك."
+
+#: includes/dashboard/chapter/troubleshooting.php:221
+msgid "Force the restoration to stop."
+msgstr "إجبار الاستعادة على التوقف."
+
+#: includes/dashboard/chapter/troubleshooting.php:219
+msgid "If you are sure the restore process is not running but you can't run it: "
+msgstr "إذا كنت متأكدًا من أن عملية الاستعادة لا تعمل ولكن لا يمكنك تشغيلها:"
+
+#: includes/dashboard/chapter/troubleshooting.php:216
+msgid "Force the process to stop."
+msgstr "إجبار العملية على التوقف."
+
+#: includes/dashboard/chapter/troubleshooting.php:214
+msgid "If you are sure the backup process is not running but you can't run it: "
+msgstr "إذا كنت متأكدًا من أن عملية النسخ الاحتياطي لا تعمل ولكن لا يمكنك تشغيلها:"
+
+#: includes/dashboard/chapter/troubleshooting.php:210
+msgid "Backup/restore process issues"
+msgstr "مشاكل عملية النسخ الاحتياطي/الاستعادة"
+
+#: includes/dashboard/chapter/store_config.php:51
+msgid "16 character random hash"
+msgstr "تجزئة عشوائية مكونة من 16 حرفًا"
+
+#: includes/dashboard/chapter/what_backed_up.php:249
+#: includes/dashboard/chapter/what_backed_up.php:273
+msgid "You can use there constant %s as your root path."
+msgstr "يمكنك إستخدام هناك %s ثابتًا كمسار جذرك."
+
+#: includes/zipper/src/zip.php:713
+msgid "ZipArchive is not available, using PclZIP."
+msgstr "ZipArchive غير متوفر، إستخدام PclZIP."
+
+#: includes/zipper/src/zip.php:696
+msgid "Using ZipArchive, omiting memory limit calculations..."
+msgstr "بإستخدام ZipArchive، حذف حسابات حد الذاكرة …"
+
+#: includes/extracter/extract.php:1229
+msgid "File extraction process failed."
+msgstr "فشلت عملية إستخراج الملف."
+
+#: includes/extracter/extract.php:1176
+msgid "Secret key detected successfully (pong)!"
+msgstr "تم إكتشاف المفتاح السري بنجاح (pong)!"
+
+#: includes/extracter/extract.php:1134
+msgid " files inside the backup."
+msgstr "الملفات الموجودة داخل النسخة الاحتياطية."
+
+#: includes/extracter/extract.php:1134
+msgid "Scan found "
+msgstr "وجد المسح"
+
+#: includes/extracter/extract.php:1121
+msgid "Secret key generated, it will be returned to you (ping)."
+msgstr "تم إنشاء المفتاح السري، وسيتم إعادته إليك (ping)."
+
+#: includes/extracter/extract.php:1118
+msgid "Making new secret key for current restore process."
+msgstr "عمل مفتاح سري جديد لعملية الإستعادة الحالية."
+
+#: includes/extracter/extract.php:846
+msgid "This backup does not contain database copy, omitting..."
+msgstr "لا تحتوي هذه النسخة الاحتياطية على نسخة من قاعدة البيانات، إغفال …"
+
+#: includes/extracter/extract.php:505
+msgid "Extraction milestone: "
+msgstr "مرحلة الإستخراج:"
+
+#: includes/extracter/extract.php:493
+msgid "Failed to extract the files..."
+msgstr "فشل إستخراج الملفات …"
+
+#: includes/extracter/extract.php:460
+msgid "Files exported per batch: "
+msgstr "الملفات التي تم تصديرها لكل دفعة:"
+
+#: includes/extracter/extract.php:459
+msgid "Preparing batching technique for extraction..."
+msgstr "جارٍ تحضير تقنية الخلط للإستخراج …"
+
+#: includes/dashboard/chapter/other_config.php:343
+msgid "Disable PHP CLI Checking, try to use alternate methods."
+msgstr "قم بتعطيل فحص PHP CLI، حاول إستخدام طرق بديلة."
+
+#: includes/dashboard/chapter/other_config.php:335
+msgid "Please leave it empty if you do not know what you are doing, unless our support told you what it does."
+msgstr "يرجى تركه فارغًا إذا كنت لا تعرف ما تفعله، ما لم يخبرك دعمنا بما يفعله."
+
+#: includes/dashboard/chapter/other_config.php:334
+msgid "This field has no effect if PHP CLI is not available on the server or it is disabled due to settings."
+msgstr "هذا الحقل ليس له أي تأثير إذا لم يكن PHP CLI متاحًا على الخادم أو تم تعطيله بسبب الإعدادات."
+
+#: includes/dashboard/chapter/other_config.php:331
+msgid "Automatic"
+msgstr "تلقائي"
+
+#: includes/dashboard/chapter/other_config.php:326
+msgid "PHP CLI executable path:"
+msgstr "مسار PHP CLI القابل للتنفيذ:"
+
+#: includes/dashboard/chapter/other_config.php:321
+msgid "Backup & Restore – PHP CLI Settings (advanced)"
+msgstr "النسخ الإحتياطي والإستعادة - إعدادات PHP CLI (متقدمة)"
+
+#: includes/ajax.php:1515
+msgid "Path to executable that you provided for PHP CLI does not exist."
+msgstr "المسار إلى الملف التنفيذي الذي قدمته لـ PHP CLI غير موجود."
+
+#: includes/ajax.php:1204
+msgid "Restore process is currently running, please wait till it complete."
+msgstr "عملية الإستعادة قيد التشغيل حاليًا، يرجى الإنتظار حتى تكتمل."
+
+#: includes/ajax.php:1020
+msgid "Restore process initialized, restoring (non-cli mode)..."
+msgstr "تمت تهيئة عملية الإستعادة، إستعادة (non-cli mode) …"
+
+#: includes/ajax.php:535
+msgid "PHP CLI file cannot be executed due to unknown reason."
+msgstr "لا يمكن تنفيذ ملف PHP CLI لسبب غير معروف."
+
+#: includes/ajax.php:130
+msgid "PHP CLI is disabled manually, plugin will omit all PHP CLI steps."
+msgstr "تم تعطيل PHP CLI يدويًا، وسيحذف المكون الإضافي جميع خطوات PHP CLI."
+
+#: includes/extracter/extract.php:624
+msgid "Older backup detected, using V1 engine to restore database..."
+msgstr "تم إكتشاف نسخة إحتياطية أقدم، جار إستخدام محرك V1 لإستعادة قاعدة البيانات..."
+
+#: includes/extracter/extract.php:722
+msgid "Successfully detected backup created with V2 engine, importing..."
+msgstr "تم الإكتشاف بنجاح نسخة إحتياطية تم إنشاؤها بواسطة محرك V2، جار الإستيراد..."
+
+#: includes/ajax.php:1328
+msgid "Downloading via PHP CLI"
+msgstr "جار التحميل عبر PHP CLI"
+
+#: includes/ajax.php:1017
+msgid "PHP CLI: Restore process initialized, restoring..."
+msgstr "PHP CLI: بدء عملية الإستعادة، جار الإستعادة..."
+
+#: includes/ajax.php:989
+msgid "No response from PHP CLI - plugin will try to recover the migration with traditional restore."
+msgstr "لا يوجد إستجابة من PHP CLI - سيحاول المكون الإضافي إستعادة الترحيل من خلال الإستعادة التقليدي."
+
+#: includes/ajax.php:937
+msgid "The restore process is currently running, please wait till it end or once the lock file expire."
+msgstr "عملية الإستعادة قيد التشغيل، يرجى الإنتظار حتى انتهائها أو بمجرد إنتهاء صلاحة ملف القفل."
+
+#: includes/ajax.php:545
+msgid "Backup via PHP CLI initialized successfully."
+msgstr "تم بدء النسخ الإحتياطي عبر PHP CLI بنجاح."
+
+#: includes/ajax.php:533
+msgid "PHP CLI will not run due to user settings in plugin other options."
+msgstr "لن يتم تشغيل PHP CLI بسبب إعدادات المستخدم في الخيارات الأخرى للمكون الإضافي."
+
+#: includes/ajax.php:518
+msgid "Backup will not be continued due to manual abort by user."
+msgstr "سيتم إيقاف النسخ الإحتياطي بسبب الإلغاء اليدوي من قبل المستخدم."
+
+#: includes/ajax.php:513
+msgid "Something went wrong in PHP CLI process, backup will be continued with legacy methods."
+msgstr "حدث خطأ في عملية PHP CLI، سيتم إكمال النسخ الإحتياطي بالطرق القديمة."
+
+#: includes/ajax.php:318
+msgid "Cleaning up exported files..."
+msgstr "جاري تنظيف الملفات الصادرة..."
+
+#: includes/ajax.php:249 includes/ajax.php:341
+msgid "#002"
+msgstr "#002"
+
+#: includes/ajax.php:161
+msgid "We properly detected PHP CLI executable file."
+msgstr "اكتشفنا ملف PHP CLI القابل للتنفيذ بشكل صحيح."
+
+#: includes/ajax.php:160
+msgid "PHP CLI Execution limit: "
+msgstr "حد تنفيذ PHP CLI:"
+
+#: includes/ajax.php:159
+msgid "PHP CLI Memory limit: "
+msgstr "حد ذاكرة PHP CLI:"
+
+#: includes/ajax.php:158
+msgid "PHP CLI Version: "
+msgstr "إصدار PHP CLI:"
+
+#: includes/ajax.php:157
+msgid "PHP CLI Filename: "
+msgstr "إسم ملف PHP CLI:"
+
+#: includes/ajax.php:147
+msgid "Could not find proper PHP CLI executable, this process may be unstable."
+msgstr "تعذر العثور على PHP CLI قابل للتنفيذ بشكل صحيح، قد تكون هذه العملية غير مستقرة."
+
+#: includes/ajax.php:145
+msgid "PHP CLI is disabled in your php.ini file, the process may be unstable."
+msgstr "تم تعطيل PHP CLI في ملف php.ini الخاص بك، قد تكون هذه العملية غير مستقرة."
+
+#: includes/ajax.php:135
+msgid "Looking for PHP CLI executable file."
+msgstr "جار البحث عن ملف PHP CLI قابل للتنفيذ."
+
+#: includes/zipper/src/zip.php:426
+msgid "Backup will run as single-request, may be unstable..."
+msgstr "سيتم تشغيل النسخ الإحتياطي كطلب فردي، قد يكون غير مستقر..."
+
+#: includes/zipper/src/zip.php:421
+msgid "Backup is running under PHP CLI environment."
+msgstr "جار تشغيل النسخ الإحتياطي تحت ظروف PHP CLI."
+
+#: includes/dashboard/chapter/other_config.php:361
+msgid "Use direct downloading - that will remove .htaccess protection right before download (can solve download issues)."
+msgstr "إستخدم التحميل المباشر - سيقوم بإزالة حماية .htaccess قبل التحميل مباشرةً (يمكنه حل مشاكل التحميل)."
+
+#: includes/dashboard/chapter/other_config.php:354
+msgid "technique"
+msgstr "تقنية"
+
+#: includes/dashboard/chapter/other_config.php:354
+msgid "Backup downloading"
+msgstr "تحميل النسخ الإحتياطي"
+
+#: includes/dashboard/chapter/other_config.php:350
+msgid "Change basic functions of the plugin"
+msgstr "تغيير الوظائف الأساسية للمكون الإضافي"
+
+#: includes/dashboard/modals/backup-success-modal.php:69
+#: includes/dashboard/modals/restore-success-modal.php:76
+msgid "Trouble logging in?"
+msgstr "تعذر تسجيل الدخول؟"
+
+#: includes/dashboard/modals/backup-success-modal.php:62
+#: includes/dashboard/modals/restore-success-modal.php:69
+msgid "Sounds fair, let me give a rating"
+msgstr "يبدو عادلاً، اسمحو لي بتقديم تقييم"
+
+#: includes/dashboard/modals/backup-success-modal.php:56
+#: includes/dashboard/modals/restore-success-modal.php:63
+msgid "Like how easy it was? Then <b>PLEASE</b> give us a nice rating so that others discover out plugin & benefit from it too. Thank you!!"
+msgstr "مثلاً مدى سهولته؟ لذا <b>رجاءاً</b> قم بإعطائنا تقيمماً جيداً ليتمكن الآخرون من اكتشاف المكون الإضافي و الإستفادة منه أيضاً. شكراً لك!!"
+
+#: includes/database/manager.php:270
+msgid "Importing failed - Cannot open SQL file..."
+msgstr "فشل الإستيراد - لا يمكن فتح ملف SQL..."
+
+#: includes/extracter/extract.php:1063
+msgid "Clearing elementor template cache..."
+msgstr "مسح ذاكرة التخزين المؤقت لنموذج elementor..."
+
+#: includes/extracter/extract.php:1066
+msgid "Elementor cache cleared!"
+msgstr "تم مسح ذاكرة التخزين المؤقت لـ Elementor!"
+
+#: includes/database/manager.php:269
+msgid "Cannot open SQL file..."
+msgstr "لا يمكن فتح ملف SQL..."
+
+#: includes/database/manager.php:233
+msgid "Importing failed - cannot connect to the database."
+msgstr "فشل الإستيراد - لا يمكن الإتصال بقاعدة البيانات."
+
+#: includes/database/manager.php:232
+msgid "Failed to connect to MySQL: "
+msgstr "تعذر الإتصال بـ MySQL:"
+
+#: includes/dashboard/translations.php:45
+msgid "Browser successfully received backup settings."
+msgstr "تلقى المتصفح إعدادات النسخ الإحتياطي بنجاح."
+
+#: includes/dashboard/chapter/other_config.php:311
+msgid "Bypass web server limits - it will disable automatic backup and possibility to run it in the background"
+msgstr "تجاوز حدود خادم الويب - سيعطل عملية النسخ الإحتياطي التلقائية و إمكانية تشغيله في الخلفية"
+
+#: includes/dashboard/chapter/other_config.php:301
+msgid "Bypass web server timeout directive - backup process may be slower"
+msgstr "تخطى توجيه مهلة خادم الويب - قد تكون عملية النسخ الإحتياطي بطيئة"
+
+#: includes/dashboard/chapter/other_config.php:291
+msgid "Do not change the default plugin functions - it may require to adjust your server for stable backup"
+msgstr "لا تقم بتغيير وظائف البرنامج المساعد الإفتراضية - قد يتطلب الأمر ضبط الخادم الخاص بك للحصول على نسخة إحتياطية ثابتة"
+
+#: includes/dashboard/chapter/other_config.php:282
+msgid "features"
+msgstr "الخصائص"
+
+#: includes/dashboard/chapter/other_config.php:282
+msgid "experimental"
+msgstr "تجريبية"
+
+#: includes/dashboard/chapter/other_config.php:282
+msgid "Some"
+msgstr "بعض"
+
+#: includes/dashboard/chapter/other_config.php:278
+msgid "Change functionality of the plugin"
+msgstr "تغيير وظائف البرنامج المساعد"
+
+#: includes/dashboard/chapter/other_config.php:16
+msgid "This option will require you to not close the backup window since it will use your connection to keep the backup in parts, it will disable automatic backups. Use this only if all of the above does not work. Recommended for huge sites +100k files / 5+ GB."
+msgstr "سيطلب منك هذا الإعداد عدم إغلاق نافذة النسخ الإحتياطي نظراً لأنه سيستخدم اتصالك للإحتفاظ بالنسخة الإحتياطية بأجزاء، و سيؤدي إلى تعطيل النسخ الإحتياطية التلقائية. إستخدم هذا فقط إذا كان كل ما سبق لا يعمل. ينصح به للمواقع الضخمة +100 ألف ملف / +5 جيجا بايت."
+
+#: includes/dashboard/chapter/other_config.php:15
+msgid "Use this option before the third one, it should work fine on SSD/NVMe hostings even for huge backups - but still may timeout if you are running on slow drive high I/O."
+msgstr "إستخدم هذا الخيارقبل الخيار الثالث، يجب أن يعمل بشكل جيد على استضافات SSD/NVMe حتى بالنسبة للنسخ الإحتياطية الضخمة - لكن من الممكن إنقضاء المهلة إذا كنت تعمل على محرك أقراص بطيء عالي الإدخال/الإخراج."
+
+#: includes/dashboard/chapter/other_config.php:14
+msgid "Use this option if you have full access to your server and you know how to make basic configuration of the server. Wrong configuration may give you hick-ups without error due to e.g. web server server timeout (for small sites below 300 MB this is the best option)."
+msgstr "إستخدم هذا الخيار إذا كان لديك وصول كامل إلى الخادم الخاص بك و تعرف كيفية إجراء التكوين الأساسي للخادم. قد يمنحك التكوين الخاطئ فترات توقف دون أخطاء بسبب على سبيل المثال إنقضاء مهلة الخادم لخادم الويب (بالنسبة للمواقع الصغيرة التي يقل حجمها عن 300 ميجا بايت، هذا هو الخيار الأفضل)"
+
+#: includes/dashboard/chapter/other_config.php:13
+msgid "It will change some fundamental logics of the plugin"
+msgstr "سيؤدي ذلك إلى تغيير بعض المنطق الأساسي للمكوّن الإضافي"
+
+#: includes/check/checker.php:49
+msgid "Checking this path/partition: "
+msgstr "التحقق من هذا المسار/القسم: "
+
+#: includes/check/checker.php:45
+msgid " bytes."
+msgstr "بايت."
+
+#: includes/check/checker.php:45
+msgid "Requires at least "
+msgstr "يتطلب على الأقل"
+
+#: includes/ajax.php:2124
+msgid "This file is quite big consider to exclude it, if backup fails: "
+msgstr "هذا الملف كبير جداً، في حالة فشل عملية النسخ الإحتياطي خذ في عين الإعتبار إستبعاده:"
+
+#: includes/ajax.php:207 includes/ajax.php:274
+msgid "There was an error before request shutdown (but it was not logged to restore log)"
+msgstr "حصل خطأ قبل إيقاف الطلب (ولكن لم يتم تسجيله لإستعادة التسجيل)"
+
+#: includes/zipper/src/zip.php:505
+msgid " files."
+msgstr "ملفات."
+
+#: includes/zipper/src/zip.php:505
+msgid "Chunks contain "
+msgstr "قطع تحتوي على"
+
+#: includes/zipper/src/zip.php:440 includes/zipper/src/zip.php:748
+msgid "Using dedicated PclZIP for Premium Users."
+msgstr "إستخدام PclZIP المخصص للمستخدمين المميزين."
+
+#: includes/zipper/src/zip.php:406
+msgid "Still nothing backup probably is not running."
+msgstr "لا شيء حتى الآن من المحتمل أن النسخ الإحتياطي لا يعمل"
+
+#: includes/zipper/src/zip.php:399
+msgid "Could not find any response from the server, trying again in 3 seconds."
+msgstr "تعذر العثور على أي إستجابة من السيرفر، عاود المحاولة مرة أخرى خلال 3 ثوان."
+
+#: includes/zipper/src/zip.php:385
+msgid "Starting background process on server-side..."
+msgstr "بدء عملية الخلفية من طرف الخادم..."
+
+#: includes/zipper/src/zip.php:381
+msgid "Sending backup settings and identy to the browser"
+msgstr "إرسال إعدادات النسخ الإحتياطي و المحددة للمتصفح"
+
+#: includes/zipper/src/zip.php:337
+msgid "Legacy setting: Using default modules depending on user server"
+msgstr "الإعداد القديم: إستخدام الوحدات النمطية الإفتراضية بناءً على خادم المستخدم"
+
+#: includes/zipper/src/zip.php:334
+msgid "Legacy setting: Using user browser as middleware for full capabilities"
+msgstr "الإعداد القديم: إستخدام متصفح المستخدم كبرنامج وسيط للحصول على الإمكانات الكاملة"
+
+#: includes/zipper/src/zip.php:332
+msgid "Legacy setting: Using server-sided script and cURL based loop for better capabilities"
+msgstr "الإعداد القديم: إستخدام البرنامج النصي من طرف الخادم و الحلقة المستندة إلى cURL للحصول على إمكانات أفضل"
+
+#: includes/zipper/src/zip.php:330
+msgid "Using PclZip module to create the backup"
+msgstr "إستخدام وحدة PclZip لإنشاء النسخة الإحتياطية"
+
+#: includes/extracter/extract.php:625 includes/zipper/src/zip.php:132
+msgid "Database size: "
+msgstr "حجم قاعدة البيانات:"
+
+#: includes/zipper/src/zip.php:198
+msgid "WordPress memory limit: %s MBs"
+msgstr "حد ذاكرة WordPress: %s ميغابايت"
+
+#: includes/zipper/zipping.php:49
+msgid "Something went wrong (pclzip) – removing backup files..."
+msgstr "حدث خطأ ما (pclzip) - إزالة ملفات النسخ الإحتياطي"
+
+#: includes/initializer.php:347
+msgid "There was an error before request shutdown (but it was not logged to backup/restore log)"
+msgstr "حدث خطأ قبل إيقاف طلب التشغيل (ولكن لم يتم تسجيله في سجل النسخ الإحتياطي/الإستعادة)"
+
+#: includes/initializer.php:338
+msgid "Shuted down"
+msgstr "إيقاف التشغيل"
+
+#: includes/initializer.php:361 includes/initializer.php:377
+msgid "You can get more pieces of information in troubleshooting log file."
+msgstr "ستحصل على قطعات اكثر من المعلومات عند التدخل لحل مشكلة ملف التسجيل."
+
+#: includes/dashboard/modals/freeze-loading.php:20
+#: includes/dashboard/translations.php:153
+msgid "Loading..."
+msgstr "جار التحميل..."
+
+#: includes/initializer.php:421
+msgid "Aborting & unlocking restore process..."
+msgstr "اٍلغاء وفتح عملية الأستعادة..."
+
+#: includes/ajax.php:881
+msgid "This is a test email sent by the Backup Migration plugin via Troubleshooting options!"
+msgstr "هذا بريد إلكتروني تجريبي, ارسل من قبل إضافات نقل نُسَخ الإحتياطي عن طريق خيارات إستكشاف الأخطاء و إصلاحها!"
+
+#: includes/constants.php:150
+msgid "Order it now at a big discount!"
+msgstr "أطلب الان و احصل على خصم كبير!"
+
+#: includes/dashboard/translations.php:150
+msgid "Operation failed, please try again."
+msgstr "فشلت العملية, الرجاء المحاولة مرة أخرى."
+
+#: includes/dashboard/translations.php:144
+msgid "Manually created backups are always locked."
+msgstr "النسخ الاحتياطية المنتجة يدويا ستكون دائما مغلقة."
+
+#: includes/dashboard/translations.php:147
+msgid "Operation finished with success."
+msgstr "انتهت العملية بنجاح."
+
+#: includes/dashboard/translations.php:141
+msgid "There was an error sending the email, please use additional plugins to debug it or ask your hosting administrator for help."
+msgstr "حدث خلل عند ارسال البريد الكتروني, يرجى استخدام اٍضافات اٍضافية لأجل اصلاحها أو أطلب المساعدة من المدير المضيف."
+
+#: includes/dashboard/translations.php:138
+msgid "Email send successfully, check mailbox."
+msgstr "تم ارسال البريد الاكتروني بنجاح, راجع صندوق الواردات."
+
+#: includes/dashboard/chapter/troubleshooting.php:247
+msgid "to send the mail."
+msgstr "لأرسال البريد."
+
+#: includes/dashboard/chapter/troubleshooting.php:246
+msgid "other options"
+msgstr "خيارات أخرى"
+
+#: includes/dashboard/chapter/troubleshooting.php:245
+msgid "Check if the email is visible in your mailbox / spam folder."
+msgstr "تحقق اٍذ كان البريد الاكتروني موجود في صندوق الواردات أو في ملف البريد المزعج (spam)."
+
+#: includes/dashboard/chapter/troubleshooting.php:246
+msgid "Message will be sent to e-mail you provided in the "
+msgstr "سوف ترسل الرسالة الى البريد الاكتروني الذي قدمته في"
+
+#: includes/dashboard/chapter/troubleshooting.php:245
+msgid "Remember that even if you get success alert there still might be some issues."
+msgstr "تذكر اٍن حتى مع الحصول على تنبيه النجاح,مع ذالك ربما قد تكون هناك خلل ما."
+
+#: includes/dashboard/chapter/troubleshooting.php:244
+msgid "If you're willing to know if your server is properly configured to send emails, you can test it here."
+msgstr "اٍذا تريد ان تعرف اٍذ اٍن الملقم مهيئ كما ينبغي لاٍرسال الرسائل الاكترونية, تسطيع اختبار ذالك هنا."
+
+#: includes/dashboard/chapter/troubleshooting.php:236
+msgid "Restore original pclzip file (will work after first replacement)"
+msgstr "استعادة ملف pclzip أصلي (سوف يعمل بعد الاٍستبدال الأول)"
+
+#: includes/dashboard/chapter/troubleshooting.php:234
+msgid "Replace php_uname function in pclzip file"
+msgstr "استبدل دور php_unmae في ملف pclzip"
+
+#: includes/dashboard/chapter/troubleshooting.php:235
+msgid "You can also restore the changes with one click if something went wrong:"
+msgstr "تسطيع أيضا استرجاع التغييرات بنقرة واحدة اٍذا حصل خلل ما:"
+
+#: includes/dashboard/chapter/troubleshooting.php:228
+msgid "Error: php_uname is disabled for security reasons"
+msgstr "خطأ: php_uname معطل لأسباب أمنية"
+
+#: includes/dashboard/chapter/troubleshooting.php:233
+msgid "You can automatically replace the function with compatible code:"
+msgstr "يمكنك إستبدال الوظيفة بشكل تلقائي مع الرمز المتوافق:"
+
+#: includes/dashboard/chapter/troubleshooting.php:232
+msgid "Some hostings blocks php_uname function which is required by pclzip module included in WordPress."
+msgstr "تحظر بعض المستضيفات وظيفة php_uname المطلوبة من وحدة pclzip المضمنة في WordPress."
+
+#: includes/dashboard/chapter/what_backed_up.php:400
+msgid "* At this moment excluded files are not counted here - yet (it will be in future of course!)."
+msgstr "* في هذه اللحظة الملفات المستبعدة لن تحسب هنا - بعد (طبعا سوف تُحسب في المستقبل!)."
+
+#: includes/dashboard/chapter/troubleshooting.php:240
+msgid "Test email"
+msgstr "بريد الكتروني اختباري"
+
+#: includes/dashboard/chapter/troubleshooting.php:247
+msgid "Click here"
+msgstr "أنقر هنا"
+
+#: includes/constants.php:142
+msgid "learn more"
+msgstr "معرفة المزيد"
+
+#: includes/ajax.php:560 includes/ajax.php:1055
+msgid "PHP Version: "
+msgstr "اٍصدار PHP:"
+
+#: includes/ajax.php:308
+msgid "There was an error during restore process:"
+msgstr "حدث خطأ خلال عملية الإستعادة:"
+
+#: includes/ajax.php:280
+msgid "There was an error/warning during restore process:"
+msgstr "هناك خطأ/تحذير خلال عملية الإستعادة:"
+
+#: includes/ajax.php:261 includes/ajax.php:262
+msgid "Restore exception: "
+msgstr "استعادة الإستثناء:"
+
+#: includes/ajax.php:233 includes/ajax.php:304
+msgid "Cannot move: "
+msgstr "لا يمكن التحرك:"
+
+#: includes/ajax.php:221 includes/ajax.php:226 includes/ajax.php:231
+#: includes/ajax.php:292 includes/ajax.php:297 includes/ajax.php:302
+msgid "Restore process was not aborted due to this error."
+msgstr "لم يتم إلغاء عملية الإستعادة بسبب هذا الخطأ."
+
+#: includes/ajax.php:217 includes/ajax.php:288
+msgid "Backup will not be aborted because of this."
+msgstr "لن يتم إلغاء عملية النسخ الإحتياطي بسبب هذا."
+
+#: includes/ajax.php:215 includes/ajax.php:286
+msgid "There was an error not related to Backup Migration Plugin."
+msgstr "حدث خطأ لا يتعلق بالمكوّن الإضافي لترحيل النسخ الإحتياطي."
+
+#: includes/ajax.php:214 includes/ajax.php:285
+msgid "Restore process was not aborted because this error is not related to Backup Migration."
+msgstr "لم يتم إحباط عملية الإستعادة لأن هذا الخطأ لا يتعلق بترحيل النسخ الإحتياطي"
+
+#: includes/ajax.php:586 includes/ajax.php:1046
+msgid "Initializing custom error handler"
+msgstr "جاري تهيئة معالج الخطأ المخصص"
+
+#: includes/dashboard/modules/backup_controller.php:183
+msgid "so that the backup process gets triggered"
+msgstr "لكي يثير عملية الدعم."
+
+#: includes/ajax.php:880
+msgid "Backup Migration – Example email"
+msgstr "ترحيل النسخ الإحتياطي - مثال البريد الإلكتروني"
+
+#: includes/ajax.php:581 includes/ajax.php:1070
+msgid "Premium version is enabled but not active, using free plugin."
+msgstr "النسخة الممتازة ممكنة لاكن غير نشطة, بإستخدام ملحق مجاني."
+
+#: includes/ajax.php:239 includes/ajax.php:282 includes/ajax.php:310
+msgid "File/line: "
+msgstr "ملف/سطر:"
+
+#: includes/ajax.php:216 includes/ajax.php:238 includes/ajax.php:281
+#: includes/ajax.php:287 includes/ajax.php:309
+msgid "Message: "
+msgstr "رسالة:"
+
+#: includes/ajax.php:237
+msgid "There was an error during backup:"
+msgstr "حدث خطأ خلال عملية النسح الإحتياطي:"
+
+#: includes/initializer.php:1107
+msgid "Plugin has been deactivated"
+msgstr "تم إلغاء تنشيط الملف المساعد"
+
+#: includes/initializer.php:1084
+msgid "[DOWNLOAD GENERATED] Last update (date): "
+msgstr "[تم إنشاء التنزيل] آخر تحديث (التاريخ):"
+
+#: includes/initializer.php:1083
+msgid " seconds ago "
+msgstr "منذ ثواني"
+
+#: includes/initializer.php:1083
+msgid "[DOWNLOAD GENERATED] Last update (seconds): "
+msgstr "[تم إنشاء التنزيل] آخر تحديث (ثواني):"
+
+#: includes/initializer.php:1082
+msgid "[DOWNLOAD GENERATED] File downloaded on (server time): "
+msgstr "[تم إنشاء التنزيل] تم تحميل الملف على (وقت الخادم):"
+
+#: includes/ajax.php:314
+msgid "Aborting restore process..."
+msgstr "إحباط عملية الإستعادة..."
+
+#: includes/initializer.php:397
+msgid "Probably we could not increase the execution time, please edit your php.ini manually"
+msgstr "ربما لم نتمكن من زيادة وقت التنفيذ، يرجى تعديل ملف php.ini يدوياً"
+
+#: includes/ajax.php:240 includes/initializer.php:393
+msgid "Unfortunately we had to remove the backup (if partly created)."
+msgstr "لسوء الحظ، إضطررنا إلى إزالة النسخة الإحتياطية (إذا تم إنشاؤها جزئياً)."
+
+#: includes/initializer.php:392 includes/initializer.php:415
+msgid "Something bad happened on PHP side."
+msgstr "حدث شيء سيء من جانب PHP."
+
+#: includes/ajax.php:209 includes/ajax.php:276 includes/initializer.php:349
+#: includes/initializer.php:357 includes/initializer.php:373
+#: includes/initializer.php:395 includes/initializer.php:417
+msgid "Error file/line: "
+msgstr "خطأ ملف/سطر:"
+
+#: includes/ajax.php:208 includes/ajax.php:275 includes/initializer.php:348
+#: includes/initializer.php:356 includes/initializer.php:360
+#: includes/initializer.php:372 includes/initializer.php:376
+#: includes/initializer.php:394 includes/initializer.php:416
+msgid "Error message: "
+msgstr "رسالة خطأ:"
+
+#: includes/initializer.php:371
+msgid "There was an error during restore process"
+msgstr "حدث خطأ ما خلال عملية الإستعادة:"
+
+#: includes/initializer.php:355
+msgid "There was an error during backup"
+msgstr "حدث خطأ ما خلال عملية النسخ الإحتياطي"
+
+#: includes/activation.php:21
+msgid "Plugin has been activated"
+msgstr "تم تفعيل المكون الإضافي"
+
+#: includes/ajax.php:353 includes/ajax.php:354
+msgid "Exception: "
+msgstr "استثناء:"
+
+#: includes/ajax.php:565 includes/ajax.php:1060
+msgid "Web server: "
+msgstr "خادم الويب:"
+
+#: includes/ajax.php:567 includes/ajax.php:1062
+msgid "Web server: Not available"
+msgstr "خادم الويب: غير متاح"
+
+#: includes/ajax.php:569 includes/ajax.php:1064
+msgid "Max execution time (in seconds): "
+msgstr "الحد الأقصى للتنفيذ (بالثواني):"
+
+#: includes/dashboard/modules/backup_controller.php:178
+msgid "time now:"
+msgstr "الوقت حالياً:"
+
+#: includes/ajax.php:579 includes/ajax.php:1068
+msgid "Premium plugin is enabled and activated"
+msgstr "تم تشغيل و تنشيط المكون الإضافي المميز"
+
+#. Plugin Name of the plugin
+msgid "Backup Migration"
+msgstr "ترحيل النسخ الإحتياطي"
+
+#: includes/extracter/extract.php:1094
+msgid "Something bad happened..."
+msgstr "حدث شيء سيء..."
+
+#: includes/extracter/extract.php:1748
+msgid "Restore process took: "
+msgstr "إستغرقت عملية الإستعادة:"
+
+#: includes/extracter/extract.php:1084
+msgid "Temporary files cleaned"
+msgstr "تم تنظيف الملفات المؤقتة"
+
+#: includes/extracter/extract.php:1073
+msgid "Cleaning temporary files..."
+msgstr "جاري تنظيف الملفات المؤقتة..."
+
+#: includes/extracter/extract.php:1048
+msgid "User should be logged in"
+msgstr "يجب على المستخدم تسجيل الدخول"
+
+#: includes/extracter/extract.php:1019
+msgid "Making new login session"
+msgstr "عمل سلسلة تسجيل دخول جديدة"
+
+#: includes/extracter/extract.php:633 includes/extracter/extract.php:662
+#: includes/extracter/extract.php:678 includes/extracter/extract.php:695
+#: includes/extracter/extract.php:787
+msgid "Database restored"
+msgstr "تم إستعادة قاعدة البيانات"
+
+#: includes/extracter/extract.php:723
+msgid "Restoring database..."
+msgstr "جاري إستعادة قاعدة البيانات..."
+
+#: includes/extracter/extract.php:992
+msgid "WP-Config restored"
+msgstr "تم إستعادة إعدادات WordPress"
+
+#: includes/extracter/extract.php:978
+msgid "Restoring wp-config file..."
+msgstr "جاري إستعادة ملف إعدادات WordPress..."
+
+#: includes/extracter/extract.php:592
+msgid "Manifest loaded"
+msgstr "تم تحميل البيان"
+
+#: includes/extracter/extract.php:586
+msgid "Getting backup manifest..."
+msgstr "جاري الحصول على بيان النسخة الإحتياطية..."
+
+#: includes/extracter/extract.php:576
+msgid "File wp-config saved"
+msgstr "تم حفظ ملف wp-config"
+
+#: includes/extracter/extract.php:572
+msgid "Saving wp-config file..."
+msgstr "جاري حفظ ملف wp-config..."
+
+#: includes/extracter/extract.php:519
+msgid "Files extracted..."
+msgstr "الملفات المستخرجة..."
+
+#: includes/extracter/extract.php:1184
+msgid "Scanning archive..."
+msgstr "جارِ فحص الأرشيف..."
+
+#: includes/ajax.php:325 includes/extracter/extract.php:306
+msgid "Removing "
+msgstr "إزالة"
+
+#: includes/extracter/extract.php:1104
+msgid "Making temporary directory"
+msgstr "عمل دليل مؤقت"
+
+#: includes/database/manager.php:280
+msgid "Importing finished. Now, Delete the import file."
+msgstr "إنتهى الإستيراد. الآن، إحذف ملف الإستيراد."
+
+#: includes/dashboard/modals/upload-wrong-file-modal.php:27
+msgid "All backup files are saved as zip."
+msgstr "تم حفظ جميع ملفات النسخ الإحتياطي كملف مضغوط."
+
+#: includes/dashboard/modals/upload-wrong-file-modal.php:26
+msgid "The file you tried to upload isn’t a zip-file."
+msgstr "الملف الذي حاولت تحميله ليس ملفاً مضغوط."
+
+#: includes/dashboard/modals/upload-wrong-file-modal.php:21
+msgid "Not right file type"
+msgstr "نوع الملف ليس صحيحاً"
+
+#: includes/dashboard/modals/backup-progress-modal.php:69
+msgid "Stop the backup process"
+msgstr "إيقاف عملية النسخ الإحتياطي"
+
+#: includes/dashboard/modals/backup-progress-modal.php:64
+msgid "Minimize this window"
+msgstr "تصغير هذه النافذة"
+
+#: includes/dashboard/modals/backup-progress-modal.php:56
+msgid "Please don’t do any major modifications on your site while the backup is running."
+msgstr "يُرجى عدم إجراء أي تعديلات كبيرة على موقعك أثناء تشغيل النسخة الإحتياطية"
+
+#: includes/dashboard/modals/backup-progress-modal.php:49
+#: includes/dashboard/modals/restore-progress-modal.php:49
+msgid "Download live log​"
+msgstr "تنزيل السجل المباشر"
+
+#: includes/dashboard/modals/backup-progress-modal.php:37
+msgid "Preparing backup process..."
+msgstr "جارِ تحضير عملية النسخ الإحتياطي..."
+
+#: includes/dashboard/modals/backup-progress-modal.php:30
+#: includes/dashboard/modals/backup-progress-modal.php:33
+msgid "Hide live log"
+msgstr "إخفاء السجل المباشر"
+
+#: includes/dashboard/modals/backup-progress-modal.php:29
+msgid "Show live log"
+msgstr "إظهار السجل المباشر"
+
+#: includes/dashboard/modals/backup-progress-modal.php:16
+msgid "Backup in progress"
+msgstr "النسخ الإحتياطي قيد التقدم"
+
+#: includes/dashboard/modals/after-logs-sent.php:74
+#: includes/dashboard/modals/backup-error-modal.php:54
+#: includes/dashboard/modals/backup-success-modal.php:93
+#: includes/dashboard/modals/restore-error-modal.php:54
+msgid "Close window"
+msgstr "أغلق النافذة"
+
+#: includes/dashboard/modals/backup-success-modal.php:87
+msgid "Download backup"
+msgstr "تحميل النسخة الإحتياطية"
+
+#: includes/dashboard/modals/backup-success-modal.php:82
+msgid "- tab."
+msgstr "- التبويب."
+
+#: includes/dashboard/modals/backup-success-modal.php:80
+msgid "You can manage the backup on the"
+msgstr "يمكنك إدارة ملف النسخ الإحتياطي على"
+
+#: includes/dashboard/modals/backup-success-modal.php:45
+msgid "- tab, and paste the link there."
+msgstr "- التبويب، و ألصق الرابط هناك."
+
+#: includes/dashboard/modals/backup-success-modal.php:44
+#: includes/dashboard/modals/backup-success-modal.php:81
+msgid "Manage & Restore Backups"
+msgstr "إدارة و إستعادة النُسَخ الإحتياطية"
+
+#: includes/dashboard/modals/backup-success-modal.php:28
+msgid "Your backup is now accessible at:"
+msgstr "يمكن الوصول إلى نسختك الإحتياطية الآن على:"
+
+#: includes/dashboard/modals/backup-success-modal.php:19
+msgid "Backup successful!"
+msgstr "تم النسخ الإحتياطي بنجاح!"
+
+#: includes/dashboard/modals/backup-progress-modal.php:36
+#: includes/dashboard/modals/restore-progress-modal.php:35
+msgid "Step: "
+msgstr "خطوة:"
+
+#: includes/dashboard/modals/restore-progress-modal.php:20
+msgid "Do not close this window as long as the restoring process is ongoing"
+msgstr "لا تغلق هذه النافذة طالما أن عملية الإستعادة جارية"
+
+#: includes/dashboard/modals/restore-progress-modal.php:16
+msgid "Restoring in progress"
+msgstr "الإستعادة قيد التقدم"
+
+#: includes/dashboard/modals/upload-success-modal.php:27
+msgid "so that the file will show up in your list of backups."
+msgstr "حتى يظهر الملف في قائمة النسخ الإحتياطية الخاصة بك."
+
+#: includes/dashboard/modals/upload-success-modal.php:26
+msgid "We also triggered a rescan of your local folder automatically,"
+msgstr "كما أطلقنا أيضاً عملية إعادة فحص لمجلدك المحلي تلقائياً،"
+
+#: includes/dashboard/modals/upload-success-modal.php:21
+msgid "Upload successful!"
+msgstr "تم التحميل بنجاح!"
+
+#: includes/dashboard/modals/prenotice-modal.php:62
+msgid "Don’t do backup & close this pop-up​"
+msgstr "لا تقم بإجراء نسخ إحتياطي و تغلق هذه النافذة المنبثقة"
+
+#: includes/dashboard/modals/prenotice-modal.php:58
+msgid "Create the backup!"
+msgstr "قم بإنشاء نسخة إحتياطية!"
+
+#: includes/dashboard/modals/prenotice-modal.php:57
+msgid "That’s all fine / I don’t care…"
+msgstr "كل شيء على ما يرام / لا أهتم..."
+
+#: includes/dashboard/modals/prenotice-modal.php:48
+msgid "You selected only database to backup - without website files."
+msgstr "لقد قمت بتحديد قاعدة البيانات فقط للنسخ الإحتياطي - من دون ملفات موقع الويب"
+
+#: includes/dashboard/modals/prenotice-modal.php:43
+msgid "You selected only files for backup - without database."
+msgstr "لقد قمت بتحديد الملفات فقط للنسخ الإحتياطي - من دون قاعدة البيانات"
+
+#: includes/dashboard/modals/prenotice-modal.php:38
+msgid "You selected to only back up part of your site (not a complete backup)."
+msgstr "لقد إخترت إجراء نسخ إحتياطي لجزء من موقعك فقط (و ليس نسخة إحتياطية كاملة)"
+
+#: includes/dashboard/modals/prenotice-modal.php:33
+msgid " of data (unzipped) will be backed up."
+msgstr "من البيانات (غير مضغوطة) سيتم عمل نسخة إحتياطية لها"
+
+#: includes/dashboard/modals/prenotice-modal.php:32
+msgid "Based on your selections "
+msgstr "بناءً على إختياراتك"
+
+#: includes/dashboard/modals/prenotice-modal.php:27
+msgid "You may not have enough memory (RAM) to create the backup. You can still try, if it fails check out the troubleshooting section."
+msgstr "قد لا يكون لديك ذاكرة كافية (RAM) لإنشاء النسخة الإحتياطية. لا يزال بإمكانك المحاولة، إذا فشلت، تحقق من قسم إكتشاف الأخطاء و إصلاحها."
+
+#: includes/dashboard/modals/prenotice-modal.php:22
+msgid "You running quite low on space. Maybe it would be good to clear up some space before you do the backup."
+msgstr "أنت تعمل في مساحة منخفضة جداً. من الأفضل إخلاء بعض المساحة قبل إجراء النسخ الإحتياطي."
+
+#: includes/dashboard/modals/prenotice-modal.php:17
+msgid "We noticed:"
+msgstr "لاحظنا:"
+
+#: includes/dashboard/modals/reset-confirm-modal.php:29
+msgid "Yes, reset"
+msgstr "نعم، إعادة التشغيل"
+
+#: includes/dashboard/modals/reset-confirm-modal.php:22
+msgid "This action cannot be undone!"
+msgstr "لا يمكن التراجع عن هذا الإجراء!"
+
+#: includes/dashboard/modals/reset-confirm-modal.php:21
+msgid "Do you really want to reset the configuration?"
+msgstr "هل تريد حقاً إعادة ضبظ إعداداتك؟"
+
+#: includes/dashboard/modals/backup-error-modal.php:30
+msgid "There were some hick-ups..."
+msgstr "كان هناك بعض المشاكل..."
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:29
+msgid "If you wish to have duplicate change name of the upload."
+msgstr "إذا كنت ترغب في تغيير إسم التحميل المكرر."
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:28
+msgid "exist in your backup directory."
+msgstr "موجود في دليل النسخ الإحتياطي الخاص بك."
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:27
+msgid "name and size of file which already,"
+msgstr "إسم و حجم الملف الذي هو بالفعل،"
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:26
+msgid "The file you tried to upload already match,"
+msgstr "الملف الذي حاولت تحميله مطابق بالفعل،"
+
+#: includes/dashboard/modals/upload-exist-file-modal.php:21
+msgid "File already exist"
+msgstr "الملف موجود بالفعل"
+
+#: includes/dashboard/modals/restore-success-modal.php:99
+msgid "of the restoration process"
+msgstr "من عملية الإستعادة"
+
+#: includes/dashboard/modals/restore-success-modal.php:99
+msgid "Download the log"
+msgstr "تنزيل السجل"
+
+#: includes/dashboard/modals/restore-success-modal.php:88
+msgid "Thank you!!"
+msgstr "شكراً!!"
+
+#: includes/dashboard/modals/restore-success-modal.php:48
+msgid "…to benefit from many cool features & support."
+msgstr "...للإستفادة من الخصائص المذهلة و الدعم."
+
+#: includes/dashboard/modals/restore-success-modal.php:47
+msgid "Get our Premium plugin"
+msgstr "احصل على المكون الإضافي المميز الخاص بنا"
+
+#: includes/dashboard/modals/restore-success-modal.php:35
+msgid "plugin & benefit from it too."
+msgstr "المكون الإضافي و إستفيد منه أيضاً"
+
+#: includes/dashboard/modals/restore-success-modal.php:34
+msgid "…so that others discover our"
+msgstr "...حتى يتمكن الآخرون من إكتشاف"
+
+#: includes/dashboard/modals/restore-success-modal.php:33
+msgid "Give us a nice rating"
+msgstr "أعطنا تقييماً لطيفاً"
+
+#: includes/dashboard/modals/restore-success-modal.php:21
+msgid "development of our plugins by doing the following:"
+msgstr "تطوير المكونات الإضافية الخاصة بنا عن طريق القيام بما يلي:"
+
+#: includes/dashboard/modals/restore-success-modal.php:20
+msgid "Liked how easy it was? Then PLEASE support the further"
+msgstr "هل أحببت كيف كان سهلاً؟ الرجاء الدعم أبعد من ذلك"
+
+#: includes/dashboard/modals/restore-success-modal.php:16
+msgid "Restore successful!​"
+msgstr "تمت الإستعادة بنجاح!"
+
+#: includes/dashboard/modals/pre-restore-modal.php:61
+msgid "* Only those folders, files & database will be replaced which also exist in the backup file."
+msgstr "*سيتم إستبدال تلك المجلدات، الملفات و قاعدة البيانات فقط و التي أيضاً موجود في ملف النسخ الإحتياطي"
+
+#: includes/dashboard/modals/pre-restore-modal.php:57
+msgid "Close window & do not restore"
+msgstr "أغلق النافذة و لا تقم بالإستعادة"
+
+#: includes/dashboard/modals/pre-restore-modal.php:51
+msgid "Only want to restore parts of the backup?​"
+msgstr "تريد أن تسترجع أجزاءً فقط من النسخ الإحتياطي؟"
+
+#: includes/dashboard/modals/pre-restore-modal.php:43
+msgid "Start restoring!"
+msgstr "إبدأ الإستعادة!"
+
+#: includes/dashboard/modals/pre-restore-modal.php:36
+msgid "Yes, I understand that. I am sound in mind."
+msgstr "أجل، أنا أفهم ذلك. أنا سليم العقل."
+
+#: includes/dashboard/modals/pre-restore-modal.php:27
+msgid "All existing folders, files & databases on this site will be overwritten and destroyed for good. *"
+msgstr "سيتم الكتبة فوق جميع المجلدات، الملفات و قواعد البيانات الموجودة على هذا الموقع و إتلافها للأبد. *"
+
+#: includes/dashboard/modals/restore-success-modal.php:93
+#: includes/dashboard/modals/upload-exist-file-modal.php:34
+#: includes/dashboard/modals/upload-invalid-manifest-modal.php:32
+#: includes/dashboard/modals/upload-success-modal.php:32
+#: includes/dashboard/modals/upload-wrong-file-modal.php:32
+msgid "Ok, close"
+msgstr "حسناً، أغلق"
+
+#: includes/dashboard/modals/upload-invalid-manifest-modal.php:27
+msgid "we removed the file from the server."
+msgstr "قمنا بإزالة الملف من الخادم."
+
+#: includes/dashboard/modals/upload-invalid-manifest-modal.php:26
+msgid "Uploaded file is not valid backup,"
+msgstr "الملف الذي تم تحميله ليس نسخة إحتياطية صالحة،"
+
+#: includes/dashboard/modals/upload-invalid-manifest-modal.php:21
+msgid "Invalid backup"
+msgstr "نسخة إحتياطية غير صالحة"
+
+#: includes/dashboard/modals/bfs-modal.php:69
+msgid "which makes it smaller so that you stay below this limit."
+msgstr "مما يجعلها أصغر بحيث تبقى أقل من هذا الحد."
+
+#: includes/dashboard/modals/bfs-modal.php:66
+msgid "exclude parts from backup"
+msgstr "إستبعاد أجزاء من النسخ الإحتياطي"
+
+#: includes/dashboard/modals/bfs-modal.php:63
+msgid "Tip: You can also"
+msgstr "نصيحة: يمكنك أيضاً"
+
+#: includes/dashboard/modals/bfs-modal.php:51
+msgid "(which includes other cool features too!)"
+msgstr "(و الذي يتضمن ميزات رائعة أخرى أيضاً!)"
+
+#: includes/dashboard/modals/bfs-modal.php:50
+msgid "Get premium"
+msgstr "إحصل على إصدار المميز"
+
+#: includes/dashboard/modals/bfs-modal.php:49
+msgid "Yes, that’s fair…"
+msgstr "نعم، هذا عادل..."
+
+#: includes/dashboard/modals/bfs-modal.php:45
+msgid "We made it really affordable and it’s a great way to show your appreciation and support the further development of the plugin :) Thank you!"
+msgstr "لقد جعلناه في المتناول حقاً و هو طريقة رائعة لإظهار تقديرك و دعمك للتطوير الإضافي للمكون الإضافي :) شكراً لك!"
+
+#: includes/dashboard/modals/bfs-modal.php:40
+msgid "The plugin offers many features for free which other plugins don’t"
+msgstr "يقدم المكون الإضافي العديد من الميزات مجاناً و التي لا توفرها المكونات الإضافية الأخرى"
+
+#: includes/dashboard/modals/bfs-modal.php:39
+msgid "We also need to buy food"
+msgstr "نحتاج أيضاً إلى شراء الطعام"
+
+#: includes/dashboard/modals/bfs-modal.php:38
+msgid "Big sites tend to be more support heavy"
+msgstr "تميل المواقع الكبيرة إلى أن تكون أكثر دعماً"
+
+#: includes/dashboard/modals/bfs-modal.php:33
+msgid "For large sites (above %sGB) we point you to the premium plugin, because:"
+msgstr "للمواقع الكبيرة (فوق %s جيجا بايت) ننصحك بالمكون الإضافي المميز، لأنه:"
+
+#: includes/dashboard/modals/bfs-modal.php:29
+msgid "FAT!"
+msgstr "ضخم!"
+
+#: includes/dashboard/modals/bfs-modal.php:29
+msgid "Wow, your site is"
+msgstr "واو، موقعك "
+
+#: includes/dashboard/modals/delete-confirm-modal.php:42
+#: includes/dashboard/modals/reset-confirm-modal.php:32
+msgid "No, cancel"
+msgstr "لا، إلغاء"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:36
+msgid "Yes, kill it!"
+msgstr "نعم، أوقفه!"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:31
+msgid "backups?"
+msgstr "النسخ الإحتياطية؟"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:30
+msgid "backup?"
+msgstr "النسخة الإحتياطية؟"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:28
+msgid "delete"
+msgstr "حذف"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:23
+msgid "delete this backup?"
+msgstr "حذف هذه النسخة الإحتياطية؟"
+
+#: includes/dashboard/modals/delete-confirm-modal.php:22
+#: includes/dashboard/modals/delete-confirm-modal.php:27
+msgid "You’re sure you want to"
+msgstr "هل أنت متأكد أنك تريد"
+
+#: includes/dashboard/modals/after-logs-sent.php:60
+msgid "Go to Support Forum"
+msgstr "إذهب إلى منتدى الدعم"
+
+#: includes/dashboard/modals/backup-success-modal.php:100
+msgid "Download logs"
+msgstr "تنزيل السجلات"
+
+#: includes/dashboard/translations.php:132
+msgid "Could not update CRON setting now, please check the logs."
+msgstr "تعذر تحديث إعداد CRON الآن، يرجى التحقق من السجلات."
+
+#: includes/dashboard/translations.php:129
+msgid "Settings updated successfully"
+msgstr "تم تحديث الإعدادات بنجاح"
+
+#: includes/dashboard/translations.php:126
+msgid "Next backup planned: "
+msgstr "النسخ الإحتياطي التالي المقرر:"
+
+#: includes/dashboard/translations.php:123
+msgid "Current server time: "
+msgstr "وقت الخادم الحالي:"
+
+#: includes/dashboard/translations.php:120
+msgid "Backup process ended, we triggered backup list reload for your."
+msgstr "إنتهت عملية النسخ الإحتياطي، قمنا بتشغيل قائمة النسخ الإحتياطية لإعادة تحميل"
+
+#: includes/dashboard/modals/after-logs-sent.php:63
+msgid "Your account on Wordpress.org (where you open a new support thread) is different to the one you login to your WordPress dashboard (where you are now). If you don't have a WordPress.org account yet, please sign up at the top right on here. It only takes a minute :) Thank you!"
+msgstr ""
+"يختلف حسابك على WordPress.org (حيث تفتح سلسلة دعم جديدة) عن حسابك الذي تسجل دخولك منه إلى لوحة معلومات WordPress (حيث أنت الآن). إذا لم يكن لديك حساب على WordPress.org حتى الآن، فيرجى التسجيل في الجزء العلوي الأيمن هنا. لا يستغرق الأمر سوى دقيقة :)\n"
+"شكراً لك!"
+
+#: includes/dashboard/translations.php:117
+msgid "The URL you provided does not seems to be correct."
+msgstr "يبدو أن عنوان URL الذي قدمته غير صحيح"
+
+#: includes/dashboard/translations.php:114
+msgid "There is nothing to backup. Please select database and / or files to backup."
+msgstr "لا يوجد شيء للنسخ الإحتياطي. يرجى تحديد قاعدة بيانات و / أو ملفات للنسخ الإحتياطي."
+
+#: includes/dashboard/translations.php:111
+msgid "We are processing your files, please wait till it complete. You can check the progress in the \"What will be backed up?\" tab."
+msgstr "نحن نقوم بمعالجة ملفاتك، يرجى الإنتظار حتى إكتمالها. يمكنك التحقق من التقدم في تبويب \"ما الذي سيتم نسخه إحتياطياَ؟\"."
+
+#: includes/dashboard/translations.php:108
+msgid "Download process should start."
+msgstr "يجب أن تبدأ عملية التنزيل."
+
+#: includes/dashboard/translations.php:105
+msgid "Could not lock this backup due to unknown error, please reload and try again."
+msgstr "تعذر قفل هذه النسخة الإحتياطية بسبب خطأ غير معروف، يرجى إعادة التحميل و المحاولة مرة أخرى."
+
+#: includes/dashboard/translations.php:102
+msgid "File locked successfully."
+msgstr "تم قفل الملف بنجاح."
+
+#: includes/dashboard/translations.php:99
+msgid "Could not unlock this backup due to unknown error, please reload and try again."
+msgstr "تعذر إلغاء قفل هذه النسخة الإحتياطية بسبب خطأ غير معروف، يرجى إعادة التحميل و المحاولة مرة أخرى."
+
+#: includes/dashboard/translations.php:96
+msgid "File unlocked successfully."
+msgstr "تم فتح الملف بنجاح."
+
+#: includes/dashboard/translations.php:93
+msgid "Could not find this backup, it may be deleted or there was an error with getting the name."
+msgstr "تعذر العثور على هذه النسخة الإحتياطية، قد تكون حذفت أو حدث خطأ في الحصول على الإسم."
+
+#: includes/dashboard/translations.php:90
+msgid "There was an issue during saving, some settings may stay unchanged."
+msgstr "حدثت مشكلة أثناء الحفظ، قد تظل بعض الإعدادات من دون تغيير"
+
+#: includes/dashboard/translations.php:87
+msgid "Configuration saved successfully."
+msgstr "تم حفظ الإعدادات بنجاح."
+
+#: includes/dashboard/translations.php:84
+msgid "Cannot remove backup(s) file(s) due to unknown error."
+msgstr "لا يمكن إزالة ملف (ملفات) النسخ الإحتياطي بسبب خطأ غير معروف."
+
+#: includes/dashboard/translations.php:81
+msgid "Backup(s) removed successfully."
+msgstr "تم إزالة النسخ الإحتياطية بنجاح."
+
+#: includes/dashboard/translations.php:78
+msgid "File already exist in backup directory."
+msgstr "الملف موجود بالفعل في دليل النسخ الإحتياطية."
+
+#: includes/dashboard/translations.php:75
+msgid "File has wrong type."
+msgstr "نوع الملف خاطئ."
+
+#: includes/dashboard/translations.php:72
+msgid "File has been uploaded successfully."
+msgstr "تم تحميل الملف بنجاح."
+
+#: includes/dashboard/translations.php:69
+msgid "There was an error during file upload."
+msgstr "حدث خطأ ما خلال تحميل الملف."
+
+#: includes/dashboard/translations.php:66
+msgid "File upload started."
+msgstr "بدأ تحميل الملف."
+
+#: includes/dashboard/translations.php:63
+msgid "You have to confirm that you understand the risk."
+msgstr "عليك أن تؤكد أنك تفهم المخاطر."
+
+#: includes/dashboard/modals/restore-progress-modal.php:36
+#: includes/dashboard/translations.php:60
+msgid "Preparing restore process..."
+msgstr "يتم الآن تحضير عملية الإستعادة..."
+
+#: includes/dashboard/translations.php:57
+msgid "Downloading backup file..."
+msgstr "يتم الآن تنزيل ملف النسخة الإحتياطية..."
+
+#: includes/dashboard/translations.php:51
+msgid "Backup will be aborted in few seconds."
+msgstr "سيتم إلغاء النسخ الإحتياطي في بضع ثوان."
+
+#: includes/dashboard/translations.php:48
+msgid "Your browser does not support copying, please copy by hand"
+msgstr "متصفحك لا يدعم النسخ، يرجى النسخ يدوياً"
+
+#: includes/dashboard/translations.php:42
+msgid "Text copied successfully"
+msgstr "تم نسخ النص بنجاح"
+
+#: includes/constants.php:141
+msgid "This feature isn’t ready yet in the premium plugin, that’s why you can buy it at a <b>big discount</b>"
+msgstr "هذه الميزة ليست جاهزة بعد في المكون الإضافي المميز، و لهذا يمكنك شرائها <b>بخصم كبير</b>"
+
+#: includes/dashboard/chapter/other_config.php:489
+msgid "troubleshooting"
+msgstr "إكتشاف الأخطاء و إصلاحها"
+
+#: includes/dashboard/chapter/other_config.php:489
+msgid "If you're looking for other options not listed above, check out the"
+msgstr "إذا كنت تبحث عن خيارات أخرى غير مذكورة في الأعلى، تحقق من"
+
+#: includes/dashboard/chapter/other_config.php:482
+msgid "Delete all backups (created by this plugin)"
+msgstr "حذف جميع النسخ الإحتياطية (التي تم إنشاؤها عن طريق هذا المكون الإضافي)"
+
+#: includes/dashboard/chapter/other_config.php:476
+msgid "Delete all plugins settings (this means if you install it again, you have to configure it again)"
+msgstr "حذف جميع إعدادات المكونات الإضافية (ذلك يعني أنه لو قمت بتثبيتها مرة أخرى، فيجب عليك إعدادها مرة أخرى)"
+
+#: includes/dashboard/chapter/other_config.php:468
+msgid "de-installed:"
+msgstr "غير مثبت:"
+
+#: includes/dashboard/chapter/other_config.php:468
+msgid "When this plugins is"
+msgstr "عندما يكون هذا المكون الإضافي"
+
+#: includes/dashboard/chapter/other_config.php:464
+msgid "Clean-ups"
+msgstr "عمليات التنظيف"
+
+#: includes/dashboard/chapter/other_config.php:271
+msgid "If you selected the \"schedule backups\" - option at the top of the plugin, and backups are not created, then please check out the Cron settings. Or just  ask us in the forum."
+msgstr "إذا حددت خيار \"جدولة النسخ الإحتياطية\" في الجزء العلوي من البرنامج المساعد، و لم يتم إنشاء نسخ إحتياطية، فالرجاء التحقق من إعدادات Cron. أو فقط إسألنا في المنتدى."
+
+#: includes/dashboard/chapter/other_config.php:268
+msgid "Trigger backups via WP CLI."
+msgstr "تشغيل النسخ الإحتياطية عبر WP CLI."
+
+#: includes/dashboard/chapter/other_config.php:264
+msgid "WP CLI"
+msgstr "واجهة خط الأوامر لـ وورد برس"
+
+#: includes/dashboard/chapter/other_config.php:248
+msgid "Change the key (which is part of above url) if you suspect an unauthorized person got access to it."
+msgstr "قم بتغيير المفتاح (الذي يعد جزءاً من عنوان url أعلاه) إذا كنت تشك أن شخصاً غير مصرح له تمكن من الوصول إليه."
+
+#: includes/dashboard/chapter/other_config.php:239
+msgid "Key:"
+msgstr "مفتاح:"
+
+#: includes/dashboard/chapter/other_config.php:236
+msgid "Make sure you keep this url a secret. For safety reasons this only works once per hour & you’ll get emailed when it used."
+msgstr "تأكد من الإحتفاظ بعنوان url هذا سراً. لأسباب تتعلق بالسلامة، يعمل هذا مرة واحدة في الساعة و سيتم إرسال بريد إلكتروني إليك عند إستخدامه."
+
+#: includes/dashboard/chapter/other_config.php:235
+msgid "Copy & paste this url into a browser and press enter to trigger the backup creation."
+msgstr "إنسخ و إلصق عنوان url هذا في المتصفح و إضغط على إدخال لبدء إنشاء النسخة الإحتياطية."
+
+#: includes/dashboard/chapter/other_config.php:229
+#: includes/dashboard/modals/after-logs-sent.php:45
+#: includes/dashboard/modals/backup-success-modal.php:35
+msgid "Copy"
+msgstr "نسخ"
+
+#: includes/dashboard/chapter/other_config.php:215
+msgid "Trigger by URI"
+msgstr "تشغيل بواسطة مُعرّف الموارد المنتظم"
+
+#: includes/dashboard/chapter/other_config.php:199
+msgid "Activate this so that a backup is created before there are automatic WordPress updates (WordPress core, plugins, themes, or language files)."
+msgstr "قم بتنشيط هذا حتى يتم إنشاء نسخة إحتياطية قبل أن يكون هناك تحديثات تلقائية لـ وورد بريس (WordPress core، مكونات إضافية، قوالب، أو ملفات اللغة)"
+
+#: includes/dashboard/chapter/other_config.php:182
+msgid "Before updates"
+msgstr "قبل التحديثات"
+
+#: includes/dashboard/chapter/other_config.php:169
+msgid "At the top of the plugin you can create a backup instantly (\"Create backup now\" - button), or schedule them. Here are more options which trigger the backup creation:"
+msgstr "في الجزء العلوي من المكون الإضافي، يمكنك إنشاء نسخة إحتياطية على الفور(زر-\"إنشاء نسخة إحتياطية الآن\")، أو يمكنك جدولتها. فيما يلي المزيد من الخيارات التي تؤدي إلى إنشاء نسخة إحتياطية:"
+
+#: includes/dashboard/chapter/other_config.php:165
+msgid "Backup triggers"
+msgstr "مشغلات النسخ الإحتياطي"
+
+#: includes/dashboard/chapter/other_config.php:158
+msgid "If you want to also receive the backup file as attachment of the email (for backup notifications), please set this in chapter Where will backups be stored?."
+msgstr "إذا كنت تريد أيضاً إستلام ملف النسخ الإحتياطي كمرفق بالبريد الإلكتروني (لإشعارات النسخ الإحتياطي)، فيرجى تعيين هذا في الفصل \"أين سيتم تخزين النسخ الإحتياطية؟\"."
+
+#: includes/dashboard/chapter/other_config.php:134
+msgid "Add logs to emails?"
+msgstr "أضف السجلات إلى رسائل البريد الإلكتروني؟"
+
+#: includes/dashboard/chapter/other_config.php:117
+msgid "(Make sure that your hosting does not block mail functions, otherwise you have to configure SMTP mail.)"
+msgstr "(تأكد من أن المستضيفات الخاصة بك لا تحظر وظائف البريد، و إلا عليك تكوين بريد SMTP.)"
+
+#: includes/dashboard/chapter/other_config.php:115
+msgid "There are (new) issues with scheduling (creating automatic backups)"
+msgstr "توجد مشكلات (جديدة) بالجدولة (إنشاء نسخ إحتياطية تلقائية)"
+
+#: includes/dashboard/chapter/other_config.php:105
+#: includes/dashboard/modals/restore-error-modal.php:31
+msgid "Restore failed"
+msgstr "فشلت الإستعادة"
+
+#: includes/dashboard/chapter/other_config.php:98
+msgid "Restore succeeded"
+msgstr "نجحت الإستعادة"
+
+#: includes/dashboard/chapter/other_config.php:89
+msgid "Backup creation failed"
+msgstr "فشل إنشاء النسخة الإحتياطية"
+
+#: includes/dashboard/chapter/other_config.php:82
+msgid "Backups was created successfully"
+msgstr "تم إنشاء النسخ الإحتياطية بنجاح"
+
+#: includes/dashboard/chapter/other_config.php:72
+msgid "You'll get an email if..."
+msgstr "سيصلك بريد إلكتروني إذا..."
+
+#: includes/dashboard/chapter/other_config.php:63
+msgid "This will show up as sender of the emails"
+msgstr "سيظهر هذا كمرسل لرسائل البريد الإلكتروني"
+
+#: includes/dashboard/chapter/other_config.php:56
+msgid "From field:"
+msgstr "من حقل:"
+
+#: includes/dashboard/chapter/other_config.php:48
+msgid "This is where the log files will be sent to. You can enter several email addresses, separated by comma."
+msgstr "هذا هو المكان الذي سيتم ملفات السجل إليه. يمكنك إدخال عدم عناوين بريد إلكتروني مفصولة بفواصل."
+
+#: includes/dashboard/chapter/other_config.php:35
+msgid "Email address:"
+msgstr "عنوان البريد الإلكتروني:"
+
+#: includes/dashboard/chapter/other_config.php:31
+msgid "Email notifications"
+msgstr "إشعارات البريد الإلكتروني"
+
+#: includes/dashboard/chapter/other_config.php:12
+msgid "This will be triggered on plugin removal via WordPress plugins tab"
+msgstr "سيتم تشغيل هذا عند إزالة المكون الإضافي عبر علامة تبويب مكونات ووردبريس الإضافية"
+
+#: includes/dashboard/chapter/other_config.php:244
+#: includes/dashboard/chapter/save-button.php:12
+msgid "Save"
+msgstr "حفظ"
+
+#: includes/dashboard/chapter/save-button.php:16
+#: includes/dashboard/chapter/troubleshooting.php:265
+msgid "Collapse this chapter"
+msgstr "طي هذا الفصل"
+
+#: includes/dashboard/chapter/other_config.php:489
+#: includes/dashboard/chapter/troubleshooting.php:259
+msgid "chapter as they might be there."
+msgstr "الفصل حيث يمكن أن يكونوا هناك."
+
+#: includes/dashboard/chapter/troubleshooting.php:259
+msgid "If you’re looking for other options not listed above, check out the"
+msgstr "إذا كنت تبحث عن خيارات أخرى غير مذكورة في الأعلى، تحقق من"
+
+#: includes/dashboard/chapter/troubleshooting.php:255
+msgid "to reset plugin configuration."
+msgstr "لإعادة ضبط إعدادات المكون الإضافي."
+
+#: includes/dashboard/chapter/troubleshooting.php:255
+msgid "click here"
+msgstr "انقر هنا"
+
+#: includes/dashboard/chapter/troubleshooting.php:255
+msgid "Please"
+msgstr "رجاءً"
+
+#: includes/dashboard/chapter/troubleshooting.php:251
+msgid "Reset configuration"
+msgstr "إعادة ضبط الإعدادات"
+
+#: includes/dashboard/chapter/troubleshooting.php:205
+msgid "Download logs."
+msgstr "تنزيل السجلات."
+
+#: includes/dashboard/chapter/troubleshooting.php:202
+msgid "All backup creation & restore processes are documented in log files which to debug issues."
+msgstr "جميع إنشاءات النسخ الإحتياطي و عمليات الإستعادة موثقة في ملفات السجل لتصحيح المشكلات"
+
+#: includes/dashboard/chapter/troubleshooting.php:198
+msgid "Logging"
+msgstr "تسجيل"
+
+#: includes/dashboard/chapter/troubleshooting.php:194
+msgid "(e.g. for easy sharing with us, so that we can debug)"
+msgstr "(على سبيل المثال، لسهولة المشاركة معنا، حتى نتمكن من تصحيح الأخطاء)"
+
+#: includes/dashboard/chapter/troubleshooting.php:194
+msgid "Download your site infos"
+msgstr "تنزيل معلومات موقعك"
+
+#: includes/dashboard/chapter/troubleshooting.php:184
+#: includes/dashboard/chapter/troubleshooting.php:185
+msgid "See more"
+msgstr "مشاهدة المزيد"
+
+#: includes/dashboard/chapter/troubleshooting.php:131
+msgid "Here is some information about your site, which may help to debug if there is an issue:"
+msgstr "فيما يلي بعض المعلومات عن موقعك، و التي قد تساعد في تصحيح الأخطاء إذا كانت هناك مشكلة:"
+
+#: includes/dashboard/chapter/troubleshooting.php:128
+msgid "Site information"
+msgstr "معلومات الموقع"
+
+#: includes/dashboard/chapter/troubleshooting.php:101
+msgid "Troubleshooting settings"
+msgstr "إعدادات الكشف عن الأخطاء و إصلاحها"
+
+#: includes/dashboard/chapter/troubleshooting.php:87
+msgid "Cannot log in there?"
+msgstr "لا يمكن تسجيل الدخول هناك؟"
+
+#: includes/dashboard/chapter/troubleshooting.php:80
+msgid "...in an effort to fix it yourself. Be sure you know what you are doing!"
+msgstr "...في محاولة لإصلاحها بنفسك. تأكد من أنك تعرف ما تفعله!"
+
+#: includes/dashboard/chapter/troubleshooting.php:76
+msgid "Check advanced options"
+msgstr "تحقق من الخيارات المتقدمة"
+
+#: includes/dashboard/chapter/troubleshooting.php:64
+msgid "...which includes support, so we can help you in more detail if you get stuck."
+msgstr "...التي تتضمن الدعم، حتى نتمكن من مساعدتك بمزيد من التفاصيل إذا واجهتك مشكلة."
+
+#: includes/dashboard/chapter/troubleshooting.php:60
+msgid "Get the Premium Plugin"
+msgstr "احصل على المكون الإضافي المميز"
+
+#: includes/dashboard/chapter/troubleshooting.php:47
+msgid "Your first port of call. We'll try to respond quickly!"
+msgstr "منفذ الإتصال الأول الخاص بك. سنحاول الرد بسرعة!"
+
+#: includes/dashboard/chapter/troubleshooting.php:43
+msgid "Ask us in the Support forum"
+msgstr "إسألنا في منتدى الدعم"
+
+#: includes/dashboard/chapter/troubleshooting.php:29
+msgid "If something doesn't work, you have several options - pick one:"
+msgstr "إذا لم ينجح شيء ما، فلديك عدة خيارات - إختر واحداً:"
+
+#: includes/dashboard/chapter/troubleshooting.php:15
+#: includes/dashboard/modals/backup-success-modal.php:10
+msgid "Your account on Wordpress.org (where you open a new support thread) is different to the one you login to your WordPress dashboard (where you are now). If you don’t have a WordPress.org account yet, please sign up at the top right on the Support Forum page, and then scroll down on that page . It only takes a minute :) Thank you!"
+msgstr ""
+"يختلف حسابك على WordPress.org (حيث تفتح سلسلة دعم جديدة) عن حسابك الذي تسجل دخولك منه إلى لوحة معلومات WordPress (حيث أنت الآن). إذا لم يكن لديك حساب على WordPress.org حتى الآن، فيرجى التسجيل في الجزء العلوي الأيمن هنا. لا يستغرق الأمر سوى دقيقة :)\n"
+"شكراً لك!"
+
+#: includes/constants.php:162
+msgid "stay tuned!"
+msgstr "ابقوا متابعين!"
+
+#: includes/constants.php:162
+msgid "Coming soon also in the free plugin"
+msgstr "سيتوفر قريباً أيضاً في المكون الإضافي المجاني"
+
+#: includes/dashboard/chapter/where_config.php:76
+msgid "Select “Yes” if you want your (manually created) backups to be available via a direct link. This makes migration from one site to another super-fast."
+msgstr "حدد \"نعم\" إذا كنت تريد النسخ الإحتياطية (التي تم إنشاؤها يدوياً) متاحة عبر رابط مباشر. هذا يجعل الترحيل من موقع إلى آخر بسرعة فائقة."
+
+#: includes/dashboard/chapter/where_config.php:55
+msgid "Accessible via direct link?"
+msgstr "يمكن الوصول إليه عبر رابط مباشر؟"
+
+#: includes/dashboard/chapter/where_config.php:50
+msgid "That’s where your local backups will be stored. If you picked external storage this folder will also be used (to store your backup temporarily, until it is uploaded to the external storage)."
+msgstr "هذا هو المكان الذي سيتم تخزين فيه النسخ الإحتياطية المحلية الخاصة بك. إذا إخترت وحدة تخزين خارجية فسيتم إستخدام هذا المجلد أيضاً (لتخزين نسختك الإحتياطية مؤقتاً، حتى يتك تحميلها على وحدة التخزين الخارجية)."
+
+#: includes/dashboard/chapter/where_config.php:46
+msgid "Enter directory path"
+msgstr "أدخل مسار الدليل"
+
+#: includes/dashboard/chapter/where_config.php:44
+msgid "Backup directory path:"
+msgstr "مسار دليل النسخ الإحتياطية"
+
+#: includes/dashboard/chapter/where_config.php:31
+msgid "(on this web server)"
+msgstr "(على خادم الويب هذا)"
+
+#: includes/dashboard/chapter/where_config.php:17
+msgid "Select all the storage options you want to use:"
+msgstr "حدد جميع خيارات التخزين التي تريد إستخدامها:"
+
+#: includes/dashboard/chapter/store_config.php:152
+msgid "chapter."
+msgstr "فصل."
+
+#: includes/dashboard/chapter/store_config.php:152
+msgid "For other security settings, e.g. who can access your backup directories, please go to the"
+msgstr "للإعدادات الأمنية الأخرى، على سبيل المثال، من يستطيع الوصول إلى أدلة النسخ الإحتياطي الخاصة بك، يرجى الذهاب إلى"
+
+#: includes/dashboard/chapter/store_config.php:130
+msgid "Do you want to encrypt and password protect your files?"
+msgstr "هل تريد تشفير و حماية ملفاتك بكلمة مرور؟"
+
+#: includes/dashboard/chapter/store_config.php:126
+msgid "Encryption"
+msgstr "التشفير"
+
+#: includes/dashboard/chapter/store_config.php:108
+msgid "“ZIP” is the standard choice (compression level 1). Use “Tar” (compression level 2) or Tar.gz (compression level 5) if you want to have more compression (i.e. smaller file sizes). However, this will also put more load on the backup creation."
+msgstr "\"ZIP\" هو الخيار الأساسي (مستوى الضغط 1). إستخدم \"Tar\" (مستوى الضغط 2) أو Tar.gz (مستوى الضغط 5) إذا كنت تريد المزيد من الضغط (أي حجم ملفات أصغر). و مع ذلك، سيؤدي هذا إلى زيادة العبء على إنشاء النسخة الإحتياطية"
+
+#: includes/dashboard/chapter/store_config.php:63
+msgid "Please select the compression method of your backup files:"
+msgstr "يرجى تحديد طريقة ضغط ملفات النسخ الإحتياطي الخاصة بك:"
+
+#: includes/dashboard/chapter/store_config.php:62
+msgid "Zipping"
+msgstr "يضغط"
+
+#: includes/dashboard/chapter/store_config.php:54
+msgid "Hide"
+msgstr "إخفاء"
+
+#: includes/dashboard/chapter/store_config.php:50
+msgid "Seconds with leading zeros"
+msgstr "ثوان بأصفار بادئة"
+
+#: includes/dashboard/chapter/store_config.php:49
+msgid "Minutes with leading zeros"
+msgstr "دقائق بأصفار بادئة"
+
+#: includes/dashboard/chapter/store_config.php:48
+msgid "24-hour format of an hour with leading zeros"
+msgstr "تنسيق 24-ساعة للساعة بأصفار بادئة"
+
+#: includes/dashboard/chapter/store_config.php:47
+msgid "12-hour format of an hour with leading zeros"
+msgstr "تنسيق 12-ساعة للساعة بأصفار بادئة"
+
+#: includes/dashboard/chapter/store_config.php:46
+msgid "24-hour format of an hour without leading zeros"
+msgstr "تنسيق 24-ساعة للساعة بدون أصفار بادئة"
+
+#: includes/dashboard/chapter/store_config.php:45
+msgid "12-hour format of an hour without leading zeros"
+msgstr "تنسيق 12-ساعة للساعة بدون أصفار بادئة"
+
+#: includes/dashboard/chapter/store_config.php:44
+msgid "Swatch Internet time"
+msgstr "تنسيق سواتش للوقت"
+
+#: includes/dashboard/chapter/store_config.php:43
+msgid "Uppercase Ante meridiem and Post meridiem"
+msgstr "أحرف كبيرة لـam و pm"
+
+#: includes/dashboard/chapter/store_config.php:42
+msgid "Lowercase Ante meridiem and Post meridiem"
+msgstr "أحرف صغيرة لـ am و pm"
+
+#: includes/dashboard/chapter/store_config.php:41
+msgid "A two digit representation of a year"
+msgstr "تمثيل مكون من رقمين لعام"
+
+#: includes/dashboard/chapter/store_config.php:39
+msgid "Numeric representation of a month, without leading zeros"
+msgstr "تمثيل رقمي لشهر، من دون أصفار بادئة"
+
+#: includes/dashboard/chapter/store_config.php:38
+msgid "Numeric representation of a month, with leading zeros"
+msgstr "تمثيل رقمي لشهر، مع أصفار بادئة"
+
+#: includes/dashboard/chapter/store_config.php:37
+msgid "Day of the month without leading zeros"
+msgstr "يوم من الشهر بدون أصفار بادئة"
+
+#: includes/dashboard/chapter/store_config.php:36
+msgid "Day of the month, 2 digits with leading zeros"
+msgstr "يوم من الشهر، رقمين مع أصفار بادئة"
+
+#: includes/dashboard/chapter/store_config.php:35
+msgid "A textual representation of a day, three letters"
+msgstr "تمثيل نصي لليوم، ثلاثة أحرف"
+
+#: includes/dashboard/chapter/store_config.php:33
+#: includes/dashboard/chapter/store_config.php:40
+msgid "A full numeric representation of a year, 4 digits"
+msgstr "تمثيل رقمي كامل للسنة، 4 أرقام"
+
+#: includes/dashboard/chapter/store_config.php:34
+msgid "A short textual representation of a month, three letters"
+msgstr "تمثيل نصي قصير للشهر، ثلاثة أحرف"
+
+#: includes/dashboard/chapter/store_config.php:30
+msgid "We’re giving you maximum flexibility to automatically name your backup files in the way you want. Simply use below keys:"
+msgstr "نحن نمنحك أقصى قدر من المرونة لتسمية ملفات النسخ الإحتياطي بالطريقة التي تريدها. ببساطة إستخدم المفاتيح التالية:"
+
+#: includes/dashboard/chapter/store_config.php:21
+msgid "Huh? Explain this please"
+msgstr "هاه؟ إشرح هذا من فضلك"
+
+#: includes/dashboard/chapter/store_config.php:15
+msgid "Your backup(s) will be given the following file name(s)"
+msgstr "سيتم إعطاء النسخ الإحتياطية الخاصة بك إسم (أسماء) الملفات التالية"
+
+#: includes/dashboard/chapter/store_config.php:14
+msgid "File name"
+msgstr "إسم الملف"
+
+#: includes/dashboard/chapter/what_backed_up.php:399
+msgid "See the list of files you excluded."
+msgstr "انظر قائمة الملفات التي استبعدتها."
+
+#: includes/dashboard/chapter/what_backed_up.php:398
+msgid "(refresh)"
+msgstr "(تحديث)"
+
+#: includes/dashboard/chapter/what_backed_up.php:397
+msgid "large, unzipped."
+msgstr "كبير، غير مضغوط."
+
+#: includes/dashboard/chapter/what_backed_up.php:397
+msgid "of data, which means your backup will be about"
+msgstr "من البيانات، ما يعني أن نسختك الإحتياطية ستكون حول"
+
+#: includes/dashboard/chapter/what_backed_up.php:397
+msgid "With above exclusion rules you excluded"
+msgstr "مع قواعد الإستبعاد المذكورة أعلاه، قمت بإستبعاد"
+
+#: includes/dashboard/chapter/what_backed_up.php:393
+msgid "Summary / Sanity check"
+msgstr "ملخص / فحص السلامة"
+
+#: includes/dashboard/chapter/what_backed_up.php:383
+msgid "post revisions"
+msgstr "مراجعات المنشورات"
+
+#: includes/dashboard/chapter/what_backed_up.php:379
+msgid "thumbnails"
+msgstr "الصور المصغرة"
+
+#: includes/dashboard/chapter/what_backed_up.php:375
+msgid "all non-used themes"
+msgstr "جميع السمات غير المستخدمة"
+
+#: includes/dashboard/chapter/what_backed_up.php:371
+msgid "debug logs"
+msgstr "تصحيح أخطاء السجلات"
+
+#: includes/dashboard/chapter/what_backed_up.php:367
+msgid "deactivated plugins"
+msgstr "المكونات الإضافية المعطلة"
+
+#: includes/dashboard/chapter/what_backed_up.php:363
+msgid "cache files"
+msgstr "ملفات ذاكرة التخزين المؤقت"
+
+#: includes/dashboard/chapter/what_backed_up.php:363
+#: includes/dashboard/chapter/what_backed_up.php:367
+#: includes/dashboard/chapter/what_backed_up.php:371
+#: includes/dashboard/chapter/what_backed_up.php:379
+msgid "Exclude all"
+msgstr "إستبعاد الكل"
+
+#: includes/dashboard/chapter/what_backed_up.php:359
+msgid "spam comments"
+msgstr "تعليقات مزعجة"
+
+#: includes/dashboard/chapter/what_backed_up.php:326
+msgid "Want to apply \"smart\" exclusions rules?"
+msgstr "تريد تطبيق قواعد الإستبعاد \"الذكي\"؟"
+
+#: includes/dashboard/chapter/what_backed_up.php:312
+#: includes/dashboard/translations.php:13
+msgid "Exclude certain tables from backups"
+msgstr "إستبعاد بعض الجداول من النسخ الإحتياطية"
+
+#: includes/dashboard/chapter/what_backed_up.php:301
+msgid "will be backed up unless you exclude them by defining exclusion rules."
+msgstr "سيتم نسخها إحتياطياً ما لم تستبعدها من خلال تحديد قواعد الإستبعاد."
+
+#: includes/dashboard/chapter/what_backed_up.php:301
+msgid "All databases (on the domain"
+msgstr "جميع قواعد البيانات (على المجال"
+
+#: includes/dashboard/chapter/what_backed_up.php:289
+msgid "Databases"
+msgstr "قواعد البيانات"
+
+#: includes/dashboard/chapter/what_backed_up.php:258
+msgid "directory path"
+msgstr "مسار الدليل"
+
+#: includes/dashboard/chapter/what_backed_up.php:349
+msgid "With the \"Files\" and \"Databases\" options above you can already define what to include or exclude in your backup. However, you may want to exclude elements in your backups where you are not sure in which file or table they reside. For example, you may want to exclude all spam comments in your backups. This is what the \"smart\" exclusion rules are for. This is also a good way to clean your site of things you do not want."
+msgstr "بإستخدام خياري \"ملفات\" و \"قواعد البيانات\" أعلاه، يمكنك بالفعل تحديد ما يجب تضمينه أو إستبعاده في نسختك الإحتياطية. و مع ذلك، قد ترغب في إستبعاد العناصر الموجودة في النسخ الإحتياطية الخاصة بك حيث لا تكون متأكداً من الملف أو الجدول الذي تتواجد فيه. على سبيل المثال، قد ترغب في إستبعاد جميع التعليقات المزجعة المكررة في النسخ الإحتياطية الخاصة بك. هذا هو الغرض من قواعد الإستبعاد \"الذكية\". هذه أيضاً طريقة جيدة لتنظيف موقعك من الأشياء التي لا تريدها."
+
+#: includes/dashboard/chapter/what_backed_up.php:240
+msgid "Examples:"
+msgstr "أمثلة:"
+
+#: includes/dashboard/chapter/what_backed_up.php:233
+msgid "file path"
+msgstr "مسار الملف"
+
+#: includes/dashboard/chapter/what_backed_up.php:223
+msgid "The folder where backups are stored (i.e. the backups which this plugin creates) is always excluded, to prevent you from taking backups of your own backups."
+msgstr "يتم دائماً إستبعاد المجلد حيث يتم تخزين النسخ الإحتياطية (أي النسخ الإحتياطية التي ينشئها هذا المكون الإضافي)، لمنعك من أخذ نسخ إحتياطية من النسخ الإحتياطية الخاصة بك."
+
+#: includes/dashboard/chapter/what_backed_up.php:219
+msgid "File names include the extension, e.g. if you select to exclude all files which end with “.psd” at the end then all files in psd format will be excluded."
+msgstr "تتضمن أسماء الملفات الإمتداد، على سبيل المثال إذا إخترت إستبعاد جميع الملفات التي تنتهي بـ\"psd.\" في النهاية، فسيتم إستبعاد جميع الملفات بتنسيق psd."
+
+#: includes/dashboard/chapter/what_backed_up.php:215
+msgid "Add an exclusion rule"
+msgstr "أضف قاعدة استبعاد"
+
+#: includes/dashboard/chapter/what_backed_up.php:208
+msgid "(case-sensitive)"
+msgstr "(حساسية-الموضوع)"
+
+#: includes/dashboard/chapter/what_backed_up.php:208
+msgid "file / folder name"
+msgstr "إسم الملف / المجلد"
+
+#: includes/dashboard/chapter/what_backed_up.php:198
+msgid "Do not backup files which are larger than"
+msgstr "لا تقم بعمل نسخة إحتياطية من الملفات الأكبر من"
+
+#: includes/dashboard/chapter/what_backed_up.php:193
+msgid "file size"
+msgstr "حجم الملف"
+
+#: includes/dashboard/chapter/what_backed_up.php:193
+#: includes/dashboard/chapter/what_backed_up.php:208
+#: includes/dashboard/chapter/what_backed_up.php:233
+#: includes/dashboard/chapter/what_backed_up.php:258
+msgid "Exclude by"
+msgstr "إستبعاد عن طريق"
+
+#: includes/dashboard/chapter/other_config.php:146
+#: includes/dashboard/chapter/store_config.php:141
+#: includes/dashboard/chapter/what_backed_up.php:177
+#: includes/dashboard/chapter/what_backed_up.php:337
+#: includes/dashboard/chapter/where_config.php:67
+msgid "Yes"
+msgstr "نعم"
+
+#: includes/dashboard/chapter/other_config.php:140
+#: includes/dashboard/chapter/store_config.php:136
+#: includes/dashboard/chapter/what_backed_up.php:172
+#: includes/dashboard/chapter/what_backed_up.php:331
+#: includes/dashboard/chapter/where_config.php:61
+msgid "No"
+msgstr "لا"
+
+#: includes/dashboard/chapter/what_backed_up.php:168
+msgid "Want to exclude files based on filters?"
+msgstr "هل تريد إستبعاد الملفات بناءاً على عوامل التصفية؟"
+
+#: includes/dashboard/chapter/what_backed_up.php:151
+msgid "WordPress installation"
+msgstr "تثبيت ووردبريس"
+
+#: includes/dashboard/chapter/what_backed_up.php:132
+msgid "Everything else in wp-content"
+msgstr "كل شيء آخر في محتوى ووردبريس"
+
+#: includes/dashboard/chapter/what_backed_up.php:113
+msgid "Themes"
+msgstr "قوالب"
+
+#: includes/dashboard/chapter/what_backed_up.php:94
+msgid "Uploads"
+msgstr "الملفات المرفوعة"
+
+#: includes/dashboard/chapter/what_backed_up.php:81
+#: includes/dashboard/chapter/what_backed_up.php:100
+#: includes/dashboard/chapter/what_backed_up.php:119
+#: includes/dashboard/chapter/what_backed_up.php:138
+#: includes/dashboard/chapter/what_backed_up.php:157
+msgid "Details"
+msgstr "التفاصيل"
+
+#: includes/dashboard/chapter/what_backed_up.php:76
+msgid "Plugins"
+msgstr "الإضافات"
+
+#: includes/dashboard/chapter/what_backed_up.php:68
+msgid "Select which files you want to have backed up."
+msgstr "حدد الملفات التي تريد نسخها إحتياطياً."
+
+#: includes/dashboard/chapter/what_backed_up.php:55
+msgid "Files"
+msgstr "الملفات"
+
+#: includes/dashboard/chapter/what_backed_up.php:47
+msgid "Here you can define what exactly will be included in the backup. If your site is very large it may make sense to only backup certain parts of it."
+msgstr "هنا يمكنك تحديد ما سيتم تضمينه بالضبط في النسخة الإحتياطية. إذا كان موقعك كبيراً جداً، فقد يكون من المنطقي الإحتفاظ بنسخة إحتياطية من أجزاء معينه منه فقط."
+
+#: includes/dashboard/chapter/what_backed_up.php:24
+msgid "You can already exclude files based on filters (click on “Yes” below), however in the premium plugin you’ll also be able to browse through them."
+msgstr "يمكنك بالفعل إستبعاد الملفات بناءً على عوامل التصفية (انقر فوق \"نعم\" أدناه)، و لكن في المكون الإضافي المميز، ستتمكن أيضاً من تصفحها."
+
+#: includes/dashboard/chapter/what_backed_up.php:22
+msgid "Enter the paths to the files you want to exclude from your backup (one per line)."
+msgstr "أدخل المسار إلى الملفات التي تريد إستبعادها من النسخة الإحتياطية الخاصة بك (واحد لكل سطر)."
+
+#: includes/dashboard/chapter/what_backed_up.php:23
+msgid "Enter the paths to the directories/folders you want to exclude from your backup (one per line)."
+msgstr "أدخل المسارات إلى الأدلة / المجلدات التي تريد إستبعادها من النسخة الإحتياطية الخاصة بك (واحد لكل سطر)."
+
+#: includes/dashboard/chapter/what_backed_up.php:20
+msgid "Here are stored all plugin, theme, WordPress installation files, but also files from Media library and other folders and files located in your server’s site directory. Note that WordPress keeps records of files such as Media library in the Databases, so you should also backup Databases if you want WordPress to “see” e.g. recovered media files. Size here is the total size you can get."
+msgstr "يتم هنا تخزين جميع المكونات الإضافية، و القوالب، و ملفات تثبيت ووردبريس، و كذلك ملفات من مكتبة الوسائط و المجلدات و الملفات الأخرى الموجودة في دليل موقع الخادم الخاص بك. لاحظ أن ووردبريس يحتفظ بسجلات للملفات مثل مكتبة الوسائط  في قاعدة البيانات، لذلك يجب عليك أيضاً الإحتفاظ بنسخة إحتياطية من قواعد البيانات إذا كنت تريد أن \"يرى\" ووردبريس على سبيل المثال ملفات الوسائط المستردة. الحجم هنا هو الحجم الإجمالي الذي يمكنك الحصول عليه."
+
+#: includes/dashboard/modules/super-quick-migration.php:27
+msgid "Restore now!"
+msgstr "إسترّد الآن!"
+
+#: includes/dashboard/modules/super-quick-migration.php:21
+msgid "E.g."
+msgstr "على سبيل المثال"
+
+#: includes/dashboard/modules/super-quick-migration.php:18
+msgid "Paste here the url you got after creating a backup:"
+msgstr "الصق هنا عنوان url الذي حصلت عليه بعد إنشاء نسخة إحتياطية:"
+
+#: includes/dashboard/modules/super-quick-migration.php:12
+msgid "Super-quick migration"
+msgstr "ترحيل بسرعة فائقة"
+
+#: includes/dashboard/modules/backups-under-table.php:91
+msgid "Load more"
+msgstr "تحميل المزيد"
+
+#: includes/dashboard/modules/backups-under-table.php:84
+msgid "or remote storage, and then use the \"Rescan for backup files\" - option above to make them show up in the list."
+msgstr "أو التخزين البعيد، ثم إستخدم خيار \"إعادة المسح بحثاً عن ملفات النسخ الإحتياطي\" - أعلاه لجعلها تظهر في القائمة."
+
+#: includes/dashboard/modules/backups-under-table.php:84
+msgid "Alternatively, you can place the files (e.g. via FTP) into your local backup directory"
+msgstr "بدلاً من ذلك، يمكنك وضع الملفات (على سبيل المثال عبر FTP) في دليل النسخ الإحتياطي المحلي"
+
+#: includes/dashboard/modules/backups-under-table.php:78
+msgid "Cancel upload"
+msgstr "إلغاء الرفع"
+
+#: includes/dashboard/modules/backups-under-table.php:68
+msgid "Upload in progress"
+msgstr "التحميل قيد التقدم"
+
+#: includes/dashboard/modules/backups-under-table.php:56
+msgid "Browse for file"
+msgstr "تصفح بحثاً عن ملف"
+
+#: includes/dashboard/modules/backups-under-table.php:52
+msgid "...or"
+msgstr "...أو"
+
+#: includes/dashboard/modules/backups-under-table.php:48
+msgid "Drag & drop your backup file here"
+msgstr "قم بسحب و إسقاط ملف النسخ الإحتياطي الخاص بك هنا"
+
+#: includes/dashboard/modules/backups-under-table.php:38
+msgid "Delete all selected backups"
+msgstr "خذف جميع ملفات النسخ الإحتياطي المحددة"
+
+#: includes/dashboard/modules/backups-under-table.php:30
+msgid "Remotely"
+msgstr "عن بعد"
+
+#: includes/dashboard/chapter/where_config.php:30
+#: includes/dashboard/modules/backups-under-table.php:29
+msgid "Locally"
+msgstr "محلياً"
+
+#: includes/dashboard/modules/backups-under-table.php:28
+msgid "Rescan for backup files:"
+msgstr "إعادة المسح بحثًا عن ملفات النسخ الاحتياطي:"
+
+#: includes/dashboard/modules/backups-under-table.php:19
+msgid "Upload backup files"
+msgstr "تحميل ملفات النسخ الاحتياطي"
+
+#: includes/dashboard/modules/backup-ongoing.php:27
+msgid "Click to see status quo"
+msgstr "انقر لرؤية الوضع الراهن"
+
+#: includes/dashboard/modules/backup-ongoing.php:23
+msgid "Backup in progress!"
+msgstr "النسخ الاحتياطي قيد التقدم!"
+
+#: includes/dashboard/modules/email-errors.php:25
+msgid "Dismiss"
+msgstr "تجاهل"
+
+#: includes/dashboard/modules/email-errors.php:21
+#: includes/dashboard/modules/email-errors.php:22
+msgid "Expand"
+msgstr "توسيع"
+
+#: includes/dashboard/modules/email-errors.php:18
+msgid "We have some notices regarding most recent automated backup."
+msgstr "لدينا بعض الإشعارات بخصوص أحدث نسخ احتياطي تلقائي."
+
+#: includes/dashboard/chapter/troubleshooting.php:184
+#: includes/dashboard/modules/backup_controller.php:207
+#: includes/dashboard/modules/email-errors.php:21
+msgid "Collapse"
+msgstr "طي"
+
+#: includes/dashboard/modules/backup_controller.php:203
+msgid "here"
+msgstr "هنا"
+
+#: includes/dashboard/modules/backup_controller.php:202
+msgid "when your backups are created, please go"
+msgstr "عندما يتم إنشاء النسخ الاحتياطية الخاصة بك ، يرجى الانتقال"
+
+#: includes/dashboard/modules/backup_controller.php:201
+msgid "other triggers"
+msgstr "مشغلات أخرى"
+
+#: includes/dashboard/modules/backup_controller.php:200
+msgid "For"
+msgstr "من أجل"
+
+#: includes/dashboard/modules/backup_controller.php:197
+msgid "tab"
+msgstr "تبويب"
+
+#: includes/dashboard/modules/backup_controller.php:195
+msgid "You can change their lock status on the"
+msgstr "يمكنك تغيير حالة القفل الخاصة بهم على"
+
+#: includes/dashboard/modules/backup_controller.php:194
+msgid "Manually created backups (i.e. those after click on \"Create backup now!\") are permanently locked, while automatically created backups are by default unlocked."
+msgstr "يتم قفل النسخ الإحتياطية التي يتم إنشاؤها يدوياً (أي تلك التي تم إنشاؤها بعد النقر فوق \"إنشاء نسخة إحتياطية الآن!\") بشكل دائم، بينما يتم إلغاء قفل النسخ الإحتياطية التي تم إنشاؤها تلقائياً بشكل إفتراضي."
+
+#: includes/dashboard/modules/backup_controller.php:192
+msgid "automatically. Those are indicated by a lock sign"
+msgstr "تلقائيا. يشار إلى تلك بعلامة القفل"
+
+#: includes/dashboard/modules/backup_controller.php:191
+msgid "Locked backups will <u>not</u> be deleted"
+msgstr "النسخ التلقائية المقفلة <u>لن</u> يتم حذفها"
+
+#: includes/dashboard/modules/backup_controller.php:188
+msgid "otherwise you may run out of space."
+msgstr "وإلا فقد تنفذ المساحة لديك."
+
+#: includes/dashboard/modules/backup_controller.php:187
+msgid "only keep 2 or 3 backups"
+msgstr "احتفظ بنسختين أو ثلاث نسخ احتياطية فقط"
+
+#: includes/dashboard/modules/backup_controller.php:186
+msgid "We suggest to"
+msgstr "نقترح أن"
+
+#: includes/dashboard/modules/backup_controller.php:182
+msgid "at least one visitor"
+msgstr "زائر واحد على الأقل"
+
+#: includes/dashboard/modules/backup_controller.php:181
+msgid "There needs to be"
+msgstr "يجب أن يكون هناك"
+
+#: includes/dashboard/modules/backup_controller.php:177
+msgid "server times"
+msgstr "أوقات الخادم"
+
+#: includes/dashboard/modules/backup_controller.php:176
+msgid "Above times are"
+msgstr "الأوقات المذكورة أعلاه"
+
+#: includes/dashboard/modules/backup_controller.php:157
+msgid "backups that have been created automatically."
+msgstr "النسخ الاحتياطية التي تم إنشاؤها تلقائيًا."
+
+#: includes/dashboard/modules/backup_controller.php:147
+msgid "...and keep the last"
+msgstr "... واحتفظ بآخر"
+
+#: includes/dashboard/modules/backup_controller.php:136
+msgid "minutes"
+msgstr "دقائق"
+
+#: includes/dashboard/modules/backup_controller.php:127
+msgid "hours and"
+msgstr "ساعات و"
+
+#: includes/dashboard/modules/backup_controller.php:118
+msgid "at"
+msgstr "في"
+
+#: includes/dashboard/modules/backup_controller.php:115
+msgid "Sunday"
+msgstr "الأحد"
+
+#: includes/dashboard/modules/backup_controller.php:114
+msgid "Saturday"
+msgstr "السبت"
+
+#: includes/dashboard/modules/backup_controller.php:113
+msgid "Friday"
+msgstr "الجمعة"
+
+#: includes/dashboard/modules/backup_controller.php:112
+msgid "Thursday"
+msgstr "الخميس"
+
+#: includes/dashboard/modules/backup_controller.php:111
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+#: includes/dashboard/modules/backup_controller.php:110
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+#: includes/dashboard/modules/backup_controller.php:109
+msgid "Monday"
+msgstr "الإثنين"
+
+#: includes/dashboard/modules/backup_controller.php:97
+msgid "on"
+msgstr "تشغيل"
+
+#: includes/dashboard/modules/backup_controller.php:94
+msgid "Day"
+msgstr "اليوم"
+
+#: includes/dashboard/modules/backup_controller.php:93
+msgid "Week"
+msgstr "أسبوع"
+
+#: includes/dashboard/modules/backup_controller.php:92
+msgid "Month"
+msgstr "الشهر"
+
+#: includes/dashboard/modules/backup_controller.php:89
+msgid "Create a backup every"
+msgstr "قم بإنشاء نسخة إحتياطية كل"
+
+#: includes/dashboard/chapter/other_config.php:191
+#: includes/dashboard/modules/backup_controller.php:77
+msgid "Off"
+msgstr "إيقاف"
+
+#: includes/dashboard/chapter/other_config.php:190
+#: includes/dashboard/modules/backup_controller.php:76
+msgid "On"
+msgstr "تشغيل"
+
+#: includes/dashboard/modules/backup_controller.php:68
+msgid "Automatic backups creation"
+msgstr "إنشاء النسخ الاحتياطية التلقائية"
+
+#: includes/dashboard/modules/backup_controller.php:57
+msgid "backups created automatically"
+msgstr "النسخ الإحتياطية التي تم إنشاؤها تلقائياً"
+
+#: includes/dashboard/modules/backup_controller.php:56
+msgid "... or have"
+msgstr "...أو لديها"
+
+#: includes/dashboard/modules/backup_controller.php:39
+msgid "now!"
+msgstr "الآن!"
+
+#: includes/dashboard/modules/backup_controller.php:39
+msgid "Create backup"
+msgstr "إنشاء نسخة إحتياطية"
+
+#: includes/dashboard/modules/backups-table-header.php:37
+msgid "Actions"
+msgstr "إجراءات"
+
+#: includes/dashboard/modules/backups-table-header.php:36
+msgid "Move over the icons to see what you can do with the backup(s)"
+msgstr "تحرك فوق الرموز لمعرفة ما يمكنك فعله بالنسخة (النسخ) الاحتياطية"
+
+#: includes/dashboard/modules/backups-table-header.php:32
+msgid "Locked?"
+msgstr "مقفل؟"
+
+#: includes/dashboard/modules/backups-table-header.php:27
+msgid "Size"
+msgstr "الحجم"
+
+#: includes/dashboard/modules/backups-table-header.php:26
+msgid "Size of your backup file"
+msgstr "حجم ملف النسخ الاحتياطي الخاص بك"
+
+#: includes/dashboard/modules/backups-table-header.php:22
+msgid "Filename"
+msgstr "اسم الملف"
+
+#: includes/dashboard/modules/backups-table-header.php:16
+msgid "Backup date"
+msgstr "تاريخ النسخ الإحتياطي"
+
+#: includes/dashboard/modules/backups-table-header.php:15
+msgid "When your backup was created, in server time"
+msgstr "عندما تم إنشاء النسخة الاحتياطية الخاصة بك ، في وقت الخادم"
+
+#: includes/dashboard/templates/backup-row-template.php:40
+msgid "Delete this backup"
+msgstr "إحذف هذه النسخة الإحتياطية"
+
+#: includes/dashboard/templates/backup-row-template.php:37
+msgid "Restore"
+msgstr "إستعادة"
+
+#: includes/dashboard/templates/backup-row-template.php:35
+msgid "Restore this backup on this site"
+msgstr "إستعادة هذه النسخة الإحتياطية على هذا الموقع"
+
+#: includes/dashboard/templates/backup-row-template.php:29
+msgid "Copy link to backup file for super-quick migration"
+msgstr "إنسخ الرابط إلى ملف النسخ الإحتياطي للترحيل بسرعة فائقة"
+
+#: includes/dashboard/templates/backup-row-template.php:31
+msgid "Download log file which was created at time of backup"
+msgstr "تنزيل ملف السجل الذي تم إنشاؤه في وقت النسخ الإحتياطي"
+
+#: includes/dashboard/templates/backup-row-template.php:27
+msgid "Download the backup file. Click on it downloads it"
+msgstr "قم بتنزيل ملف النسخ الاحتياطي. اضغط عليها لتنزيله"
+
+#: includes/dashboard/templates/backup-row-template.php:23
+msgid "Unlock backup files"
+msgstr "فتح ملفات النسخ الإحتياطي"
+
+#: includes/dashboard/templates/backup-row-template.php:22
+msgid "Lock backup files"
+msgstr "قفل ملفات النسخ الإحتياطي"
+
+#: includes/constants.php:155
+msgid "Coming soon in the Premium Plugin"
+msgstr "سيتوفر قريبًا في المكون الإضافي المميز"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:28
+msgid "folder name"
+msgstr "إسم المجلد"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:27
+msgid "file name"
+msgstr "إسم الملف"
+
+#: includes/dashboard/modules/backup_controller.php:98
+#: includes/dashboard/templates/exclusion-rule-template.php:24
+msgid "the"
+msgstr "ال"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:21
+msgid "at the end of"
+msgstr "في نهاية"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:20
+msgid "at the beginning of"
+msgstr "في بداية"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:19
+msgid "anywhere in"
+msgstr "في أي مكان"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:16
+msgid "appears"
+msgstr "يظهر"
+
+#: includes/dashboard/templates/exclusion-rule-template.php:14
+msgid "Exclude if string"
+msgstr "إستبعاد إذا كانت سلسلة"
+
+#: includes/dashboard/settings.php:175 includes/dashboard/settings.php:177
+msgid "You have not created any backups yet."
+msgstr "لم تقم بإنشاء أي نسخة إحتياطية حتى الآن."
+
+#: includes/dashboard/settings.php:142
+msgid "Your saved backups:"
+msgstr "النسخ الاحتياطية المحفوظة الخاصة بك:"
+
+#: includes/dashboard/settings.php:125
+msgid "Troubleshooting"
+msgstr "إستكشاف الأخطاء وإصلاحها"
+
+#: includes/dashboard/chapter/store_config.php:152
+#: includes/dashboard/chapter/troubleshooting.php:259
+#: includes/dashboard/settings.php:115
+msgid "Other options"
+msgstr "خيارات أخرى"
+
+#: includes/dashboard/settings.php:101
+msgid "How"
+msgstr "كيف"
+
+#: includes/dashboard/settings.php:89 includes/dashboard/settings.php:101
+msgid "shall the backup(s) be stored?"
+msgstr "هل يجب تخزين النسخ الإحتياطية؟"
+
+#: includes/dashboard/settings.php:89
+msgid "Where"
+msgstr "أين"
+
+#: includes/dashboard/settings.php:77
+msgid "will be backed up?​"
+msgstr "سيتم نسخها احتياطيًا؟"
+
+#: includes/dashboard/settings.php:77
+msgid "What"
+msgstr "ماذا"
+
+#: includes/dashboard/settings.php:69
+msgid "+ Add / manage configuration set(s)​"
+msgstr "+ إضافة / إدارة مجموعة الإعداد(ات)"
+
+#: includes/dashboard/settings.php:65
+msgid "Configuration options"
+msgstr "خيارات الإعداد"
+
+#: includes/dashboard/modules/backup_controller.php:196
+#: includes/dashboard/settings.php:49
+msgid "Manage & Restore Backup(s)"
+msgstr "إدارة وإستعادة النسخ الإحتياطية"
+
+#: includes/dashboard/settings.php:46
+msgid "Create backup(s)"
+msgstr "إنشاء نسخة (نسخ) إحتياطية"
+
+#: includes/dashboard/settings.php:40
+msgid "Welcome to Backup & Migration!"
+msgstr "مرحبًا بك في النسخ الإحتياطي و الترحيل!"
+
+#: includes/check/system_info.php:111 includes/check/system_info.php:128
+#: includes/check/system_info.php:235 includes/check/system_info.php:461
+#: includes/check/system_info.php:462 includes/check/system_info.php:463
+msgid "Blocked by hosting"
+msgstr "منعت من قبل الاستضافة"
+
+#: includes/check/checker.php:63
+msgid "Using dummy file to check free space (it can take some time)."
+msgstr "إستخدام ملف وهمي للتحقق من المساحة الخالية (قد يستغرق الأمر بعض الوقت)."
+
+#: includes/check/checker.php:62
+msgid "Disk free space function is disabled by hosting."
+msgstr "تم تعطيل وظيفة المساحة الخالية على القرص من قِبَل الاستضافة."
+
+#: includes/check/checker.php:53
+msgid "Great! We have enough space."
+msgstr "رائع! لدينا مساحة كافية."
+
+#: includes/check/checker.php:51
+msgid " MB free."
+msgstr "ميغابايت خالية."
+
+#: includes/check/checker.php:51
+msgid "There is "
+msgstr "هناك"
+
+#: includes/dashboard/modules/backup_controller.php:12
+msgid "th"
+msgstr " "
+
+#: includes/dashboard/modules/backup_controller.php:12
+msgid "rd"
+msgstr " "
+
+#: includes/dashboard/modules/backup_controller.php:12
+msgid "nd"
+msgstr " "
+
+#: includes/dashboard/modules/backup_controller.php:12
+msgid "st"
+msgstr " "
+
+#: includes/dashboard/modules/backups-table-header.php:21
+msgid "The name of your backup. To see the logic which default names your backups get, go to chapter &quot;How backups will be stored&quot;"
+msgstr "إسم النسخة الإحتياطية الخاصة بك. لمعرفة منطق الأسماء الإفتراضية التي تحصل عليها النسخ الإحتياطية ، إنتقل إلى الفصل \"كيف سيتم تخزين النسخ الإحتياطية\""
+
+#: includes/dashboard/modules/backups-table-header.php:31
+msgid "Locked backups can only be deleted manually. Unlocked backups get deleted automatically according to the deletion processes which you defined at the top of the &quot;Create backups&quot; - tab. Click on the icon(s) to change the lock status."
+msgstr "يمكن حذف النسخ الإحتياطية المقفلة يدويًا فقط. يتم حذف النسخ الإحتياطية غير المقفلة تلقائيًا وفقًا لعمليات الحذف التي حددتها في الجزء العلوي من تبويب - \"إنشاء نسخ احتياطية\". انقر فوق الرمز (الرموز) لتغيير حالة القفل."
+
+#: includes/ajax.php:2098
+msgid "Removing file from backup (due to path rules): "
+msgstr "إزالة الملف من النسخة الإحتياطية (بسبب قواعد المسار):"
+
+#: includes/ajax.php:2089
+msgid "Removing file from backup (due to exclude rules): "
+msgstr "إزالة الملف من النسخة الإحتياطية (بسبب قواعد الإستبعاد):"
+
+#: includes/ajax.php:2080
+msgid "Removing file from backup (too large) "
+msgstr "إزالة الملف من النسخة الإحتياطية (كبير جداً)"
+
+#: includes/ajax.php:1775
+msgid "Entred file size limit, is not correct number."
+msgstr "حجم الملف المُدْخل، رقم غير صحيح."
+
+#: includes/ajax.php:1661
+msgid "Your name contains character(s) that are not allowed in file names: "
+msgstr "يحتوي إسمك على حرف (أحرف) غير مسموح بها في أسماء الملفات:"
+
+#: includes/ajax.php:1660
+msgid "Please, do not use spaces in file name."
+msgstr "من فضلك، لا تستخدم مسافات في إسم الملف."
+
+#: includes/ajax.php:1659
+msgid "Your name is too short, please create longer one."
+msgstr "إسمك قصير جداً، يرجى إنشاء إسم أطول."
+
+#: includes/ajax.php:1658
+msgid "Your name is too long, please change the name."
+msgstr "إسمك طويل جداً، يرجى تغيير الإسم."
+
+#: includes/ajax.php:1657
+msgid "Name is required, please fill the input."
+msgstr "الإسم مطلوب، يرجى ملء الفراغ."
+
+#: includes/ajax.php:1514
+msgid "Email field cannot be empty, please fill it."
+msgstr "لا يمكن أن يكون حقل البريد الإلكتروني فارغاً، يرجى ملؤه."
+
+#: includes/ajax.php:1513
+msgid "Title field is required, please fill it."
+msgstr "حقل العنوان مطلوب، يرجى تعبئته."
+
+#: includes/ajax.php:1512
+msgid "Your email title is too short, please use longer one (at least 3 chars)."
+msgstr "عنوان بريدك الإلكتروني قصير جداً، يرجى إستخدام عنوان أطول (3 أحرف على الأقل)."
+
+#: includes/ajax.php:1511
+msgid "Your email title is too long, please change the title (max 64 chars)."
+msgstr "عنوان بريدك الإلكتروني طويل جداً، يرجى تغيير العنوان (64 حرفاً كحد أقصى)."
+
+#: includes/ajax.php:1510
+msgid "Provided email addess is not valid."
+msgstr "البريد الإلكتروني المقدّم غير صالح."
+
+#: includes/ajax.php:1501
+msgid "Entered path is not writable, cannot be used."
+msgstr "المسار الذي تم إدخاله غير قابل للكتابة، و لا يمكن إستخدامه."
+
+#: includes/ajax.php:1414
+msgid "...or provided URL is not a direct download of ZIP file."
+msgstr "...أو عنوان URL المقدم ليس تنزيلاً مباشراً من الملف المضغوط."
+
+#: includes/ajax.php:1413
+msgid "Downloaded backup may be incomplete (missing manifest)"
+msgstr "قد تكون النسخة الإحتياطية التي تم تنزيلها غير مكتملة (بيان مفقود)"
+
+#: includes/dashboard/chapter/what_backed_up.php:359
+#: includes/dashboard/chapter/what_backed_up.php:375
+#: includes/dashboard/chapter/what_backed_up.php:383
+msgid "Exclude"
+msgstr "استثناء"
+
+#: includes/check/checker.php:48
+msgid "Disk free space function is not disabled - using it..."
+msgstr "وظيفة المساحة الخالية على القرص غير معطلة - استخدامها ..."
+
+#: includes/dashboard/modules/backup_controller.php:163
+msgid "Learn more"
+msgstr "معرفة المزيد"
+
+#: includes/ajax.php:1412
+msgid "Manifest file does not exist"
+msgstr "ملف البيان غير موجود"
+
+#: includes/ajax.php:1410
+msgid "Missing manifest means that the backup is probably invalid."
+msgstr "البيان المفقود يعني أن النسخة الإحتياطية قد تكون غير صالحة."
+
+#: includes/ajax.php:1409
+msgid "...or the manifest file does not exist in the backup."
+msgstr "...أو أن ملف البيان غير موجود في النسخة الإحتياطية."
+
+#: includes/ajax.php:1408
+msgid "Please confirm that you can download the backup file via provided URL."
+msgstr "يرجى تأكيد أنه يمكنك تنزيل ملف النسخة الإحتياطية عبر عنوان URL المقدّم."
+
+#: includes/ajax.php:1407
+msgid "Backup does not exist under provided URL."
+msgstr "النسخة الإحتياطية غير موجودة ضمن عنوان URL المقدم."
+
+#: includes/ajax.php:1405
+msgid "You can find the setting in \"Where shall the backup(s) be stored?\" section."
+msgstr "يمكنك العثور على الإعداد في الجزء \"أين يتم تخزين النسخ الإحتياطية؟\"."
+
+#: includes/ajax.php:1404
+msgid "Backup is locked on remote site, please unlock remote downloading."
+msgstr "تم قفل النسخ الإحتياطي في موقع بعيد، يرجى إلغاء قفل التنزيل عن بُعد."
+
+#: includes/ajax.php:1402
+msgid "It is restricted by remote server configuration."
+msgstr "تم تقييده من خلال إعدادات الخادم البعيد."
+
+#: includes/ajax.php:1401
+msgid "Backup is not available to download (Error 403)."
+msgstr "النسخة الإحتياطية غير متوفرة للتنزيل (خطأ 403)"
+
+#: includes/ajax.php:1381 includes/ajax.php:1388
+msgid "Error: "
+msgstr "خطأ:"
+
+#: includes/ajax.php:1374
+msgid "Requesting restore process"
+msgstr "طلب عملية الإستعادة"
+
+#: includes/ajax.php:1366
+msgid "Manifest found remote name: "
+msgstr "عثرالبيان على إسم بعيد:"
+
+#: includes/ajax.php:1358
+msgid "Looking for backup manifest"
+msgstr "البحث عن بيان النسخ الإحتياطي"
+
+#: includes/ajax.php:1357
+msgid "Download completed (took: "
+msgstr "إكتمل التنزيل (إستغرق:"
+
+#: includes/ajax.php:1351
+msgid "Error"
+msgstr "خطأ"
+
+#: includes/ajax.php:1349
+msgid "Error: There is not enough space on the server"
+msgstr "خطأ: لا يوجد مساحة كافية على الخادم"
+
+#: includes/ajax.php:1346
+msgid "Download error"
+msgstr "خطأ في التنزيل"
+
+#: includes/ajax.php:1344 includes/ajax.php:1382 includes/ajax.php:1389
+#: includes/ajax.php:1415
+msgid "Removing downloaded file"
+msgstr "إزالة الملف الذي تم تنزيله"
+
+#: includes/ajax.php:1338
+msgid "Downloading remote file..."
+msgstr "تنزيل ملف بعيد..."
+
+#: includes/ajax.php:1337
+msgid "Downloading initialized"
+msgstr "بدأ التنزيل"
+
+#: includes/ajax.php:1335
+msgid "Initializing download process"
+msgstr "جارِ بدء عملية التنزيل"
+
+#: includes/ajax.php:1333
+msgid "Creating lock file"
+msgstr "إنشاء ملف قفل"
+
+#: includes/ajax.php:1221
+msgid "Initializing restore process..."
+msgstr "جارِ بدء عملية الإستعادة"
+
+#: includes/ajax.php:1187
+msgid "Backup process completed or is not running."
+msgstr "إكتملت عملية النسخ الإحتياطي أو أنها لا تعمل."
+
+#: includes/ajax.php:1153
+msgid "Finalizing restored files"
+msgstr "إنهاء الملفات المستعادة"
+
+#: includes/ajax.php:1152
+msgid "Restore process completed"
+msgstr "إكتملت عملية الإستعادة"
+
+#: includes/ajax.php:1107
+msgid "Error: Btw. because of this I also cannot check free space"
+msgstr "خطأ: بالمناسبة. بسبب ذلك لا يمكنني التحقق من المساحة الخالية"
+
+#: includes/ajax.php:1106
+msgid "Error: Could not find manifest in backup, file may be broken"
+msgstr "خطأ: تعذر العثور على البيان في النسخة الإحتياطية، قد يكون الملف معطلاً"
+
+#: includes/ajax.php:1101
+msgid "Confirmed, there is enough space on the device, checked: "
+msgstr "تم التأكيد، يوجد مساحة كافية على الجهاز، تم التحقق منها:"
+
+#: includes/ajax.php:1090 includes/ajax.php:1109 includes/ajax.php:1139
+#: includes/ajax.php:1154 includes/ajax.php:1340
+msgid "Unlocking migration"
+msgstr "فتح الترحيل"
+
+#: includes/ajax.php:1089 includes/ajax.php:1108 includes/ajax.php:1138
+msgid "Aborting..."
+msgstr "توقيف..."
+
+#: includes/ajax.php:1088
+msgid "Error: There is not enough space on the server, checked: "
+msgstr "خطأ: لا يوجد مساحة كافية على الخادم، تم التحقق منها:"
+
+#: includes/ajax.php:1087 includes/ajax.php:1105
+msgid "Cannot start migration process"
+msgstr "لا يمكن البدء بعملية الترحيل"
+
+#: includes/ajax.php:1082
+msgid "Checking if there is enough amount of free space"
+msgstr "جارِ التحقق من وجود مساحة خالية كافية"
+
+#: includes/ajax.php:1081
+msgid "Free space checking..."
+msgstr "التحقق من المساحة الخالية..."
+
+#: includes/ajax.php:1054
+msgid "Site which will be restored: "
+msgstr "الموقع الذي سيتم إستعادته:"
+
+#: includes/ajax.php:389 includes/ajax.php:1042
+msgid "Initializing restore process"
+msgstr "بدء عملية الإستعادة"
+
+#: includes/ajax.php:1038
+msgid "Locking migration process"
+msgstr "قفل عملية الترحيل"
+
+#: includes/ajax.php:1034
+msgid "Restore process responded"
+msgstr "إستجابة عملية الإستعادة"
+
+#: includes/ajax.php:1283
+msgid "Download process is currently running, please wait till it complete."
+msgstr "عملية التنزيل قيد التشغيل حالياً، يرجى الإنتظار حتى إكتمالها."
+
+#: includes/ajax.php:837 includes/ajax.php:849
+msgid "New backup created and its name is: "
+msgstr "تم إنشاء نسخة إحتياطية جديدة و إسمها:"
+
+#: includes/ajax.php:817
+msgid "This error may be related to missing space. (filled during backup)"
+msgstr "قد يكون هذا الخطأ متعلقاً بمساحة مفقودة. (تم تعبئتها أنثاء النسخ الإحتياطي)"
+
+#: includes/ajax.php:816
+msgid "We could not find backup file when it already should be here."
+msgstr "لم نتمكن من العثور على ملف النسخ الإحتياطي بينما يجب أن يكون هنا بالفعل."
+
+#: includes/ajax.php:815
+msgid "There is no backup file..."
+msgstr "لا يوجد ملف نسخ إحتياطي..."
+
+#: includes/ajax.php:520 includes/ajax.php:797 includes/ajax.php:802
+#: includes/ajax.php:805 includes/dashboard/translations.php:54
+msgid "Backup process aborted."
+msgstr "إيقاف عملية النسخ الإحتياطي."
+
+#: includes/ajax.php:754
+msgid "Archive system initialized..."
+msgstr "تمت تهيئة نظام الأرشيف..."
+
+#: includes/ajax.php:708
+msgid "Initializing archiving system..."
+msgstr "جاري تهيئة نظام الأرشفة..."
+
+#: includes/ajax.php:707
+msgid "Backup initialized..."
+msgstr "تمت تهيئة النسخ الإحتياطي..."
+
+#: includes/ajax.php:703
+msgid " files..."
+msgstr "ملفات..."
+
+#: includes/ajax.php:703
+msgid "Scanning done - found "
+msgstr "تم المسح - تم العثور على"
+
+#: includes/ajax.php:689
+msgid "Confirmed, there is more than enough space, checked: "
+msgstr "تم التأكيد، هناك مساحة أكثر من كافية، تم التحقق منها:"
+
+#: includes/ajax.php:672 includes/ajax.php:689
+msgid " bytes"
+msgstr "بايت"
+
+#: includes/ajax.php:672
+msgid "There is no space for that backup, checked: "
+msgstr "لا توجد مساحة لهذه النسخة الإحتياطية، تم التحقق منها:"
+
+#: includes/ajax.php:641
+msgid "Site weights more than %s GB."
+msgstr "يزِن الموقع أكثر من %s جيجابايت."
+
+#: includes/ajax.php:248 includes/ajax.php:640 includes/ajax.php:671
+#: includes/ajax.php:765 includes/ajax.php:814 includes/initializer.php:407
+msgid "Aborting backup..."
+msgstr "إيقاف النسخ الإحتياطي..."
+
+#: includes/ajax.php:636
+msgid "Checking free space, reserving..."
+msgstr "التحقق من المساحة الخالية، جارِ الحجز..."
+
+#: includes/ajax.php:626
+msgid "Omitting files (due to settings)..."
+msgstr "إستبعاد الملفات (بسبب الإعدادات)..."
+
+#: includes/ajax.php:622
+msgid "Scanning files..."
+msgstr "جارِ فحص الملفات..."
+
+#: includes/ajax.php:615
+msgid "Yup it is writable..."
+msgstr "نعم إنها قابلة للكتابة..."
+
+#: includes/ajax.php:598 includes/ajax.php:818
+msgid "Path: "
+msgstr "مسار:"
+
+#: includes/ajax.php:597
+msgid "Backup directory is not writable..."
+msgstr "دليل النسخ الإحتياطي غير قابل للكتابة..."
+
+#: includes/ajax.php:575
+msgid "Checking if backup dir is writable..."
+msgstr "جارِ التأكد ما إذا كان دليل النسخ الإحتياطي قابلاً للكتابة..."
+
+#: includes/ajax.php:559
+msgid "Site which will be backed up: "
+msgstr "الموقع الذي سيتم نسخة إحتياطياً:"
+
+#: includes/ajax.php:557 includes/ajax.php:1043
+msgid "Backup & Migration version: "
+msgstr "نسخة النسخ الإحتياطي و الترحيل:"
+
+#: includes/ajax.php:382 includes/ajax.php:556
+msgid "Initializing backup..."
+msgstr "جارِ تهيئة النسخ الإحتياطي..."
+
+#: includes/ajax.php:372 includes/ajax.php:750 includes/ajax.php:1175
+#: includes/ajax.php:1179
+msgid "Backup process already running, please wait till it complete."
+msgstr "عملية النسخ الإحتياطي قيد التشغيل حالياً، يرجى الإنتظار حتى إكتمالها."
+
+#: includes/progress/logger-only.php:34 includes/progress/zip.php:109
+msgid "Unable to open file!"
+msgstr "تعذر فتح الملف!"
+
+#: includes/zipper/src/zip.php:569
+msgid "Closing files and archives"
+msgstr "إغلاف الملفات و الأرشيفات"
+
+#: includes/zipper/src/zip.php:568
+msgid "Adding manifest..."
+msgstr "جارِ إضافة بيان..."
+
+#: includes/zipper/src/zip.php:567
+msgid "Finalizing backup"
+msgstr "جارِ إنهاء النسخ الإحتياطي"
+
+#: includes/zipper/src/zip.php:565
+msgid " files took: "
+msgstr "أخذت الملفات:"
+
+#: includes/zipper/src/zip.php:565
+msgid "Archiving of "
+msgstr "أرشفة"
+
+#: includes/ajax.php:325 includes/extracter/extract.php:306
+#: includes/zipper/src/zip.php:562
+msgid " files"
+msgstr "ملفات"
+
+#: includes/zipper/src/zip.php:562
+msgid "Compressed "
+msgstr "مضغوطة"
+
+#: includes/zipper/src/zip.php:535 includes/zipper/src/zip.php:561
+msgid "Milestone: "
+msgstr "الحدث الرئيسي:"
+
+#: includes/zipper/src/zip.php:343
+msgid "Compressing..."
+msgstr "جارِ الضغط..."
+
+#: includes/dashboard/translations.php:135 includes/zipper/src/zip.php:342
+msgid "Making archive"
+msgstr "صنع الأرشيف"
+
+#: includes/zipper/src/zip.php:172
+msgid "Omitting database backup (due to settings)..."
+msgstr "إستبعاد قاعدة بيانات النسخ الإحتياطي (بسبب الإعدادات)..."
+
+#: includes/zipper/src/zip.php:165
+msgid "Database backup finished"
+msgstr "إنتهي النسخ الإحتياطي لقاعدة البيانات"
+
+#: includes/zipper/src/zip.php:154
+msgid "Iterating database..."
+msgstr "تكرار قاعدة البيانات..."
+
+#: includes/zipper/src/zip.php:209 includes/zipper/src/zip.php:785
+msgid "Setting the safe limit to %s MB"
+msgstr "تعيين الحد الآمن لـ %s ميغابايت"
+
+#: includes/zipper/src/zip.php:197 includes/zipper/src/zip.php:770
+msgid "There is %s MBs of memory to use"
+msgstr "يوجد %s ميغابايت من الذاكرة للإستخدام"
+
+#: includes/zipper/src/zip.php:188 includes/zipper/src/zip.php:761
+msgid "Smart memory calculation..."
+msgstr "حساب الذاكرة الذكية..."
+
+#: includes/zipper/src/zip.php:91
+msgid "Issues during restore process (extracting)..."
+msgstr "المشاكل خلال عملية الإستعادة (الإستخراج)..."
+
+#: includes/zipper/src/zip.php:87
+msgid "There was an error during restore process (extracting)..."
+msgstr "حصل خطأ ما خلال عملية الإستعادة (الإستخراج)..."
+
+#: includes/zipper/src/zip.php:81
+msgid "Issues during backup (packing)..."
+msgstr "المشاكل خلال النسخ الإحتياطي (التوضيب)..."
+
+#: includes/zipper/src/zip.php:77
+msgid "There was an error during backup (packing)..."
+msgstr "حصل خطأ ما خلال النسخ الإحتياطي (التوضيب)..."
+
+#: includes/zipper/zipping.php:59 includes/zipper/zipping.php:67
+msgid "There was an error during backup..."
+msgstr "حصل خطأ ما خلال النسخ الإحتياطي..."
+
+#: includes/zipper/zipping.php:58 includes/zipper/zipping.php:66
+msgid "Reverting backup, removing file..."
+msgstr "جارِ إعادة النسخ الإحتياطي، و إزالة الملف..."
+
+#: includes/zipper/zipping.php:44
+msgid "Starting compression process..."
+msgstr "بدء عملية الضغط..."
+
+#: includes/zipper/zipping.php:43
+msgid "Files prepared."
+msgstr "تم تجهيز الملفات."
+
+#: includes/zipper/zipping.php:33
+msgid "Preparing map of files..."
+msgstr "يتم تحضير خريطة الملفات..."
+
+#: includes/zipper/zipping.php:24
+msgid " files to backup."
+msgstr "الملفات للنسخ الإحتياطي."
+
+#: includes/zipper/zipping.php:24
+msgid "Found "
+msgstr "عثر عليه"
+
+#: includes/zipper/zipping.php:23
+msgid "Creating backup "
+msgstr "جارِ إنشاء نسخة إحتياطية"
+
+#: includes/initializer.php:1142
+msgid "Unknow AJAX Sanitize Type: "
+msgstr "نوع التعقيم AJAX غير معروف:"
+
+#: includes/initializer.php:1043 includes/initializer.php:1064
+#: includes/initializer.php:1090
+msgid "Human readable: file expired."
+msgstr "قابلة للقراءة البشرية: الملف منتهي الصلاحية."
+
+#: includes/initializer.php:1042 includes/initializer.php:1063
+#: includes/initializer.php:1089
+msgid "Due to security reasons access to this file is disabled at this moment."
+msgstr "لأسباب أمنية ، تم تعطيل الوصول إلى هذا الملف في هذه اللحظة."
+
+#: includes/initializer.php:1004
+msgid "There was an error during getting logs, this file is not right log file."
+msgstr "حدث خطأ أثناء الحصول على السجلات ، هذا الملف ليس ملف السجل الصحيح."
+
+#: includes/initializer.php:962
+msgid "Backup download is restricted (allowed for admins only)."
+msgstr "تم تقييد تنزيل النسخة الإحتياطية (مسموح به للمسؤولين فقط)."
+
+#: includes/initializer.php:771
+msgid "Could not make the backup due to internal server error."
+msgstr "تعذر عمل النسخ الإحتياطي بسبب خطأ داخلي في الخادم."
+
+#: includes/initializer.php:764
+msgid "Automatic backup successed: "
+msgstr "نجح النسخ الإحتياطي التلقائي:"
+
+#: includes/initializer.php:754
+msgid "Could not make the backup: Backup already running, please wait till it complete."
+msgstr "تعذر عمل النسخ الإحتياطي: النسخ الإحتياطي قيد التشغيل بالفعل، يرجى الإنتظار حتى يكتمل."
+
+#: includes/initializer.php:743
+msgid "Automatic backup called at time: "
+msgstr "تم إستدعاء النسخ الإحتياطي التلقائي في الوقت:"
+
+#: includes/initializer.php:650
+msgid "Removing backup due to keep rules: "
+msgstr "جارِ إزالة النسخ الإحتياطي بسبب قواعد الحفظ:"
+
+#: includes/initializer.php:616 includes/initializer.php:621
+msgid "Couldn't send notification via email due to error, please check plugin logs for more details."
+msgstr "تعذر إرسال الإشعار عن طريق البريد الإلكتروني بسبب خطأ ما، يرجى التأكد من سجلات المكون الإضافي للمزيد من التفاصيل."
+
+#: includes/initializer.php:609
+msgid "Couldn't send notification via email, please check the email and your server settings."
+msgstr "تعذر إرسال الإشعار عن طريق البريد الإلكتروني، يرجى التحقق من إعدادات البريد الإلكرتوني و الخادم الخاص بك."
+
+#: includes/initializer.php:604
+msgid "Sent email notification to: "
+msgstr "تم إرسال إشعار بريد إلكتروني إلى:"
+
+#: includes/initializer.php:599
+msgid "Could not send the email notification about that fail"
+msgstr "تعذر إرسال إشعار البريد الإلكتروني بخصوص ذلك الخطأ"
+
+#: includes/initializer.php:576
+msgid "There was an error during automatic backup, please check the logs."
+msgstr "حصل خطأ ما خلال عملية النسخ الإحتياطي التلقائية، يرجى التحقق من السجلات."
+
+#: includes/initializer.php:565
+msgid "Automatic backup failed at time: "
+msgstr "فشل النسخ الإحتياطي التلقائي في الوقت:"
+
+#: includes/initializer.php:515
+msgid "Message you missed because of this: "
+msgstr "لقد فاتتك الرسالة بسبب هذا:"
+
+#: includes/initializer.php:514
+msgid "Couldn't send mail to you, please check server configuration."
+msgstr "تعذر إرسال البريد إليك، يرجى التحقق من تهيئة الخادم."
+
+#: includes/initializer.php:510
+msgid "(server time)"
+msgstr "(وقت الخادم)"
+
+#: includes/initializer.php:509
+msgid ", but should be on: "
+msgstr "، و لكن يجب أن يكون على:"
+
+#: includes/initializer.php:509
+msgid "Backup was made on: "
+msgstr "تم إجراء النسخ الإحتياطي في:"
+
+#: includes/initializer.php:508
+msgid "Automatic backup was not on time because there was no traffic on the site."
+msgstr "لم يكن النسخ الإحتياطي التلقائي في الوقت المحدد نظرًا لعدم وجود حركة مرور على الموقع."
+
+#: includes/initializer.php:481
+msgid "check that."
+msgstr "تحقق من ذلك."
+
+#: includes/initializer.php:480
+msgid "There was an error during automated backup, please"
+msgstr "حدث خطأ أثناء النسخ الاحتياطي الآلي، من فضلك"
+
+#: includes/initializer.php:449
+msgid "Manage"
+msgstr "إدارة"
+
+#. Author URI of the plugin
+msgid "https://backupbliss.com/"
+msgstr "/https://backupbliss.com"
+
+#. Author of the plugin
+msgid "Migrate"
+msgstr "ترحيل"
+
+#. Description of the plugin
+msgid "Most sophisticated backup & migration plugin for WordPress"
+msgstr "البرنامج المساعد الأكثر تطوراً للنسخ الإحتياطي والترحيل لـ ووردبريس"
+
+#. Plugin URI of the plugin
+msgid "https://backupbliss.com"
+msgstr "https://backupbliss.com"
+
+#: includes/ajax.php:39
+msgid "Running POST Function: "
+msgstr "تشغيل وظيفة POST"
