@@ -14,16 +14,6 @@
 
 
 
-## Some project's views on devices
-
-
-
-
-(img/1.png)
-
-(img/2.png)
-
-
 
 ## ATTRACTIVE DESIGN
 
