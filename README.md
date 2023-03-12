@@ -12,7 +12,9 @@
 
 - We are Happy to presenting you the Agronix Agriculture Farming WordPress Theme. It is very easy to customize with a strong admin panel. The theme is specially designed for agriculture field, farm, farmers, eco solutions and organic food products. Agronix theme perfectly fit for all the green initiatives of the farming communities websites and businesse
 
+## Watch an explanatory video
 
+https://youtu.be/bLbC4UGznT4
 
 
 ## ATTRACTIVE DESIGN
